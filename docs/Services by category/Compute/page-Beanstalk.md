@@ -1,15 +1,11 @@
 ---
 title: Amazon Athena
 description: serverless analyzing data in S3 using  SQL
-layout: ../../layouts/MainLayout.astro
 ---
 
 Amazon Athena is a service that enables data analysts to perform interactive queries in the web-based cloud storage service, Amazon Simple Storage Service (S3). Athena is used with large-scale data sets.
 
-<div style="border: 1px solid #696969">
-<div style="text-align:center"><img src="/assets/Amazon-Athena.png" /></div>
-<div style="text-align:center"><small>Athena is out-of-the-box integrated with AWS Glue</small></div>
-</div>
+Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
 
 
 ## Amazon Athena is serverless
