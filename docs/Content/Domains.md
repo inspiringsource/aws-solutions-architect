@@ -2,7 +2,10 @@
 title: Domains
 description: Exam weightings and test domains
 ---
-Hi I'm Avi, I am using this website as a platform to recored my study progress and use the recording process as a means to prepare for the exam.
+Hi I'm Avi,      
+This website is used to document my journey on getting the AWS Solutions Architect certification. I have also a chance to reviewing the material multiple times and organize the information into patterns that fits my logic. 
+
+
 Please note this web site is   
 <p align="center">🚧 Under Construction 🚧</p>
 

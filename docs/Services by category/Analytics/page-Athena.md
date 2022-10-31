@@ -15,6 +15,6 @@ Amazon Athena is a service that enables data analysts to perform interactive que
 
 Immediately start querying using the built-in query editor. You can also use AWS Glue to automatically crawl data sources to discover data and populate your Data Catalog. Results are displayed in the console within seconds, and automatically stored in S3.
 
-### Pricing:
+Pricing:
 - You pay per query
 - Storage cost S3
