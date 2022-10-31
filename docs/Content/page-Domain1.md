@@ -1,7 +1,6 @@
 ---
 title: Domain 1
 description: Design Secure Architectures
-layout: ../../layouts/MainLayout.astro
 ---
 
 

@@ -1,6 +1,9 @@
-# Website
+# About
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<p align="center">🚧 Under Construction 🚧</p>
+
+Documentation for AWS Cloud Architect - Associate.
+I am working on this website during my prepartion for the exam.
 
 ### Installation
 

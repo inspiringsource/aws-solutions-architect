@@ -1,7 +1,6 @@
 ---
 title: Domain 2
 description: Design Resilient Architectures 
-layout: ../../layouts/MainLayout.astro
 ---
 
 
