@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My scrapbook',
-  tagline: "Hi I'm Avi, I am using this website as a platform to recored my study progress and use the recording process as a means to prepare for the exam. Please note this web site is",
+    tagline: "Hi I'm Avi, I am using this website as a platform to record my study progress and use the process as a means to prepare for the AWS Certification exams.",
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
