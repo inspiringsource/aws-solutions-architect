@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Exam Guide',
-  tagline: 'AWS Certified Solutions Architect - Associate',
+  title: 'My scrapbook',
+  tagline: "Hi I'm Avi, I am using this website as a platform to recored my study progress and use the recording process as a means to prepare for the exam. Please note this web site is",
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'Content/Domains',
             position: 'left',
-            label: 'My notes',
+            label: 'Review',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
