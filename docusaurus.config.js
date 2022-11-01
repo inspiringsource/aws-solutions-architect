@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My scrapbook',
     tagline: "Hi I'm Avi, I am using this website as a platform to record my study progress and use the process as a means to prepare for the AWS Certification exams.",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://aws-notes-taking.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'inspiringsource', // GitHub user name.
+  projectName: 'aws-solutions-architect', // repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/inspiringsource/aws-solutions-architect/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inspiringsource/aws-solutions-architect/blob/master/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -76,6 +76,11 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      footer: {
+        style: 'dark',
+
+        copyright: `© ${new Date().getFullYear()} Avi Bobrovsky, Built with Docusaurus.`,
       },
       // footer: {
       //   style: 'dark',
