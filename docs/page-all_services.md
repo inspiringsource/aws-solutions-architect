@@ -43,20 +43,20 @@ Storage
 -	[Amazon Simple Queue Service (Amazon SQS) ](Services%20by%20category/App%20Integration/page-SQS)
 -	[AWS Step Functions ](Services%20by%20category/App%20Integration/page-StepFunctions)
 ### Cost Management: 
--	[AWS Budgets ](Services%20by%20category/Cost%20Management/page-Budgets)
--	[AWS Cost and Usage Report ](Services%20by%20category/Cost%20Management/page-CostUsageReport)
--	[AWS Cost Explorer ](Services%20by%20category/Cost%20Management/page-CostExplorer)
--	[Savings Plans ](Services%20by%20category/Cost%20Management/page-SavingsPlans)
+-	[AWS Budgets](Services%20by%20category/Cost%20Management/page-Budgets)
+-	[AWS Cost and Usage Report](Services%20by%20category/Cost%20Management/page-CUR)
+-	[AWS Cost Explorer](Services%20by%20category/Cost%20Management/page-CostExplorer)
+-	[Savings Plans](Services%20by%20category/Cost%20Management/page-SavingsPlans)
  
 ### Compute: 
 -	[AWS Batch](Services%20by%20category/Compute/page-Batch)
--	[Amazon EC2 ](Services%20by%20category/Compute/page-BatchComputepage-EC2)
--	[Amazon EC2 Auto Scaling ](Services%20by%20category/Compute/page-BatchComputepage-EC2AutoScaling)
--	[AWS Elastic Beanstalk ](Services%20by%20category/Compute/page-BatchComputepage-ElasticBeanstalk)
--	[AWS Outposts ](Services%20by%20category/Compute/page-BatchComputepage-Outposts)
--	[AWS Serverless Application Repository ](Services%20by%20category/Compute/page-BatchComputepage-SAR)
--	[VMware Cloud on AWS ](Services%20by%20category/Compute/page-BatchComputepage-VMwareCloud)
--	[AWS Wavelength ](Services%20by%20category/Compute/page-BatchComputepage-Wavelength)
+-	[Amazon EC2](Services%20by%20category/Compute/page-BatchComputepage-EC2)
+-	[Amazon EC2 Auto Scaling](Services%20by%20category/Compute/page-BatchComputepage-EC2AutoScaling)
+-	[AWS Elastic Beanstalk](Services%20by%20category/Compute/page-BatchComputepage-ElasticBeanstalk)
+-	[AWS Outposts](Services%20by%20category/Compute/page-BatchComputepage-Outposts)
+-	[AWS Serverless Application Repository](Services%20by%20category/Compute/page-BatchComputepage-SAR)
+-	[VMware Cloud on AWS](Services%20by%20category/Compute/page-BatchComputepage-VMwareCloud)
+-	[AWS Wavelength](Services%20by%20category/Compute/page-BatchComputepage-Wavelength)
  
 ### Containers: 
 -	[Amazon Elastic Container Registry (Amazon ECR) ](page-ECR)
