@@ -175,7 +175,7 @@ Storage
 *	AWS Lambda 
  
 ### Storage: 
-* 	AWS Backup 
+*   AWS Backup 
 *	Amazon Elastic Block Store (Amazon EBS) 
 *	Amazon Elastic File System (Amazon EFS) 
 *	Amazon FSx (for all types) 
