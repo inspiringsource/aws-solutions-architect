@@ -1,5 +1,5 @@
 ---
-title: AWS AppSync
+title: Amazon EC2
 description: Lorem ipsum dolor sit amet - 2
 ---
 

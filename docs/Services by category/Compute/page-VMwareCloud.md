@@ -1,5 +1,5 @@
 ---
-title: Amazon EC2 Auto Scaling
+title: VMware Cloud on AWS
 description: Lorem ipsum dolor sit amet - 2
 ---
 

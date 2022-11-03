@@ -14,6 +14,6 @@ AWS Backup is a fully managed backup service that makes it easy to centralize an
 Source:  [AWS Backup](https://aws.amazon.com/backup/resources/?nc=sn&loc=5&refid=60b4082c-a1a5-4bfd-b520-7f3ab404cbd5&backup-blogs.sort-by=item.additionalFields.createdDate&backup-blogs.sort-order=desc)
 
 To do:
-[ ] [ebook](https://d1.awsstatic.com/analyst-reports/AWS_eBookB&R_4-28-20_CA.pdf)
-[ ] review [tutorials](https://aws.amazon.com/backup/resources/?refid=60b4082c-a1a5-4bfd-b520-7f3ab404cbd5#Tutorials)
-[ ] Lab
+- [ ] [ebook](https://d1.awsstatic.com/analyst-reports/AWS_eBookB&R_4-28-20_CA.pdf)  
+- [ ] review [tutorials](https://aws.amazon.com/backup/resources/?refid=60b4082c-a1a5-4bfd-b520-7f3ab404cbd5#Tutorials)  
+- [ ] Lab
