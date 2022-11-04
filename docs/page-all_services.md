@@ -59,12 +59,12 @@ Storage
 -	[AWS Wavelength ](Services%20by%20category/Compute/page-BatchComputepage-Wavelength)
  
 ### Containers: 
--	[Amazon Elastic Container Registry (Amazon ECR) ](page-ECR)
--	[Amazon Elastic Container Service (Amazon ECS) ](page-ECS)
--	[Amazon ECS Anywhere ](page-ECSAnywhere)
--	[Amazon Elastic Kubernetes Service (Amazon EKS) ](page-EKS)
--	[Amazon EKS Anywhere ](page-EKSAnywhere)
--	[Amazon EKS Distro ](page-EKSDistro)
+-	[Amazon Elastic Container Registry (Amazon ECR) ](Services%20by%20category/Containers/page-ECR)
+-	[Amazon Elastic Container Service (Amazon ECS) ](Services%20by%20category/Containers/page-ECS)
+-	[Amazon ECS Anywhere ](Services%20by%20category/Containers/page-ECSAnywhere)
+-	[Amazon Elastic Kubernetes Service (Amazon EKS) ](Services%20by%20category/Containers/page-EKS)
+-	[Amazon EKS Anywhere ](Services%20by%20category/Containers/page-EKSAnywhere)
+-	[Amazon EKS Distro ](Services%20by%20category/Containers/page-EKSDistro)
  
 ### Database: 
 -	[Amazon Aurora ]
