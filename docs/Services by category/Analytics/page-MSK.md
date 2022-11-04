@@ -1,9 +1,9 @@
 ---
-title: Amazon Managed Streaming for Apache Kafka (MSK)
+title: Amazon MSK
 description: Fully managed, highly available Apache Kafka service
 ---
 
-Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka.
+Amazon Managed Streaming for Apache Kafka (MSK) makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka.
 
 What is Apache Kafka?
 
