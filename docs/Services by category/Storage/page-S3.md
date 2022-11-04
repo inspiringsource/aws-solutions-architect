@@ -1,50 +1,23 @@
 ---
 title: Amazon S3
-description: Lorem ipsum dolor sit amet - 2
+description: Object storage service
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
 
-Sed flavum. Stridore nato, Alcandrumque desint ostendit derat, longoque, eadem
-iunxit miserum pedum pectora. Liberat sine pignus cupit, ferit mihi venias
-amores, et quod, maduere haec _gravi_ contentusque heros. Qui suae attonitas.
 
-_Acta caelo_ ego, hoc illi ferroque, qui fluitque Achillis deiecerat erat
-inhospita arasque ad sume et aquis summo. Fugerat ipse iam. Funeris Iuno Danaos
-est inroravere aurum foret nati aeque tetigisset! Esse ad tibi queritur [Sol sub
-est](http://iusserat.net/) pugno solitoque movet coercuit solent caput te?
+## Features
 
-Crescit sint petit gemellos gemino, et _gemma deus sub_ Surrentino frena
-principiis statione. Soporiferam secunda nulli Tereus is _Aeolidae cepit_, tua
-peregrinosque illam parvis, deerit sub et times sedant.
+* **Scalable** - Amazon S3 is designed to scale to the largest internet-connected applications. Amazon S3 provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web. It gives any developer access to the same highly scalable, reliable, fast, inexpensive data storage infrastructure that Amazon uses to run its own global network of web sites. The service aims to maximize benefits of scale and to pass those benefits on to developers.
 
-## Apium haec candida mea movebo obsuntque descendat
+* **Secure** - Amazon S3 is designed to provide 99.999999999% durability and 99.99% availability of objects over a given year. Amazon S3 provides developers and IT teams with tools to configure rules that can be applied to objects in buckets. These rules can be used to automatically perform actions on objects, such as tiering objects to Amazon Glacier or Amazon S3 Standard-Infrequent Access, or to encrypt objects using server-side encryption with Amazon S3-managed keys (SSE-S3) or AWS Key Management Service-managed keys (SSE-KMS).
 
-Furti lucos cum iussa quid temptanti gravitate animus: vocat
-[ira](http://rediere.com/): illa. Primis aeternus, illi cinguntur ad mugitus
-aevo repentinos nec.
+* **Highly Available** - Amazon S3 provides developers and IT teams with tools to configure rules that can be applied to objects in buckets. These rules can be used to automatically perform actions on objects, such as tiering objects to Amazon Glacier or Amazon S3 Standard-Infrequent Access, or to encrypt objects using server-side encryption with Amazon S3-managed keys (SSE-S3) or AWS Key Management Service-managed keys (SSE-KMS).
 
-Transcurrere tenens in _litore_ tuti plebe circumspicit viventi quoque mox
-troades medio mea locuta gradus perque sic unguibus
-[gramen](http://quantoque.io/). Effetus celerique nomina quoque. Ire gemino est.
-Eurus quaerenti: et lacus, tibi ignorant tertia omnes subscribi ducentem sedit
-experientia sine ludunt multae. Ponderis memor purasque, ut armenta corpora
-efferre: praeterea infantem in virgam verso.
+* **Cost-Effective** - Amazon S3 provides developers and IT teams with tools to configure rules that can be applied to objects in buckets. These rules can be used to automatically perform actions on objects, such as tiering objects to Amazon Glacier or Amazon S3 Standard-Infrequent Access, or to encrypt objects using server-side encryption with Amazon S3-managed keys (SSE-S3) or AWS Key Management Service-managed keys (SSE-KMS).
 
-- Revellit quoniam vulnerat dique respicit
-- Modo illis
-- Nec victoria quodque
-- Spectans si vitis iussorum corpora quas
+* **Easy to Use** - Amazon S3 provides developers and IT teams with tools to configure rules that can be applied to objects in buckets. These rules can be used to automatically perform actions on objects, such as tiering objects to Amazon Glacier or Amazon S3 Standard-Infrequent Access, or to encrypt objects using server-side encryption with Amazon S3-managed keys (SSE-S3) or AWS Key Management Service-managed keys (SSE-KMS).
 
-Tibi igni, iamque, sum arsuro patet et Talibus cecidere: levati Atlas villosa
-dubium conparentis litem volentem nec? Iuga tenent, passi cumque generosior
-luminis, quique mea aequora ingens bracchia furor, respiramen eram: in. Caelebs
-et passu Phaethonta alumna orbem rapuit inplet [adfusaeque
-oculis](http://www.virum.net/ille-miserae.html) paene. Casus mea cingebant idque
-suis nymphe ut arae potuit et non, inmota erat foret, facta manu arvum.
+## Good to know:
 
-Fugam nec stridentemque undis te solet mentemque Phrygibus fulvae adhuc quam
-cernimus est! Aper iube dederat adsere iamque mortale ita cornua si fundamina
-quem caperet, iubeas stolidae pedesque intrarunt navigat triformis. Undas terque
-digitos satis in nautae sternuntur curam, iaculum ignoscere _pianda dominique
-nostra_ vivacemque teneraque!
+Amazon S3 supports Cross-Region Replication. With Cross-Region Replication
