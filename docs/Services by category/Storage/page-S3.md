@@ -21,3 +21,6 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 ## Good to know:
 
 Amazon S3 supports Cross-Region Replication.
+
+
+[Amazon-S3-Storage-Classes](https://d1.awsstatic.com/reInvent/re21-pdp-tier1/s3/Amazon-S3-Storage-Classes.pdf)
