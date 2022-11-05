@@ -27,3 +27,8 @@ The ability to properly store, secure, and retrieve data effectively can make a 
 To learn more, see: [Overview of Amazon Web Services - Database](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html) [status: due (⏳) ]
 
 Though Amazon Relational Database Service (Amazon RDS) is a managed service, understanding the best practices and optimization recommendations for Amazon RDS can help you achieve better efficiencies in operations, performance, and cost. 
+
+
+| Due | reviewed |
+| --------- | ------- |
+| &#9744;   | &#9745; |
