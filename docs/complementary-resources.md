@@ -13,6 +13,8 @@ https://www.exampro.co/aws-exam-solutions-architect-associate
 
 https://digitalcloud.training/aws-certified-solutions-architect-associate/
 
+https://www.coursera.org/learn/aws-certified-solutions-architect-associate
+
 
 eBooks:
 
