@@ -1,7 +1,7 @@
 ---
 title: Week 3
 ---
-
+# Designing Secure Applications and Architectures
 AWS and AWS Partner Network (APN) Partners offer a wide range of tools and features to help you meet your security objectives. These tools mirror the familiar controls that you deploy in your on-premises environments. AWS provides security-specific tools and features across network security, configuration management, access control, and data security.
 
 To learn more, see: [Security Products and Features](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/security-products-and-features.html)

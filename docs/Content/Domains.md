@@ -3,7 +3,7 @@ title: Domains
 description: Exam weightings and test domains
 ---
     
-This website is used to document my journey on getting the AWS Solutions Architect certification. Working on this website provides me with a chance to review the material thoroughly and organize the information into patterns that fits my logic. 
+This website is used to document my journey on getting the AWS Solutions Architect certification. Working on this website provides me with a chance to review the material thoroughly and organize the information into patterns that fits my logic. Any contribution is welcome and appreciated.
 
 
 Please note this web site is   
