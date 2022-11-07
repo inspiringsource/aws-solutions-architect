@@ -4,7 +4,7 @@ title: Course Prep - AWS CSAA
 ---
 
 # Introduction
-Attempt at AWS CSAA course. The main topics highlighted in this course are:
+Attempt at AWS CSAA course. The main topics highlighted in this [course](#course-link) are:
 
 # Course Outline
 
@@ -33,5 +33,5 @@ This week, you will review relevant concepts and services on Designing Cost-opti
 
 [status: WIP (⏳) ]
 
-# Course link
+## Course link
 https://www.coursera.org/learn/aws-certified-solutions-architect-associate

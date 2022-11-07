@@ -1,3 +1,7 @@
+---
+title: Week 2
+---
+
 Instance types include varying combinations of CPU, memory, storage, and networking. You have the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, which can help you meet the requirements of your target workload.
 
 To learn more, see:    
