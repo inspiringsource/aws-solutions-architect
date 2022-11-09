@@ -1,7 +1,8 @@
 ---
 title: Week 1
 ---
-# Designing Resilient Architectures (Domain 1)
+# Designing Resilient Architectures
+
 This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified Solutions Architect – Associate validates the ability to design and implement distributed systems on AWS.
 
 To learn more, see:    
