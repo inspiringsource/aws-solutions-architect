@@ -15,10 +15,7 @@ This solution expected to use the following technologies:
 - Amazon S3
 - Amazon CloudFront
 
-<div>
-<div align="center"><img src={require('site/static/img/website-expected-architecture.png').default} /></div>
-<div><p align="center">Solution Overview</p></div>
-</div>
+![Architecture](./site/static/img/website-expected-architecture.png)
 
 ### Installation
 
