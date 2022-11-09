@@ -7,7 +7,7 @@ I am working on this website during my prepartion for the exam.
 
 # Amazon CloudFront solution
 
-This solution expected to use the following technologies:
+The following are the technologies to support the build stages.
 
 - GitHub
 - AWS CodePipeline
