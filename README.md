@@ -5,6 +5,21 @@
 Documentation for AWS Cloud Architect - Associate.
 I am working on this website during my prepartion for the exam.
 
+# Amazon CloudFront solution
+
+This solution expected to use the following technologies:
+
+- GitHub
+- AWS CodePipeline
+- AWS CodeStar
+- Amazon S3
+- Amazon CloudFront
+
+<div>
+<div align="center"><img src={require('@site/static/img/website-expected-architecture.png').default} /></div>
+<div><p align="center">Solution Overview</p></div>
+</div>
+
 ### Installation
 
 ```

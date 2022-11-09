@@ -18,6 +18,13 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 
 * **Easy to Use** - Amazon S3 provides developers and IT teams with tools to configure rules that can be applied to objects in buckets. These rules can be used to automatically perform actions on objects, such as tiering objects to Amazon Glacier or Amazon S3 Standard-Infrequent Access, or to encrypt objects using server-side encryption with Amazon S3-managed keys (SSE-S3) or AWS Key Management Service-managed keys (SSE-KMS).
 
+## S3 Storage tiers
+
+<div>
+<div align="center"><img src={require('@site/static/img/S3storageTiers.png').default} /></div>
+<div><p align="center">Amazon S3 Storage Classes</p></div>
+</div>
+
 ## Good to know:
 
 Amazon S3 supports Cross-Region Replication.
