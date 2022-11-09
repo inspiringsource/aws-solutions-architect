@@ -15,7 +15,7 @@ This solution expected to use the following technologies:
 - Amazon S3
 - Amazon CloudFront
 
-![Architecture](./img/website-expected-architecture.png)
+![Architecture](./static/img/website-expected-architecture.png)
 
 ### Installation
 
