@@ -50,13 +50,13 @@ Storage
  
 ### Compute: 
 -	[AWS Batch](Services%20by%20category/Compute/page-Batch)
--	[Amazon EC2](Services%20by%20category/Compute/page-BatchComputepage-EC2)
--	[Amazon EC2 Auto Scaling](Services%20by%20category/Compute/page-BatchComputepage-EC2AutoScaling)
--	[AWS Elastic Beanstalk](Services%20by%20category/Compute/page-BatchComputepage-ElasticBeanstalk)
--	[AWS Outposts](Services%20by%20category/Compute/page-BatchComputepage-Outposts)
--	[AWS Serverless Application Repository](Services%20by%20category/Compute/page-BatchComputepage-SAR)
--	[VMware Cloud on AWS](Services%20by%20category/Compute/page-BatchComputepage-VMwareCloud)
--	[AWS Wavelength](Services%20by%20category/Compute/page-BatchComputepage-Wavelength)
+-	[Amazon EC2](Services%20by%20category/Compute/page-EC2)
+-	[Amazon EC2 Auto Scaling](Services%20by%20category/Compute/page-EC2AutoScaling)
+-	[AWS Elastic Beanstalk](Services%20by%20category/Compute/page-ElasticBeanstalk)
+-	[AWS Outposts](Services%20by%20category/Compute/page-Outposts)
+-	[AWS Serverless Application Repository](Services%20by%20category/Compute/page-SAR)
+-	[VMware Cloud on AWS](Services%20by%20category/Compute/page-VMwareCloud)
+-	[AWS Wavelength](Services%20by%20category/Compute/page-Wavelength)
  
 ### Containers: 
 -	[Amazon Elastic Container Registry (Amazon ECR) ](Services%20by%20category/Containers/page-ECR)
