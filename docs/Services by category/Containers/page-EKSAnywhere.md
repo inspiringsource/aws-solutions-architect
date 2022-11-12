@@ -1,5 +1,5 @@
 ---
-title: AWS AppSync
+title: Amazon EKS Anywhere
 description: Lorem ipsum dolor sit amet - 2
 
 ---

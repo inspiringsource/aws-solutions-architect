@@ -1,5 +1,5 @@
 ---
-title: Amazon Kinesis
+title: Amazon ECS
 description: Lorem ipsum dolor sit amet - 2
 
 ---
