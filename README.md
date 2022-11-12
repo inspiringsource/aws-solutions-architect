@@ -7,7 +7,7 @@ I am working on this website during my prepartion for the exam.
 
 # Amazon CloudFront solution
 
-This solution expected to use the following technologies:
+The following are the technologies to support the build stages in production.
 
 - GitHub
 - AWS CodePipeline
@@ -15,10 +15,7 @@ This solution expected to use the following technologies:
 - Amazon S3
 - Amazon CloudFront
 
-<div>
-<div align="center"><img src={require('@site/static/img/website-expected-architecture.png').default} /></div>
-<div><p align="center">Solution Overview</p></div>
-</div>
+![Architecture](./static/img/website-expected-architecture.png)
 
 ### Installation
 
