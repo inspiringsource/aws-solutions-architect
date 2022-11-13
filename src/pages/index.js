@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Avi's AWS ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="The unofficial documentation for AWS Solutions Architect - Associate <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
