@@ -25,13 +25,13 @@
   justify-content: center;
 }
 
-p {
+header p {
   padding-left: 170pt;
   padding-right: 170pt;
 }
 
 @media screen and (max-width: 996px) {
-  p {
+  header p {
     padding-left: 0;
     padding-right: 0;
   }
