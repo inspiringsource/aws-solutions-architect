@@ -8,16 +8,31 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  
+  
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+p {
+  padding-left: 170pt;
+  padding-right: 170pt;
+}
+
+@media screen and (max-width: 996px) {
+  p {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
