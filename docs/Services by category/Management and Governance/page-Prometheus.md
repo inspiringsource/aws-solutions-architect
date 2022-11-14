@@ -1,5 +1,5 @@
 ---
-title: Amazon Managed Service for Prometheus
+title: Prometheus
 description: Lorem ipsum dolor sit amet - 2
 ---
 
