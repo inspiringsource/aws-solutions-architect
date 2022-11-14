@@ -12,13 +12,6 @@
   
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -34,5 +27,8 @@ header p {
   header p {
     padding-left: 0;
     padding-right: 0;
+  }
+  .heroBanner {
+    padding: 2rem;
   }
 }
