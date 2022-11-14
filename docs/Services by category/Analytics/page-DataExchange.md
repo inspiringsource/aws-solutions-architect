@@ -3,8 +3,7 @@ title: AWS Data Exchange
 description: Easily find third-party data in the cloud
 ---
 
-If you don't have any high quality data of your own you can use the data exchange to purchase and subscribe to data from third-party sources once you have some data in the cloud you can use sagemaker to connect to it and start building machine learning models.  
--- Source: [youtu.be](https://youtu.be/JIbIYCM48to?t=556)
+Purchase and subscribe to data from third-party sources then use sagemaker to connect to it and start building machine learning models.  
 
 
 

@@ -1,0 +1,6 @@
+---
+title: Amazon Lex
+description: Lorem ipsum dolor sit amet - 2
+---
+
+Amazon Lex is a service for building conversational interfaces into any application using voice and text. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (“chatbots”). Bots allow you to have conversations with your users using voice or text in a way that is similar to how people naturally communicate with each other. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer, enabling you to quickly and easily build sophisticated, natural language, conversational bots (“chatbots”).

@@ -67,39 +67,39 @@ Storage
 -	[Amazon EKS Distro ](Services%20by%20category/Containers/page-EKSDistro)
  
 ### Database: 
--	[Amazon Aurora ]
--	[Amazon Aurora Serverless ]
--	[Amazon DocumentDB (with MongoDB compatibility) ]
--	[Amazon DynamoDB ]
--	[Amazon ElastiCache ]
--	[Amazon Keyspaces (for Apache Cassandra) ]
--	[Amazon Neptune  ]
--	[Amazon Quantum Ledger Database (Amazon QLDB) ]
--	[Amazon RDS ]
--	[Amazon Redshift ]
--	[Amazon Timestream ]
+-	[Amazon Aurora](Services%20by%20category/Database/page-Aurora)
+-	[Amazon Aurora Serverless](Services%20by%20category/Database/page-AuroraServerless)
+-	[Amazon DocumentDB (with MongoDB compatibility)](Services%20by%20category/Database/page-DocumentDBwithMongoDB)
+-	[Amazon DynamoDB](Services%20by%20category/Database/page-DocumentDB)
+-	[Amazon ElastiCache](Services%20by%20category/Database/page-ElastiCache)
+-	[Amazon Keyspaces (for Apache Cassandra)](Services%20by%20category/Database/page-Keyspaces)
+-	[Amazon Neptune](Services%20by%20category/Database/page-Neptune)
+-	[Amazon Quantum Ledger Database (Amazon QLDB)](Services%20by%20category/Database/page-QLDB)
+-	[Amazon RDS](Services%20by%20category/Database/page-RDS)
+-	[Amazon Redshift](Services%20by%20category/Database/page-Redshift)
+-	[Amazon Timestream](Services%20by%20category/Database/page-Timestream)
  
 ### Developer Tools: 
--	[AWS X-Ray ]
+-	[AWS X-Ray](Services%20by%20category/Developer%20Tools/page-XRay)
  
 ### Front-End Web and Mobile: 
--	[AWS Amplify ]
--	[Amazon API Gateway ]
--	[AWS Device Farm ]
--	[Amazon Pinpoint ]
+-	[AWS Amplify](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-Amplify)
+-	[Amazon API Gateway](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-APIGateway)
+-	[AWS Device Farm](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-DeviceFarm)
+-	[Amazon Pinpoint](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-Pinpoint)
   	 
 ### Machine Learning: 
--	[Amazon Comprehend ]
--	[Amazon Forecast ]
--	[Amazon Fraud Detector ]
--	[Amazon Kendra ]
--	[Amazon Lex ]
--	[Amazon Polly ]
--	[Amazon Rekognition ]
--	[Amazon SageMaker ]
--	[Amazon Textract ]
--	[Amazon Transcribe ]
--	[Amazon Translate ]
+-	[Amazon Comprehend]
+-	[Amazon Forecast]
+-	[Amazon Fraud Detector]
+-	[Amazon Kendra]
+-	[Amazon Lex]
+-	[Amazon Polly]
+-	[Amazon Rekognition]
+-	[Amazon SageMaker]
+-	[Amazon Textract]
+-	[Amazon Transcribe]
+-	[Amazon Translate]
  
 ### Management and Governance: 
 -	AWS Auto Scaling 

@@ -1,0 +1,6 @@
+---
+title: Amazon Kendra
+description: Lorem ipsum dolor sit amet - 2
+---
+
+Amazon Kendra is a highly accurate and easy-to-use enterprise search service that’s powered by machine learning (ML). It allows developers to add search capabilities to their applications so their end users can discover information stored within the vast amount of content spread across their company. This includes data from manuals, research reports, FAQs, human resources (HR) documentation, and customer service guides, which may be found across various systems such as Amazon Simple Storage Service (S3), Microsoft SharePoint, Salesforce, ServiceNow, RDS databases, or Microsoft OneDrive. When you type a question, the service uses ML algorithms to understand the context and return the most relevant results, whether that means a precise answer or an entire document. For example, you can ask a question such as "How much is the cash reward on the corporate credit card?” and Amazon Kendra will map to the relevant documents and return a specific answer (such as “2%”). Kendra provides sample code so you can get started quickly and easily integrate highly accurate search into your new or existing applications.
