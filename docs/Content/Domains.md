@@ -19,5 +19,5 @@ Exam: AWS Certified Solutions Architect - Associate (SAA-C03) Domain table
 | Domain 1: Design Secure Architectures           	| 30%       	|
 | Domain 2: Design Resilient Architectures        	| 26%          	|
 | Domain 3: Design High-Performance Architectures   | 24%          	|
-| Domain 4: Design Cost-Optimized Architectures  👷	| 20%          	|
+| Domain 4: Design Cost-Optimized Architectures   	| 20%          	|
 | <b>TOTAL:</b>                                    	| <b>100%</b>  	|
