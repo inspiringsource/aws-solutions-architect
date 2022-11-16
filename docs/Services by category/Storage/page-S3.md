@@ -31,3 +31,5 @@ Amazon S3 supports Cross-Region Replication.
 
 
 [Amazon-S3-Storage-Classes](https://d1.awsstatic.com/reInvent/re21-pdp-tier1/s3/Amazon-S3-Storage-Classes.pdf)
+
+[Amazon S3 cost optimization](https://aws.amazon.com/blogs/storage/amazon-s3-cost-optimization-for-predictable-and-dynamic-access-patterns/)

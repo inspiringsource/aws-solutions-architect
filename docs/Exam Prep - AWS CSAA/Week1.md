@@ -19,13 +19,13 @@ The multi-tier application has been a cornerstone architecture pattern for decad
 
 To learn more, see:     
 [AWS Serverless Multi-Tier Architectures with Amazon API Gateway and AWS Lambda](https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/introduction.html)    
-[status: WIP ⏳ ]
+[status: reviewed &#9745; ]
 
 AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications and workloads. Based on five pillars—operational excellence, security, reliability, performance efficiency, and cost optimization—AWS Well-Architected provides a consistent approach for customers and AWS Partner Network (APN) Partners to evaluate architectures and implement designs that can scale over time.
 
 To learn more, see:     
 [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)    
-[status: WIP ⏳ ]
+[status: reviewed &#9745; ]
 
 Achieving reliability can be challenging in traditional on-premises environments because of single points of failure, lack of automation, and lack of elasticity. By focusing on best practices and recommendations, you will be enabled to build architectures that have strong foundations, resilient architecture, consistent change management, and proven failure recovery processes.
 
