@@ -23,16 +23,16 @@ Storage
 ## AWS services and features 
 ### Analytics: 
 -	[Amazon Athena](Services%20by%20category/Analytics/page-Athena)
--	[AWS Data Exchange](Services%20by%20category/page-DataExchange)
--	[AWS Data Pipeline](Services%20by%20category/page-DataPipeline)) 
--	[Amazon EMR](Services%20by%20category/page-EMR)
--	[AWS Glue](Services%20by%20category/page-Glue)
--	[Amazon Kinesis](Services%20by%20category/page-Kinesis)
--	[AWS Lake Formation](Services%20by%20category/page-LakeFormation)
--	[Amazon Managed Streaming for Apache Kafka (Amazon MSK)](Services%20by%20category/page-MSK)
--	[Amazon OpenSearch Service (Amazon Elasticsearch Service)](Services%20by%20category/page-Elasticsearch)
--	[Amazon QuickSight](Services%20by%20category/page-QuickSight)
--	[Amazon Redshift](Services%20by%20category/page-Redshift)
+-	[AWS Data Exchange](Services%20by%20category/Analytics/page-DataExchange)
+-	[AWS Data Pipeline](Services%20by%20category/Analytics/page-DataPipeline)) 
+-	[Amazon EMR](Services%20by%20category/Analytics/page-EMR)
+-	[AWS Glue](Services%20by%20category/Analytics/page-Glue)
+-	[Amazon Kinesis](Services%20by%20category/Analytics/page-Kinesis)
+-	[AWS Lake Formation](Services%20by%20category/Analytics/page-LakeFormation)
+-	[Amazon Managed Streaming for Apache Kafka (Amazon MSK)](Services%20by%20category/Analytics/page-MSK)
+-	[Amazon OpenSearch Service (Amazon Elasticsearch Service)](Services%20by%20category/Analytics/page-Elasticsearch)
+-	[Amazon QuickSight](Services%20by%20category/Analytics/page-QuickSight)
+-	[Amazon Redshift](Services%20by%20category/Analytics/page-Redshift)
  
 ### Application Integration: 
 -  [Amazon AppFlow](Services%20by%20category/App%20Integration/page-AppFlow)
@@ -89,17 +89,17 @@ Storage
 -	[Amazon Pinpoint](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-Pinpoint)
   	 
 ### Machine Learning: 
--	[Amazon Comprehend]
--	[Amazon Forecast]
--	[Amazon Fraud Detector]
--	[Amazon Kendra]
--	[Amazon Lex]
--	[Amazon Polly]
--	[Amazon Rekognition]
--	[Amazon SageMaker]
--	[Amazon Textract]
--	[Amazon Transcribe]
--	[Amazon Translate]
+-	[Amazon Comprehend](docs/Services%20by%20category/Machine%20Learning/page-Comprehend)
+-	[Amazon Forecast](docs/Services%20by%20category/Machine%20Learning/page-Forecast)
+-	[Amazon Fraud Detector](docs/Services%20by%20category/Machine%20Learning/page-FraudDetector)
+-	[Amazon Kendra](docs/Services%20by%20category/Machine%20Learning/page-Kendra)
+-	[Amazon Lex](docs/Services%20by%20category/Machine%20Learning/page-Lex)
+-	[Amazon Polly](docs/Services%20by%20category/Machine%20Learning/page-Polly)
+-	[Amazon Rekognition](docs/Services%20by%20category/Machine%20Learning/page-Rekognition)
+-	[Amazon SageMaker](docs/Services%20by%20category/Machine%20Learning/page-SageMaker)
+-	[Amazon Textract](docs/Services%20by%20category/Machine%20Learning/page-Textract)
+-	[Amazon Transcribe](docs/Services%20by%20category/Machine%20Learning/page-Transcribe)
+-	[Amazon Translate](docs/Services%20by%20category/Machine%20Learning/page-Translate)
  
 ### Management and Governance: 
 -	AWS Auto Scaling 
@@ -175,10 +175,10 @@ Storage
 -	AWS Lambda 
  
 ### Storage: 
--   [AWS Backup ](page-Backup)
--	[Amazon Elastic Block Store (Amazon EBS) ](page-EBS)
--	[Amazon Elastic File System (Amazon EFS) ](page-EFS)
--	[Amazon FSx (for all types) ](page-FSx)
--	[Amazon S3 ](page-S3)
--	[Amazon S3 Glacier ](page-S3Glacier)
--	[AWS Storage Gateway ](page-StorageGateway)
+-   [AWS Backup ](docs/Services%20by%20category/Storage/page-Backup)
+-	[Amazon Elastic Block Store (Amazon EBS) ](docs/Services%20by%20category/Storage/page-EBS)
+-	[Amazon Elastic File System (Amazon EFS) ](docs/Services%20by%20category/Storage/page-EFS)
+-	[Amazon FSx (for all types) ](docs/Services%20by%20category/Storage/page-FSx)
+-	[Amazon S3 ](docs/Services%20by%20category/Storage/page-S3)
+-	[Amazon S3 Glacier ](docs/Services%20by%20category/Storage/page-S3Glacier)
+-	[AWS Storage Gateway ](docs/Services%20by%20category/Storage/page-StorageGateway)
