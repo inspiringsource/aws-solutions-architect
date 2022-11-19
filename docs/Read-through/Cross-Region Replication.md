@@ -12,3 +12,10 @@ Amazon S3 supports Cross-Region Replication. With Cross-Region Replication, you 
 
 
 Use the "Create Read Replica" option corresponding to your DB with Amazon RDS to replicate any data from the primary DB instance to the read replica across Regions.
+
+
+## Further reading:
+
+[Creating a Multi-Region Application with AWS Services – Part 1](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-1-compute-and-security/)
+
+[Creating a Multi-Region Application with AWS Services – Part 2](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-2-data-and-replication/)

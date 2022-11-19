@@ -21,7 +21,8 @@ Recovery Time Objective (RTO) is the maximum amount of time that a business is w
 
 Source:  [Establishing RPO and RTO ](https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/)
 
-## Resources:
+## Further resources:
+
 https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/
 
 https://youtu.be/rD3nBaS3OG4
