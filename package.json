@@ -1,6 +1,7 @@
 {
   "name": "aws-solutions-architect",
-  "version": "0.5.0",
+  "author": "Avi Bobrovsky",
+  "version": "0.6.5",
   "license": "MIT",
   "private": true,
   "scripts": {
