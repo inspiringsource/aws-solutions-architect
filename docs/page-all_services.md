@@ -120,7 +120,7 @@ Storage
 -	[AWS Service Catalog](Services%20by%20category/Management%20and%20Governance/page-ServiceCatalog)
 -	[AWS Systems Manager](Services%20by%20category/Management%20and%20Governance/page-SystemsManager)
 -	[AWS Trusted Advisor](Services%20by%20category/Management%20and%20Governance/page-TrustedAdvisor)
--	[AWS Well-Architected Tool](Services%20by%20category/Management%20and%20Governance/page-WellArchitectedTool)
+-	[AWS Well-Architected Tool](Services%20by%20category/Management%20and%20Governance/page-Well-ArchitectedTool)
  
 ### Media Services: 
 -	[Amazon Elastic Transcoder](Services%20by%20category/Media%20Services/page-ElasticTranscoder)
