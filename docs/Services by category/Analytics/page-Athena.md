@@ -8,7 +8,7 @@ Amazon Athena is an interactive query service that makes it easy to analyze data
 
 <div>
 <div align="center"><img src={require('@site/static/img/Amazon-Athena.png').default} /></div>
-<div><p align="center">Athena is out-of-the-box integrated with AWS Glue</p></div>
+<div><p align="center">Athena is out-of-the-box integrated with <a href="page-Glue">AWS Glue</a></p></div>
 </div>
 
 ## Amazon Athena is serverless
