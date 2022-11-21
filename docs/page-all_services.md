@@ -24,7 +24,7 @@ Storage
 ### Analytics: 
 -	[Amazon Athena](Services%20by%20category/Analytics/page-Athena)
 -	[AWS Data Exchange](Services%20by%20category/Analytics/page-DataExchange)
--	[AWS Data Pipeline](Services%20by%20category/Analytics/page-DataPipeline)) 
+-	[AWS Data Pipeline](Services%20by%20category/Analytics/page-DataPipeline) 
 -	[Amazon EMR](Services%20by%20category/Analytics/page-EMR)
 -	[AWS Glue](Services%20by%20category/Analytics/page-Glue)
 -	[Amazon Kinesis](Services%20by%20category/Analytics/page-Kinesis)
