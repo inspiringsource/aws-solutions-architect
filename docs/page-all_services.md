@@ -89,52 +89,52 @@ Storage
 -	[Amazon Pinpoint](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-Pinpoint)
   	 
 ### Machine Learning: 
--	[Amazon Comprehend](docs/Services%20by%20category/Machine%20Learning/page-Comprehend)
--	[Amazon Forecast](docs/Services%20by%20category/Machine%20Learning/page-Forecast)
--	[Amazon Fraud Detector](docs/Services%20by%20category/Machine%20Learning/page-FraudDetector)
--	[Amazon Kendra](docs/Services%20by%20category/Machine%20Learning/page-Kendra)
--	[Amazon Lex](docs/Services%20by%20category/Machine%20Learning/page-Lex)
--	[Amazon Polly](docs/Services%20by%20category/Machine%20Learning/page-Polly)
--	[Amazon Rekognition](docs/Services%20by%20category/Machine%20Learning/page-Rekognition)
--	[Amazon SageMaker](docs/Services%20by%20category/Machine%20Learning/page-SageMaker)
--	[Amazon Textract](docs/Services%20by%20category/Machine%20Learning/page-Textract)
--	[Amazon Transcribe](docs/Services%20by%20category/Machine%20Learning/page-Transcribe)
--	[Amazon Translate](docs/Services%20by%20category/Machine%20Learning/page-Translate)
+-	[Amazon Comprehend](Services%20by%20category/Machine%20Learning/page-Comprehend)
+-	[Amazon Forecast](Services%20by%20category/Machine%20Learning/page-Forecast)
+-	[Amazon Fraud Detector](Services%20by%20category/Machine%20Learning/page-FraudDetector)
+-	[Amazon Kendra](Services%20by%20category/Machine%20Learning/page-Kendra)
+-	[Amazon Lex](Services%20by%20category/Machine%20Learning/page-Lex)
+-	[Amazon Polly](Services%20by%20category/Machine%20Learning/page-Polly)
+-	[Amazon Rekognition](Services%20by%20category/Machine%20Learning/page-Rekognition)
+-	[Amazon SageMaker](Services%20by%20category/Machine%20Learning/page-SageMaker)
+-	[Amazon Textract](Services%20by%20category/Machine%20Learning/page-Textract)
+-	[Amazon Transcribe](Services%20by%20category/Machine%20Learning/page-Transcribe)
+-	[Amazon Translate](Services%20by%20category/Machine%20Learning/page-Translate)
  
 ### Management and Governance: 
--	AWS Auto Scaling 
--	AWS CloudFormation 
--	AWS CloudTrail 
--	Amazon CloudWatch 
--	AWS Command Line Interface (AWS CLI) 
--	AWS Compute Optimizer 
--	AWS Config 
--	AWS Control Tower 
--	AWS License Manager 
--	Amazon Managed Grafana 
--	Amazon Managed Service for Prometheus 
--	AWS Management Console 
--	AWS Organizations 
--	AWS Personal Health Dashboard 
--	AWS Proton 
--	AWS Service Catalog 
--	AWS Systems Manager 
--	AWS Trusted Advisor 
--	AWS Well-Architected Tool 
+-	[AWS Auto Scaling](Services%20by%20category/Management%20and%20Governance/page-AutoScaling)
+-	[AWS CloudFormation](Services%20by%20category/Management%20and%20Governance/page-CloudFormation)
+-	[AWS CloudTrail](Services%20by%20category/Management%20and%20Governance/page-CloudTrail)
+-	[Amazon CloudWatch](Services%20by%20category/Management%20and%20Governance/page-CloudWatch)
+-	[AWS Command Line Interface (AWS CLI)](Services%20by%20category/Management%20and%20Governance/page-CLI)
+-	[AWS Compute Optimizer](Services%20by%20category/Management%20and%20Governance/page-ComputeOptimizer)
+-	[AWS Config](Services%20by%20category/Management%20and%20Governance/page-Config)
+-	[AWS Control Tower](Services%20by%20category/Management%20and%20Governance/page-ControlTower)
+-	[AWS License Manager](Services%20by%20category/Management%20and%20Governance/page-LicenseManager)
+-	[Amazon Managed Grafana](Services%20by%20category/Management%20and%20Governance/page-ManagedGrafana)
+-	[Amazon Managed Service for Prometheus](Services%20by%20category/Management%20and%20Governance/page-ManagedPrometheus)
+-	[AWS Management Console](Services%20by%20category/Management%20and%20Governance/page-ManagementConsole)
+-	[AWS Organizations](Services%20by%20category/Management%20and%20Governance/page-Organizations)
+-	[AWS Personal Health Dashboard](Services%20by%20category/Management%20and%20Governance/page-PersonalHealthDashboard)
+-	[AWS Proton](Services%20by%20category/Management%20and%20Governance/page-Proton)
+-	[AWS Service Catalog](Services%20by%20category/Management%20and%20Governance/page-ServiceCatalog)
+-	[AWS Systems Manager](Services%20by%20category/Management%20and%20Governance/page-SystemsManager)
+-	[AWS Trusted Advisor](Services%20by%20category/Management%20and%20Governance/page-TrustedAdvisor)
+-	[AWS Well-Architected Tool](Services%20by%20category/Management%20and%20Governance/page-WellArchitectedTool)
  
 ### Media Services: 
--	Amazon Elastic Transcoder 
--	Amazon Kinesis Video Streams 
+-	[Amazon Elastic Transcoder](Services%20by%20category/Media%20Services/page-ElasticTranscoder)
+-	[Amazon Kinesis Video Streams](Services%20by%20category/Media%20Services/page-KinesisVideoStreams)
  
 ### Migration and Transfer: 
--	AWS Application Discovery Service 
--	AWS Application Migration Service (CloudEndure Migration) 
--	AWS Database Migration Service (AWS DMS) 
--	AWS DataSync 
--	AWS Migration Hub 
--	AWS Server Migration Service (AWS SMS) 
--	AWS Snow Family 
--	AWS Transfer Family 
+-	[AWS Application Discovery Service](Services%20by%20category/Migration%20and%20Transfer/page-ApplicationDiscoveryService)
+-	[AWS Application Migration Service (CloudEndure Migration)](Services%20by%20category/Migration%20and%20Transfer/page-MigrationHub)
+-	[AWS Database Migration Service (AWS DMS)](Services%20by%20category/Migration%20and%20Transfer/page-DMS)
+-	[AWS DataSync](Services%20by%20category/Migration%20and%20Transfer/page-DataSync)
+-	[AWS Migration Hub]
+-	[AWS Server Migration Service (AWS SMS)]
+-	[AWS Snow Family]
+-	[AWS Transfer Family]
  
 ### Networking and Content Delivery: 
 -	Amazon CloudFront 

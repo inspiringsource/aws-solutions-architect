@@ -9,7 +9,7 @@ The AWS Well-Architected Framework helps you understand the pros and cons of dec
 
 - Operational Excellence
 - Security
-- Reliability
+- [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/foundations.html)
 - Performance Efficiency
 - Cost Optimization
 - Sustainability
