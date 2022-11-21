@@ -131,54 +131,54 @@ Storage
 -	[AWS Application Migration Service (CloudEndure Migration)](Services%20by%20category/Migration%20and%20Transfer/page-MigrationHub)
 -	[AWS Database Migration Service (AWS DMS)](Services%20by%20category/Migration%20and%20Transfer/page-DMS)
 -	[AWS DataSync](Services%20by%20category/Migration%20and%20Transfer/page-DataSync)
--	[AWS Migration Hub]
--	[AWS Server Migration Service (AWS SMS)]
--	[AWS Snow Family]
--	[AWS Transfer Family]
+-	[AWS Migration Hub](Services%20by%20category/Migration%20and%20Transfer/page-MigrationHub)
+-	[AWS Server Migration Service (AWS SMS)](Services%20by%20category/Migration%20and%20Transfer/page-SMS)
+-	[AWS Snow Family](Services%20by%20category/Migration%20and%20Transfer/page-SnowFamily)
+-	[AWS Transfer Family](Services%20by%20category/Migration%20and%20Transfer/page-TransferFamily)
  
 ### Networking and Content Delivery: 
--	Amazon CloudFront 
--	AWS Direct Connect 
--	Elastic Load Balancing (ELB) 
--	AWS Global Accelerator 
--	AWS PrivateLink 
--	Amazon Route 53 
--	AWS Transit Gateway 
--	Amazon VPC 
--	AWS VPN 
+-	[Amazon CloudFront](Services%20by%20category/Networking%20and%20Content%20Delivery/page-CloudFront)
+-	[AWS Direct Connect](Services%20by%20category/Networking%20and%20Content%20Delivery/page-DirectConnect)
+-	[Elastic Load Balancing (ELB)](Services%20by%20category/Networking%20and%20Content%20Delivery/page-ELB)
+-	[AWS Global Accelerator](Services%20by%20category/Networking%20and%20Content%20Delivery/page-GlobalAccelerator)
+-	[AWS PrivateLink](Services%20by%20category/Networking%20and%20Content%20Delivery/page-PrivateLink)
+-	[Amazon Route 53](Services%20by%20category/Networking%20and%20Content%20Delivery/page-Route53)
+-	[AWS Transit Gateway](Services%20by%20category/Networking%20and%20Content%20Delivery/page-TransitGateway)
+-	[Amazon VPC](Services%20by%20category/Networking%20and%20Content%20Delivery/page-VPC)
+-	[AWS VPN](Services%20by%20category/Networking%20and%20Content%20Delivery/page-VPN)
  
 ### Security, Identity, and Compliance: 
--	AWS Artifact 
--	AWS Audit Manager 
--	AWS Certificate Manager (ACM) 
--	AWS CloudHSM 
--	Amazon Cognito 
--	Amazon Detective 
--	AWS Directory Service 
--	AWS Firewall Manager 
--	Amazon GuardDuty 
--	AWS Identity and Access Management (IAM) 
--	Amazon Inspector 
--	AWS Key Management Service (AWS KMS) 
--	Amazon Macie 
--	AWS Network Firewall 
--	AWS Resource Access Manager (AWS RAM) 
--	AWS Secrets Manager 
--	AWS Security Hub 
--	AWS Shield 
--	AWS Single Sign-On 
--	AWS WAF 
+-	[AWS Artifact](Services%20by%20category/Security%2C%20Identity%2C%20and%20Compliance/page-Artifact)
+-	[AWS Audit Manager](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-AuditManager)
+-	[AWS Certificate Manager (ACM)](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-ACM)
+-	[AWS CloudHSM](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-CloudHSM)
+-	[Amazon Cognito](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Cognito)
+-	[Amazon Detective](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Detective)
+-	[AWS Directory Service](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-DirectoryService)
+-	[AWS Firewall Manager](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-FirewallManager)
+-	[Amazon GuardDuty](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-GuardDuty)
+-	[AWS Identity and Access Management (IAM)](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-IAM)
+-	[Amazon Inspector](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Inspector)
+-	[AWS Key Management Service (AWS KMS)](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-KMS)
+-	[Amazon Macie](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Macie)
+-	[AWS Network Firewall](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-NetworkFirewall)
+-	[AWS Resource Access Manager (AWS RAM)](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-RAM)
+-	[AWS Secrets Manager](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-SecretsManager)
+-	[AWS Security Hub](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-SecurityHub)
+-	[AWS Shield](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Shield)
+-	[AWS Single Sign-On](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-SSO)
+-	[AWS WAF](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-WAF)
  
 ### Serverless: 
--	AWS AppSync 
--	AWS Fargate 
--	AWS Lambda 
+-	[AWS AppSync](Services%20by%20category/Serverless/page-AppSync)
+-	[AWS Fargate](Services%20by%20category/Serverless/page-Fargate)
+-	[AWS Lambda](Services%20by%20category/Serverless/page-Lambda)
  
 ### Storage: 
--   [AWS Backup ](docs/Services%20by%20category/Storage/page-Backup)
--	[Amazon Elastic Block Store (Amazon EBS) ](docs/Services%20by%20category/Storage/page-EBS)
--	[Amazon Elastic File System (Amazon EFS) ](docs/Services%20by%20category/Storage/page-EFS)
--	[Amazon FSx (for all types) ](docs/Services%20by%20category/Storage/page-FSx)
--	[Amazon S3 ](docs/Services%20by%20category/Storage/page-S3)
--	[Amazon S3 Glacier ](docs/Services%20by%20category/Storage/page-S3Glacier)
--	[AWS Storage Gateway ](docs/Services%20by%20category/Storage/page-StorageGateway)
+-   [AWS Backup ](Services%20by%20category/Storage/page-Backup)
+-	[Amazon Elastic Block Store (Amazon EBS) ](Services%20by%20category/Storage/page-EBS)
+-	[Amazon Elastic File System (Amazon EFS) ](Services%20by%20category/Storage/page-EFS)
+-	[Amazon FSx (for all types) ](Services%20by%20category/Storage/page-FSx)
+-	[Amazon S3 ](Services%20by%20category/Storage/page-S3)
+-	[Amazon S3 Glacier ](Services%20by%20category/Storage/page-S3Glacier)
+-	[AWS Storage Gateway ](Services%20by%20category/Storage/page-StorageGateway)
