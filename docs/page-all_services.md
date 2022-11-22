@@ -148,7 +148,7 @@ Storage
 -	[AWS VPN](Services%20by%20category/Networking%20and%20Content%20Delivery/page-VPN)
  
 ### Security, Identity, and Compliance: 
--	[AWS Artifact](Services%20by%20category/Security%2C%20Identity%2C%20and%20Compliance/page-Artifact)
+-	[AWS Artifact](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-Artifact)
 -	[AWS Audit Manager](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-AuditManager)
 -	[AWS Certificate Manager (ACM)](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-ACM)
 -	[AWS CloudHSM](Services%20by%20category/Security,%20Identity,%20and%20Compliance/page-CloudHSM)
