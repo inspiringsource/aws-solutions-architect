@@ -20,7 +20,7 @@ Amazon Aurora features a distributed, fault-tolerant, self-healing storage syste
 
 ## what is the difference between Athena and Aurora?
 
-Amazon Aurora is a warehouse for data, while Athena is a query service. Aurora is a relational database, while Athena is a SQL query engine. Aurora is a relational database, while Athena is a SQL query engine. Aurora is a relational database, while Athena is a SQL query engine.
+Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
 
 ## Further reading:
 
