@@ -11,12 +11,17 @@ Athena is easy to use. Simply point to your data in Amazon S3, define the schema
 
 Athena is out-of-the-box integrated with AWS Glue Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.
 
-## Data Warehousing with Aurora
+## Warehousing (database) with Aurora
 
 Amazon Aurora is a MySQL and PostgreSQL compatible relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.
 
 Amazon Aurora is up to five times faster than standard MySQL databases and three times faster than standard PostgreSQL databases. It provides the security, availability, and reliability of commercial databases at 1/10th the cost. Amazon Aurora is fully managed by Amazon Relational Database Service (Amazon RDS), which automates time-consuming administration tasks like hardware provisioning, database setup, patching, and backups.
 Amazon Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 128TB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across three Availability Zones (AZs).
 
+## what is the difference between Athena and Aurora?
+
+Amazon Aurora is a warehouse for data, while Athena is a query service. Aurora is a relational database, while Athena is a SQL query engine. Aurora is a relational database, while Athena is a SQL query engine. Aurora is a relational database, while Athena is a SQL query engine.
+
+## Further reading:
 
 Source: [AWS Whitepapper Overview](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
