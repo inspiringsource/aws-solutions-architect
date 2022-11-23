@@ -11,7 +11,7 @@ You can use lifecycle rules to define actions that you want Amazon S3 to take du
 
 Amazon S3 to transition a subset of objects to the S3 Standard-IA storage class 30 days after creation.
 
-'''
+```
 <LifecycleConfiguration>
     <ID>Archive Rule</ID>
     <Filter>
@@ -24,7 +24,7 @@ Amazon S3 to transition a subset of objects to the S3 Standard-IA storage class 
     </Transition>
    </Rule>
 </LifecycleConfiguration>
-'''
+```
 
 
 ## Source
