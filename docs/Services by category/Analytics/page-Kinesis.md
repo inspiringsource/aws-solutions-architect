@@ -7,6 +7,6 @@ Amazon Kinesis is one of the best-managed services, which particularly scales el
 
 Services include:
 - Amazon Kinesis Video Streams
-- Amazon Kinesis Data Streams
-- Amazon Kinesis Data Firehose
+- Kinesis Data Streams allows consumers to READ streaming data. And it gives you a plenty of options to do so. It is best suitable for use cases that require custom processing, choice of stream processing frameworks, and sub-second processing latency. Data is reliably stored in streams up to 7 days and distributed across 3 Availability Zones.*
+- Kinesis Firehose is used to LOAD streaming data to a target destination (S3, Elasticsearch, Splunk, etc). You can also transform streaming data (by using Lambda) before loading it to destination. Data from failed attempts will be saved to S3. [*source](https://stackoverflow.com/a/64154811/11464527)
 - Amazon Kinesis Data Analytics
