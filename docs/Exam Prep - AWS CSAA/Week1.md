@@ -31,7 +31,7 @@ Achieving reliability can be challenging in traditional on-premises environments
 
 To learn more, see:   
 [Reliability Pillar - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)      
-[status: WIP ⏳ ]
+[status: reviewed &#9745; ]
 
 Event-driven architecture can help you decouple services and simplify dependencies as your applications grow. In this session, you learn how Amazon EventBridge provides new options for developers who want to gain the benefits of this approach.
 
