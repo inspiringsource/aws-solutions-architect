@@ -10,3 +10,17 @@ Services include:
 - Kinesis Data Streams allows consumers to **READ** streaming data. And it gives you a plenty of options to do so. It is best suitable for use cases that require custom processing, choice of stream processing frameworks, and sub-second processing latency. Data is reliably stored in streams up to 7 days and distributed across 3 Availability Zones.*
 - Kinesis Firehose is used to **LOAD** streaming data to a target destination (S3, Elasticsearch, Splunk, etc). You can also transform streaming data (by using Lambda) before loading it to destination. Data from failed attempts will be saved to S3. [*source](https://stackoverflow.com/a/64154811/11464527)
 - Amazon Kinesis Data Analytics
+
+
+## Use cases:
+
+Business Intelligent System with Lambda Architecture such that consists of real-time data processing and batch data processing layers.
+
+<div>
+<div align="center"><img src="https://static.us-east-1.prod.workshops.aws/public/418ebbf4-ce79-4cc1-8038-7d66be4823c3/static/images/aws-analytics-system-arch.png" /></div>
+<div><p align="center">Amazon Kinesis Data Streams and Kinesis Data Firehose are used for data collection.</p></div>
+</div>
+
+Amazon S3 is for data storage. AWS Lambda, Amazon Athena, and Amazon Elasticsearch Service are for data analysis and processing. Amazon QuickSight and Kibana are for Visualization.
+
+[Link to lab](https://catalog.us-east-1.prod.workshops.aws/workshops/a861fb26-12b0-4669-b3c3-ae1def49735d/en-US/introduction)
