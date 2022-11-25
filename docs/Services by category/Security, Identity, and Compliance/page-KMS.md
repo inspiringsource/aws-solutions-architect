@@ -22,6 +22,10 @@ AWS Key Management Service (AWS KMS) is a managed service that makes it easy for
 *The use of custom key stores requires CloudHSM resources to be available in your account.
 
 
+## Good to know
+
+Key Management Service (KMS) provides envelope encryption which directly integrates into multiple AWS services so you can easily apply encyption-at-rest to your data. KMS also provides a set of APIs that you can use to encrypt and decrypt data outside of AWS.
+
 ## Further reading:
 
 [AWS Key Management Service (FAQ)](https://aws.amazon.com/kms/faqs/)

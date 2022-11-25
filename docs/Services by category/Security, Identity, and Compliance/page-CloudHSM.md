@@ -3,6 +3,8 @@ title: AWS CloudHSM
 description: Lorem ipsum dolor sit amet - 2
 ---
 
+<p align="center">Securely generate, store, and manage cryptographic keys</p>
+
 AWS CloudHSM provides hardware security modules in the AWS Cloud. A hardware security module (HSM) is a computing device that processes cryptographic operations and provides secure storage for cryptographic keys.
 
 When you use an HSM from AWS CloudHSM, you can perform a variety of cryptographic tasks:

@@ -19,3 +19,6 @@ You can use <a target="_self" href="https://aws-notes-taking.netlify.app/docs/Se
 <div><p align="center">Diagram illustrates the order processing system architecture. <a href="https://aws.amazon.com/blogs/big-data/build-a-data-lake-using-amazon-kinesis-data-streams-for-amazon-dynamodb-and-apache-hudi/">View source</a></p></div>
 </div>
 
+## Good to know:
+
+DynamoDB allows you to store JSON data within items.

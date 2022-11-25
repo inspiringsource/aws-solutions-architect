@@ -25,10 +25,17 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 <div><p align="center">Amazon S3 Storage Classes</p></div>
 </div>
 
-## Good to know:
+## Replicating objects
 
 Amazon S3 supports Cross-Region Replication.
 
+Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets. Buckets that are configured for object replication can be owned by the same AWS account or by different accounts. You can replicate objects to a single destination bucket or to multiple destination buckets. The destination buckets can be in different AWS Regions or within the same Region as the source bucket.
+
+To automatically replicate new objects as they are written to the bucket use live replication, such as Same-Region Replication (SRR) or Cross-Region Replication (CRR). To replicate existing objects to a different bucket on demand, use S3 Batch Replication.
+
+## References:
+
+[Replicating objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html)
 
 [Amazon-S3-Storage-Classes](https://d1.awsstatic.com/reInvent/re21-pdp-tier1/s3/Amazon-S3-Storage-Classes.pdf)
 
