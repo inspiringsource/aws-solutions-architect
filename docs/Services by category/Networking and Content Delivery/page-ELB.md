@@ -7,6 +7,12 @@ Elastic Load Balancing (ELB) automatically distributes incoming application traf
 
 You can select the appropriate load balancer based on your application needs. If you need flexible application management, we recommend that you use an Application Load Balancer. If extreme performance and static IP is needed for your application, we recommend that you use a Network Load Balancer. If you have an existing application that was built within the EC2-Classic network, then you should use a Classic Load Balancer.
 
+
+Three types of load balancers are available:
+* Application Load Balancer ALB (HTTP/HTTPS)
+* Network Load Balancer NLB (TCP/UDP)
+* Classic Load Balancer CLB (Legacy)
+
 ## What is a load balancer?
 
 A load balancer is a server that receives incoming traffic from the internet and routes it to multiple targets, such as EC2 instances, in multiple Availability Zones. The load balancer also monitors the health of its registered targets and ensures that it routes traffic only to healthy targets. You configure your load balancer to accept incoming traffic on one or more listeners, and to route traffic to one or more registered targets, based on the protocol and port number for each listener.
