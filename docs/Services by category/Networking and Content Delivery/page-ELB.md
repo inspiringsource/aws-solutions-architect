@@ -13,6 +13,11 @@ Three types of load balancers are available:
 * Network Load Balancer NLB (TCP/UDP)
 * Classic Load Balancer CLB (Legacy)
 
+<div>
+<div align="center"><img src={require('@site/static/img/Load_balancer-types.png').default} /></div>
+<div><p align="center">Load balancer types</p></div>
+</div>
+
 ## What is a load balancer?
 
 A load balancer is a server that receives incoming traffic from the internet and routes it to multiple targets, such as EC2 instances, in multiple Availability Zones. The load balancer also monitors the health of its registered targets and ensures that it routes traffic only to healthy targets. You configure your load balancer to accept incoming traffic on one or more listeners, and to route traffic to one or more registered targets, based on the protocol and port number for each listener.
