@@ -15,7 +15,8 @@ You use the AWS Glue console to define and orchestrate your ETL workflow. The co
 
 * Search and filter lists of AWS Glue objects.
 
-* Edit transformation scripts.
+* Edit transformation scripts.     
+
 [Read more](https://docs.aws.amazon.com/glue/latest/dg/components-overview.html)
 ## Use Cases
 
