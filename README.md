@@ -2,7 +2,7 @@
 
 <p align="center">🚧 Under Construction 🚧</p>
 
-Documentation for AWS Cloud Architect - Associate.
+The unofficial documentation for AWS Cloud Architect - Associate.
 I am working on this website during my prepartion for the exam.
 
 # Amazon CloudFront solution
