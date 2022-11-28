@@ -70,7 +70,7 @@ Storage
 -	[Amazon Aurora](Services%20by%20category/Database/page-Aurora)
 -	[Amazon Aurora Serverless](Services%20by%20category/Database/page-AuroraServerless)
 -	[Amazon DocumentDB (with MongoDB compatibility)](Services%20by%20category/Database/page-DocumentDBwithMongoDB)
--	[Amazon DynamoDB](Services%20by%20category/Database/page-DocumentDB)
+-	[Amazon DynamoDB](Services%20by%20category/Database/page-DynamoDB)
 -	[Amazon ElastiCache](Services%20by%20category/Database/page-ElastiCache)
 -	[Amazon Keyspaces (for Apache Cassandra)](Services%20by%20category/Database/page-Keyspaces)
 -	[Amazon Neptune](Services%20by%20category/Database/page-Neptune)
