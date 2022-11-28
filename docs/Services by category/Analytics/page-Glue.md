@@ -5,6 +5,18 @@ description: Discover, prepare, and integrate all your data
 
 AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. AWS Glue is serverless, so there is no infrastructure to manage, and you pay only for the resources you use.
 
-AWS Glue consists of the following components:
+You use the AWS Glue console to define and orchestrate your ETL workflow. The console calls several API operations in the AWS Glue Data Catalog and AWS Glue Jobs system to perform the following tasks:
 
--   **AWS Glue Data Catalog** - A central metadata repository that stores metadata about your data sources, data lakes, and data transformations. The AWS Glue Data Catalog is a central repository that contains metadata about your data sources, data lakes, and data transformations. You can use the AWS Glue Data Catalog to discover, understand, and manage your data. The AWS Glue Data Catalog is a central repository that contains metadata about your data sources, data lakes, and data transformations. You can use the AWS Glue Data Catalog to discover, understand, and manage your data.
+* Define AWS Glue objects such as jobs, tables, crawlers, and connections.
+
+* Schedule when crawlers run.
+
+* Define events or schedules for job triggers.
+
+* Search and filter lists of AWS Glue objects.
+
+* Edit transformation scripts.
+[Read more](https://docs.aws.amazon.com/glue/latest/dg/components-overview.html)
+## Use Cases
+
+[Add Redshift Data Source In AWS Glue Catalog](https://youtu.be/c7_1POi3KRc)
