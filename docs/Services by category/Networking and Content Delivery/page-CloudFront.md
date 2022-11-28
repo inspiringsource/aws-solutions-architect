@@ -5,6 +5,11 @@ description: Lorem ipsum dolor sit amet - 2
 
 Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer friendly environment.
 
+<div>
+<div align="center"><img src="https://docs.aws.amazon.com/images/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png" /></div>
+<div><p align="center"><a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">CloudFront to deliver content</a></p></div>
+</div>
+
 When you use CloudFront with an Amazon S3 bucket as the origin, you can configure CloudFront and Amazon S3 in a way that provides the following benefits:
 
 - Restricts access to the Amazon S3 bucket so that it's not publicly accessible

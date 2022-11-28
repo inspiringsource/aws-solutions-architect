@@ -22,3 +22,6 @@ You can use <a target="_self" href="https://aws-notes-taking.netlify.app/docs/Se
 ## Good to know:
 
 DynamoDB allows you to store JSON data within items.
+DynamoDB is NoSQL and is good at storing millions of records of flat data with simple sorting.
+
+[Managing indexes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.Indexes.html)
