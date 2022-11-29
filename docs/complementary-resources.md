@@ -2,7 +2,7 @@
 title: Complementary Resources
 
 ---
-These links (and all links on this website) are being provided as a convenience and for informational purposes only.
+These links are being provided as a convenience and for informational purposes only.
 
 
 Courses:
@@ -27,3 +27,19 @@ https://d1.awsstatic.com/whitepapers/aws-well-architected-whitepaper.pdf
 https://d1.awsstatic.com/whitepapers/architecture/AWS-architecting-for-the-cloud.pdf
 
 https://github.com/inspiringsource/AWS-Solutions-Architect-Associate
+
+Other Resources (explanation of AWS services):
+
+[Be A Better Dev](https://www.youtube.com/@BeABetterDev)
+
+[Tiny Technical Tutorials](https://www.youtube.com/playlist?list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV)
+
+
+
+You know of any other good resources? Add them to the list by clicking on "Edit this page" link at the bottom of the page. You will need a GitHub account to do so.
+
+To add a new link in Markdown syntax:
+    
+    ```
+    [Link Title](URL)
+    ``` 
