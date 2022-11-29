@@ -6,7 +6,7 @@ Instance types include varying combinations of CPU, memory, storage, and network
 
 To learn more, see:    
 [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)    
-[status: WIP (⏳) ]
+[status: reviewed &#9745; ]
 
 Metrics, or the data about the performance of your systems, are provided by many resources. The ability to activate detailed monitoring for some resources—and publishing your own application metrics—provides additional visibility into your environments. You can gain insight into the functionality and behavior of the resources you use by understanding what metrics are available, how to view them, and how to understand them.
 
