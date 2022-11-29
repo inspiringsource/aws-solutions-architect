@@ -40,6 +40,6 @@ You know of any other good resources? Add them to the list by clicking on "Edit 
 
 To add a new link in Markdown syntax:
     
-    ```
+```
     [Link Title](URL)
-    ``` 
+```
