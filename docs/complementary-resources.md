@@ -34,6 +34,9 @@ Other Resources (explanation of AWS services):
 
 [Tiny Technical Tutorials](https://www.youtube.com/playlist?list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV)
 
+[DataEng Uncomplicated](https://www.youtube.com/@DataEngUncomplicated/videos)
+
+[Study with Flashcards](https://app.studysmarter.de/studysets/10764415?ref=De9XSq6p0Sv0feKLejyFXJISMZSQkuw9)
 
 
 You know of any other good resources? Add them to the list by clicking on "Edit this page" link at the bottom of the page. You will need a GitHub account to do so.
