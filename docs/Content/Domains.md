@@ -3,7 +3,7 @@ title: Domains
 description: Exam weightings and test domains
 ---
 
-The appendix provides a list of the services that are covered in the exam. At the moment its the easiest way to find and browse quickly the Amazon Web Services by category.
+The appendix provides a list of the services that are covered in the exam. At the moment its the easiest way to find and browse quickly through the services.
 
 Please note this web site is   
 <p align="center">🚧 Under Construction 🚧</p>
