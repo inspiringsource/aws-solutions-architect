@@ -1,6 +1,9 @@
 ---
-title: Amazon Redshift 
-description: Lorem ipsum dolor sit amet - 2
+layout: forward
+target: Services%20by%20category/Analytics/page-Redshift
+title: Amazon Redshift
+message: This Redshift was already covered in the Analytics section.
 ---
 
-Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service in the cloud. You can start with just a few hundred gigabytes of data and scale to a petabyte or more. This makes it cost-effective, even for data warehouses with large data volumes.
+
+<meta http-equiv="REFRESH" content="0;url=https://aws-notes-taking.netlify.app/docs/Services%20by%20category/Analytics/page-Redshift"></meta>
