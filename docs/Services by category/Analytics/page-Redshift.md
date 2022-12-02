@@ -19,10 +19,11 @@ Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the
 ![Typical data processing flow for Amazon Redshift](https://docs.aws.amazon.com/images/redshift/latest/gsg/images/architecture.png)
 
 
-## Further readings:
+## Further readings / viewing:
 
 [Amazon Redshift Database Developer Guide](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html)
 
 [Power highly resilient use cases with Amazon Redshift](https://aws.amazon.com/blogs/big-data/power-highly-resilient-use-cases-with-amazon-redshift/)
 
+[AWS Glue PySpark:Insert records into Amazon Redshift Table](https://youtu.be/EetkEf359QE)
 
