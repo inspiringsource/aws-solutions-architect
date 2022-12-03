@@ -11,7 +11,7 @@ This website is used to document my journey on getting the AWS Solutions Archite
 Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> on <a href="https://unsplash.com/s/photos/welcome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
-Feel free to contribute and joining the discussion here. Any feedback is welcome. Please note content is still being added and the website is still under construction. So if you find any errors or have any suggestions, please edit the page and submit a pull request.
+Feel free to contribute and join the discussion here. Any feedback is welcome. Please note content is still being added and the website is still under construction. So if you find any errors or have any suggestions, please edit the page and submit a pull request.
 
 To do list:
 
