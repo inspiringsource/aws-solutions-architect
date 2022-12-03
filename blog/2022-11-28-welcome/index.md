@@ -17,5 +17,5 @@ To do list:
 
 - [ ] Add more content / review existing content
 - [ ] Reach a Production Ready state
-- [ ] Add a search bar (apply to the DocSearch)
+- [ ] Add a search bar (apply to the DocSearch program)
 
