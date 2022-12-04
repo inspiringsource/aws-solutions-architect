@@ -10,7 +10,7 @@ Amazon Simple Notification Service (Amazon SNS) is a web service that coordinate
 In Amazon SNS, there are two types of clients—publishers and subscribers—also referred to as producers and consumers.
 
 <div>
-<div align="center"><img src="https://docs.aws.amazon.com/images/sdk-for-javascript/v2/developer-guide/images/code-samples-sns.png"/></div>
+<div align="center"><img src={require('@site/static/img/SNS-pub_sub_msg.png').default}/></div>
 <div><p align="center">AWS SDK used to publish an event to an SNS Topic.</p></div>
 </div>
 
