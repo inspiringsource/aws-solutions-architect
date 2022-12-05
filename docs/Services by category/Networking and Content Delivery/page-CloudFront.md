@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet - 2
 Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer friendly environment.
 
 <div>
-<div align="center"><img src="https://docs.aws.amazon.com/images/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png" /></div>
+<div align="center"><img src={require('@site/static/img/CloudFront_global_content_delivery_network(CDN).png').default} /></div>
 <div><p align="center"><a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">CloudFront to deliver content</a></p></div>
 </div>
 

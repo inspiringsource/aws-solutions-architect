@@ -12,27 +12,27 @@ Metrics, or the data about the performance of your systems, are provided by many
 
 To learn more, see:    
 [Using Amazon CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/working_with_metrics.html)   
-[status: WIP (⏳) ]
+[status: reviewed &#9745; ]
 
 The optimal storage solution for a particular system varies, based on the kind of access method (block, file, or object), patterns of access, throughput required, frequency of access, frequency of update, and constraints on availability and durability. To improve performance, well-architected systems use multiple storage solutions and enable different features.
 
 To learn more, see:
 
-[Overview of Amazon Web Services - Storage](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html) [status: WIP (⏳) ]
+[Overview of Amazon Web Services - Storage](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html) [reviewed &#9745; ]
 
-A[WS Well-Architected Framework - Performance Efficiency Pillar: Storage Architecture Selection](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/storage-architecture-selection.html) [status: WIP (⏳) ]
+A[WS Well-Architected Framework - Performance Efficiency Pillar: Storage Architecture Selection](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/storage-architecture-selection.html) [reviewed &#9745; ]
 
 Amazon Virtual Private Cloud (Amazon VPC) provides multiple network connectivity options for you to use, depending on your current network designs and requirements. These connectivity options include using either the internet or an AWS Direct Connect connection as the network backbone, and terminating the connection into AWS or user-managed network endpoints.
 
 To learn more, see:     
 [Amazon Virtual Private Cloud Connectivity Options - Introduction](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/introduction.html)     
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 For caching, a content delivery network (CDN) can reduce the load on an application origin and improve the experience of the requestor by delivering a local copy of the content from a nearby cache edge, or Point of Presence (PoP). Because the CDN delivers the content, the application origin doesn’t need to open the connection and deliver the content directly to the user.
 
 To learn more, see:     
 [How caching works with CloudFront edge locations](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cache-hit-ratio-explained.html)     
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 The ability to properly store, secure, and retrieve data effectively can make a difference when you consider customer experiences, optimize processes, and make informed, proactive decisions. Because data (and its proper handling) are so important, choosing the correct way to manage it requires understanding the strengths and functionality of the available options.
 

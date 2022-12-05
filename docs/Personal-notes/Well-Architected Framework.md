@@ -7,12 +7,12 @@ The AWS Well-Architected Framework helps you understand the pros and cons of dec
 
 ## The AWS Well-Architected Framework is based on six pillars:
 
-- Operational Excellence
-- Security
+- [Operational Excellence](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/operational-excellence-pillar.html)
+- [Security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/index.html)
 - [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/foundations.html)
-- Performance Efficiency
-- Cost Optimization
-- Sustainability
+- [Performance Efficiency](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/foundations.html)
+- [Cost Optimization](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/foundations.html)
+- [Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/foundations.html)
 
 ## Further reading:
 
