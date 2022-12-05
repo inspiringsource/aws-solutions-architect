@@ -52,7 +52,7 @@ Storage
 -	[AWS Batch](Services%20by%20category/Compute/page-Batch)
 -	[Amazon EC2](Services%20by%20category/Compute/page-EC2)
 -	[Amazon EC2 Auto Scaling](Services%20by%20category/Compute/page-EC2AutoScaling)
--	[AWS Elastic Beanstalk](Services%20by%20category/Compute/page-ElasticBeanstalk)
+-	[AWS Elastic Beanstalk](Services%20by%20category/Compute/page-Beanstalk)
 -	[AWS Outposts](Services%20by%20category/Compute/page-Outposts)
 -	[AWS Serverless Application Repository](Services%20by%20category/Compute/page-SAR)
 -	[VMware Cloud on AWS](Services%20by%20category/Compute/page-VMwareCloud)
