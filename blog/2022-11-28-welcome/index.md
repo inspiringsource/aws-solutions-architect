@@ -1,11 +1,11 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome (edit)
 authors: [AviDev]
 tags: [AWS, hello, docusaurus]
 ---
 
-This website is used to document my journey on getting the AWS Solutions Architect certification. Working on this website provides me with a chance to review the material thoroughly and organize the information into patterns that fits my logic. 
+Join my journey on getting the AWS Solutions Architect certification. Working on this website provides me with a chance to review the material thoroughly and organize the information into patterns that fits my logic. Hopefully you might benefit from this as well.
 
 ![Docusaurus Plushie](./jamie-street-p2ifKHu3dXM-unsplash.jpg)     
 Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> on <a href="https://unsplash.com/s/photos/welcome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
