@@ -8,13 +8,10 @@ description: Fastest, easiest, and most widely used cloud data warehouse
 
 <div><p align="center">"Fully managed data warehousing service that houses analytical data for use in complex queries, business intelligence reporting, and machine learning."</p></div>
 
-Amazon Redshift is a fast, fully managed, petabyte-scale data **warehouse** service in the cloud. You can start with just a few hundred gigabytes of data and scale to a petabyte or more. This makes it cost-effective, even for data warehouses with large data volumes.
-
 Amazon Redshift uses SQL to analyze structured and semi-structured data. It is designed to handle the most demanding workloads, including data warehouses, data lakes, and advanced analytics. 
-
 ## Amazon Redshift is a cloud data warehouse
 
-Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. You can start with just a few hundred gigabytes of data and scale to a petabyte or more. Your data warehouse is always available, with fast query performance and no capacity planning or management required. You can use your existing business intelligence (BI) tools and dashboards to analyze your data in Amazon Redshift.
+Amazon Redshift is a fully managed, petabyte-scale data **warehouse** service in the cloud. You can start with just a few hundred gigabytes of data and scale to a petabyte or more. Your data warehouse is always available, with fast query performance and no capacity planning or management required. You can use your existing business intelligence (BI) tools and dashboards to analyze your data in Amazon Redshift.
 
 ## Typical data processing flow for Amazon Redshift
 
