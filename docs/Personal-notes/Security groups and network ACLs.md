@@ -1,5 +1,5 @@
 ---
-title: Compare security groups and network ACLs
+title: Security groups and network ACLs
 ---
 
 Amazon Virtual Private Cloud provides features that you can use to increase and monitor the security for your virtual private cloud (VPC):
