@@ -6,6 +6,8 @@ description: Fastest, easiest, and most widely used cloud data warehouse
 <div align="center"><img src={require('@site/static/img/shift-away.png').default} /></div>
 </div>
 
+<div><p align="center">"Fully managed data warehousing service that houses analytical data for use in complex queries, business intelligence reporting, and machine learning."</p></div>
+
 Amazon Redshift is a fast, fully managed, petabyte-scale data **warehouse** service in the cloud. You can start with just a few hundred gigabytes of data and scale to a petabyte or more. This makes it cost-effective, even for data warehouses with large data volumes.
 
 Amazon Redshift uses SQL to analyze structured and semi-structured data. It is designed to handle the most demanding workloads, including data warehouses, data lakes, and advanced analytics. 
