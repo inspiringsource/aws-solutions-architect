@@ -122,4 +122,6 @@ Amazon Aurora is a fully managed warehouse featuring high performance, while Ath
 
 ## Further reading:
 
-Source: [AWS Whitepapper Overview](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
+[AWS Whitepapper Overview](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
+
+[Relational vs. NoSQL data](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data?source=docs)
