@@ -1,5 +1,5 @@
 ---
-title: Compare AWS database
+title: Choosing a Database
 ---
 
 <div class="table-contents"><table id="w596aac17c27b7b3"><thead>
@@ -121,6 +121,10 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
 
 ## Further reading:
+
+[Choosing a Database](https://aws.amazon.com/startups/start-building/how-to-choose-a-database/)
+
+[AWS Cloud Databases](https://aws.amazon.com/products/databases/)
 
 [AWS Whitepapper Overview](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
 
