@@ -37,7 +37,8 @@ To automatically replicate new objects as they are written to the bucket use liv
 ## Bucket policy that complies with S3-bucket
 
 For example, the following bucket policy complies with the rule. The policy explicitly denies all actions on the bucket and objects when the request meets the condition "aws:SecureTransport": "false":
-    
+
+```json    
 {
   "Id": "ExamplePolicy",
   "Version": "2012-10-17",
@@ -59,9 +60,34 @@ For example, the following bucket policy complies with the rule. The policy expl
     }
   ]
 }
-    ```
-
+```
 Source: [S3 bucket policy for config rule](https://aws.amazon.com/premiumsupport/knowledge-center/s3-bucket-policy-for-config-rule/)
+
+
+## Lifecycle rules example
+
+You can use lifecycle rules to define actions that you want Amazon S3 to take during an object's lifetime (for example, transition objects to another storage class, archive them, or delete them after a specified period of time).
+
+Amazon S3 to transition a subset of objects to the S3 Standard-IA storage class 30 days after creation.
+
+```
+<LifecycleConfiguration>
+    <ID>Archive Rule</ID>
+    <Filter>
+      <Prefix>logs/</Prefix>
+    </Filter>
+    <Status>Enabled</Status>
+    <Transition>
+      <StorageClass>STANDARD_IA<StorageClass>
+      <Days>30</Days>
+    </Transition>
+   </Rule>
+</LifecycleConfiguration>
+```
+
+
+Source: [lifecycle configuration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/how-to-set-lifecycle-configuration-intro.html)
+
 ## References:
 
 [Replicating objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html)
