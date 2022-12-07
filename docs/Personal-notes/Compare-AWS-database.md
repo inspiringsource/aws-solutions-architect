@@ -116,9 +116,11 @@ title: Choosing a Database
 
 Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html)
 
-## What are the key differences
+## Key highlights:
 
 Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
+
+Both Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database.
 
 ## Further reading:
 

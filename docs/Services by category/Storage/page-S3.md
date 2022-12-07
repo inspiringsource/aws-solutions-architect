@@ -34,6 +34,34 @@ Replication enables automatic, asynchronous copying of objects across Amazon S3 
 
 To automatically replicate new objects as they are written to the bucket use live replication, such as Same-Region Replication (SRR) or Cross-Region Replication (CRR). To replicate existing objects to a different bucket on demand, use S3 Batch Replication.
 
+## Bucket policy that complies with S3-bucket
+
+For example, the following bucket policy complies with the rule. The policy explicitly denies all actions on the bucket and objects when the request meets the condition "aws:SecureTransport": "false":
+    
+{
+  "Id": "ExamplePolicy",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSSLRequestsOnly",
+      "Action": "s3:*",
+      "Effect": "Deny",
+      "Resource": [
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*"
+      ],
+      "Condition": {
+        "Bool": {
+          "aws:SecureTransport": "false"
+        }
+      },
+      "Principal": "*"
+    }
+  ]
+}
+    ```
+
+Source: [S3 bucket policy for config rule](https://aws.amazon.com/premiumsupport/knowledge-center/s3-bucket-policy-for-config-rule/)
 ## References:
 
 [Replicating objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html)
