@@ -122,7 +122,7 @@ Amazon Aurora is a fully managed warehouse featuring high performance, while Ath
 
 Both Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database.
 
-What is the difference between storage and database? Storage (e.g. S3) is a place to store more open-ended data with an object storage architecture, while database uses other storage architectures like file system to store and query data.
+What is the difference between storage and database? Storage (e.g. S3) is a place to store data with an [object storage architecture](https://en.wikipedia.org/wiki/Object_storage), file storage and object storage while database uses other storage architectures that include unifying information about how data is arranged and / or related when stored and queried.
 
 ## Further reading:
 
