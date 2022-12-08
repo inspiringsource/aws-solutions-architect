@@ -53,7 +53,9 @@ To learn more see:
 
 Each object in Amazon Simple Storage Service (Amazon S3) has a storage class associated with it. For example, if you list the objects in an S3 bucket, the console shows the storage class for all the objects in the list. Amazon S3 offers a range of storage classes for the objects that you store. You choose a class depending on your use-case scenario and your requirements for performance access. All Amazon S3 storage classes are designed to offer high durability.
 
-
+> **Legend:**
+       
 | WIP | reviewed |
 | --------- | ------- |
 | ⏳ | &#9745; |
+         
