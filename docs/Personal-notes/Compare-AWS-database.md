@@ -118,14 +118,19 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 
 ## Briefing
 
+### Amazon Aurora
 Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
 
 Amazon Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database.
-
+### What is a database?
 What is the difference between storage and database? Storage (e.g. S3) is a place to store data with an [object storage architecture](https://en.wikipedia.org/wiki/Object_storage), file storage and object storage while database uses other storage architectures that include unifying information about how data is arranged and / or related when stored and queried.
 
+### SQL and NoSQL
 SQL and NoSQL are two different types of databases. SQL, which stands for Structured Query Language, is a type of relational database that is designed to store and manage data using a structured format, such as a table with rows and columns. This allows for data to be easily accessed, organized, and updated. NoSQL, on the other hand, stands for "not only SQL" and refers to a non-relational database that does not use the traditional table-based structure of SQL databases. NoSQL databases are often designed to be flexible, scalable, and capable of handling a large amount of data that may have different structures. NoSQL databases are often used for big data applications. [Source](https://www.ibm.com/cloud/learn/sql-vs-nosql) 
 
+### Graph database
+A graph database is a type of database that uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. This makes it easier to represent and query relationships between data, as compared to more traditional relational databases, which use tables and rows to represent data. Graph databases are often used for applications that require complex queries or highly connected data, such as social networks or recommendation engines. [Source](https://www.ibm.com/cloud/learn/graph-databases)
+AWS solutions for graph databases include **Amazon Neptune** which is a fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets.
 ## Further reading:
 
 [Choosing a Database](https://aws.amazon.com/startups/start-building/how-to-choose-a-database/)
