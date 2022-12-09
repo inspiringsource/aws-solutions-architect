@@ -38,6 +38,8 @@ Other Resources (explanation of AWS services):
 
 [Study with Flashcards](https://app.studysmarter.de/studysets/10764415?ref=De9XSq6p0Sv0feKLejyFXJISMZSQkuw9)
 
+[Stephane Maarek](https://www.youtube.com/playlist?list=PLt1SIbA8guuusDOIqQuiFKerF_4_nQ_Xs)
+
 
 You know of any other good resources? Add them to the list by clicking on "Edit this page" link at the bottom of the page. You will need a GitHub account to do so.
 
