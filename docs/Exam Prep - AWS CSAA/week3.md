@@ -21,7 +21,7 @@ To learn more, see:
 A security group acts as a virtual firewall for your instance to control inbound and outbound traffic. When you launch an instance in a virtual private cloud (VPC), you can assign up to five security groups to the instance. Security groups act at the instance level, not the subnet level. Therefore, each instance in a subnet in your VPC can be assigned to a different set of security groups.
 
 To learn more, see: [Security groups for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)       
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 A network access control list (network ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules that are similar to your security groups to add an additional layer of security to your VPC.
 

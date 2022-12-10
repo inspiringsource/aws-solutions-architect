@@ -3,6 +3,10 @@ title: Amazon Kinesis
 description: Easily collect, process, and analyze video and data streams
 ---
 
+<h3 align="center">
+  "Serverless service for <u>real-time</u> processing of <u>streaming</u> data at massive scale"
+</h3>
+
 Amazon Kinesis is one of the best-managed services, which particularly scales elastically especially for real-time processing of the data at a massive point. These services can be used to collect the large streams of data records that are especially consumed by the application process that runs on Amazon EC2 instances.
 
 Services include:

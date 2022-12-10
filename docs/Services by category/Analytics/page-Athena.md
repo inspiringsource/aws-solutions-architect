@@ -2,6 +2,8 @@
 title: Amazon Athena
 description: serverless analyzing data in S3 using  SQL
 ---
+<h3 align="center">"A query service to analyze data in Amazon S3 using standard SQL."</h3>
+
 
 Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.   
 
