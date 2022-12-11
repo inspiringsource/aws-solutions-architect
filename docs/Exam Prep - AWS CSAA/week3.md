@@ -26,7 +26,7 @@ To learn more, see: [Security groups for your VPC](https://docs.aws.amazon.com/v
 A network access control list (network ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules that are similar to your security groups to add an additional layer of security to your VPC.
 
 To learn more, see: [Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)      
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 Your VPC has an implicit router, and you use route tables to control where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the routing for the subnet (subnet route table).
 

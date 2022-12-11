@@ -1,6 +1,5 @@
 ---
 title: Complementary Resources
-
 ---
 These links are being provided as a convenience and for informational purposes only.
 
@@ -26,7 +25,6 @@ https://d1.awsstatic.com/whitepapers/aws-well-architected-whitepaper.pdf
 
 https://d1.awsstatic.com/whitepapers/architecture/AWS-architecting-for-the-cloud.pdf
 
-https://github.com/inspiringsource/AWS-Solutions-Architect-Associate
 
 Other Resources (explanation of AWS services):
 
@@ -41,7 +39,7 @@ Other Resources (explanation of AWS services):
 [Stephane Maarek](https://www.youtube.com/playlist?list=PLt1SIbA8guuusDOIqQuiFKerF_4_nQ_Xs)
 
 
-You know of any other good resources? Add them to the list by clicking on "Edit this page" link at the bottom of the page. You will need a GitHub account to do so.
+You know of any other good resources? Add them to the list by clicking on "Edit this page" link at the bottom of the page. You will need a GitHub account to do so. Please check out our contribution guide [here](https://github.com/inspiringsource/aws-solutions-architect/blob/master/CONTRIBUTING.md).
 
 To add a new link in Markdown syntax:
     
