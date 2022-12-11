@@ -127,7 +127,7 @@ Amazon RDS is a fully managed relational database service.
 Amazon Redshift is a fully managed, petabyte-scale data warehouse service.
 <div>
 <div align="center"><img src={require('@site/static/img/create-an-RDS-Instance.png').default} /></div>
-<div><p align="center">When creating an RDS Instance</div>
+<div><p align="center">When creating an RDS Instance</p></div>
 </div>
 Note that, Amazon Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database.
 
