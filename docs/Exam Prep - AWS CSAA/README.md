@@ -4,7 +4,7 @@ title: Course Prep - AWS CSAA
 ---
 
 # Introduction
-Attempt at AWS CSAA course. The main topics highlighted in this [course](#course-link) are:
+Attempt at AWS Solutions Architect Associate (AWS CSAA) course. The main topics highlighted in this [course](#course-link) are:
 
 # Course Outline
 

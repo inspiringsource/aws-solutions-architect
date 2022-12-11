@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Solutions Architect',
-    tagline: "Hi I'm Avi, I am using this website as a platform to record my study progress and use the process as a means to prepare for the AWS Certification exams.",
+    tagline: "The website provides a collection of notes and resources for the AWS Solutions Architect - Associate exam. The goal is to summarize the content in layman's terms.",
   url: 'https://aws-notes-taking.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
