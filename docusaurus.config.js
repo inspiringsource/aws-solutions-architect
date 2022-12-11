@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AWS Solutions Architect - Associate',
-    tagline: "A collection of notes and resources.",
+  title: 'User Handbook',
+    tagline: 'AWS Solutions Architect - Associate',
   url: 'https://aws-notes-taking.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
