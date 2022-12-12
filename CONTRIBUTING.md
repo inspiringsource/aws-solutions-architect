@@ -28,9 +28,8 @@ Please make sure not to add links with affiliate codes. We want to keep the list
 2. On the GitHub page, click on the `pencil` icon to edit the file.
 3. Add the resource to the appropriate section.
 4. Markdown syntax:
-    ```
-    [Link Title](URL)
-    ```
+    ```[Link Title](URL)```
+>Please make sure to keep the format consistent with the rest of the list.
 5. Issue that pull request!
 
 Contributions to the documentation are much appreciated!
