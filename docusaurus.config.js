@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'Content/Domains',
             position: 'left',
-            label: 'Review',
+            label: 'Handbook',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
