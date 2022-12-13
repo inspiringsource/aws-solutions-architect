@@ -41,3 +41,4 @@ Amazon EC2 provides the following purchasing options to enable you to optimize y
 * Dedicated Instances – Pay, by the hour, for instances that run on single-tenant hardware.
 
 * Capacity Reservations – Reserve capacity for your EC2 instances in a specific Availability Zone for any duration.
+Source: [Click here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html)

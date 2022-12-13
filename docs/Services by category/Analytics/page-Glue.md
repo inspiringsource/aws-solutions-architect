@@ -3,7 +3,7 @@ title: Amazon Glue
 description: Discover, prepare, and integrate all your data
 ---
 
-<div><p align="center">Discover, prepare, and integrate all your data</p></div>
+<div><h3 align="center">Discover, prepare, and integrate all your data</h3></div>
 
 AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. AWS Glue is serverless, so there is no infrastructure to manage, and you pay only for the resources you use.
 
