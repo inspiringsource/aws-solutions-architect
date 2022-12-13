@@ -11,6 +11,7 @@ CloudWatch is a collection of services, including:
 - CloudWatch Dashboards
 - CloudWatch Alarms
 - CloudWatch Logs
+> Filters do not retroactively filter data. Filters only publish the metric data points for events that happen after the filter was created. 
 - CloudWatch Metrics
 - CloudWatch Events.
 
