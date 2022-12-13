@@ -129,7 +129,7 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 <div><p align="center">First step to create an RDS Instance</p></div>
 </div>
 
-> Note that, Amazon Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database.
+> Note that, Amazon Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database. Aurora is one of database engines to choose from when creating an RDS instance.
 
 - Amazon Redshift is a fully managed, petabyte-scale data warehouse service.
 
