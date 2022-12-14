@@ -17,3 +17,9 @@ This scenario shows how to create a VPC with a public and private subnet. The pu
 ![VPC with a public and private subnet](https://docs.aws.amazon.com/images/vpc/latest/userguide/images/case-2_updated.png)
 
 Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html)
+
+## Further explanations
+
+[AWS VPC Route Table](https://youtu.be/WfQwl3OmoUE)
+
+[Amazon Virtual Private Cloud (VPC) Routing Deep Dive](https://youtu.be/LJNNMTicv1c)

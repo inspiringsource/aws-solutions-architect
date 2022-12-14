@@ -31,22 +31,22 @@ To learn more, see: [Network ACLs](https://docs.aws.amazon.com/vpc/latest/usergu
 Your VPC has an implicit router, and you use route tables to control where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the routing for the subnet (subnet route table).
 
 To learn more, see: [Route tables for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html)           
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 Data at rest represents any data that you persist in non-volatile storage for any duration in your workload. This includes block storage, object storage, databases, archives, Internet of Things (IoT) devices, and any other storage medium where data is persisted. Protecting your data at rest reduces the risk of unauthorized access, when encryption and appropriate access controls are implemented.
 
 To learn more, see: [Protecting Data at Rest](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/protecting-data-at-rest.html)        
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 Data in transit is any data that is sent from one system to another. This includes communication between resources within your workload, and communication between other services and your end users. By providing the appropriate level of protection for your data in transit, you protect the confidentiality and integrity of your workload’s data.
 
 To learn more, see: [Protecting Data in Transit](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/protecting-data-in-transit.html)         
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 AWS recommends encryption as an additional access control to complement the identity, resource, and network-oriented access controls that were already described. AWS provides a number of features that customers can use to encrypt data and manage keys. All AWS services offer the ability to encrypt data at rest and in transit. AWS Key Management Service (AWS KMS) integrates with the majority of AWS services. With AWS KMS, customers can control the lifecycle of and permissions on the keys that are used to encrypt data on their behalf.
 
 To learn more, see: [Encrypting Data-at-Rest and -in-Transit](https://docs.aws.amazon.com/whitepapers/latest/logical-separation/encrypting-data-at-rest-and--in-transit.html)         
-[status: WIP (⏳) ]
+[reviewed &#9745; ]
 
 Data classification provides a way to categorize organizational data based on criticality and sensitivity to help you determine appropriate protection and retention controls.
 
