@@ -22,7 +22,7 @@ In short, when you submit code changes, your submissions are understood to be un
 
 ## Adding a resource
 
-Please make sure not to add links with affiliate codes. We want to keep the list as unbiased as possible.
+Please make sure to add English resources only. Also, no affiliate links. We want to keep the list as unbiased as possible. 
 
 1. Click on the `Edit this page` link at the bottom of the page.
 2. On the GitHub page, click on the `pencil` icon to edit the file.
