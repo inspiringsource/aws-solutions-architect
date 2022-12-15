@@ -25,7 +25,7 @@ These links are being provided as a convenience and for informational purposes o
 
 - https://d1.awsstatic.com/whitepapers/architecture/AWS-architecting-for-the-cloud.pdf
 
-### Playlists, covering SAA-C03 exam topics:       
+### YouTube Playlists covering SAA-C03 topics:       
 
 - [Digital Cloud Training - AWS Certified Solutions Architect Associate Exam Training (2022)](https://youtube.com/playlist?list=PLzde74P_a04d1roElg9DPWm5Bmavhi_97)
 

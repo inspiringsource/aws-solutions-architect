@@ -50,12 +50,13 @@ To learn more, see: [Encrypting Data-at-Rest and -in-Transit](https://docs.aws.a
 
 Data classification provides a way to categorize organizational data based on criticality and sensitivity to help you determine appropriate protection and retention controls.
 
-To learn more, see: [Data Classification](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/data-classification.html)      
+To learn more, see: [Data Classification](https://docs.aws.amazon.com/whitepapers/latest/data-classification/data-classification-overview.html)      
 [status: WIP (⏳) ]
 
 AWS KMS keys can be divided into two general types: AWS managed and customer managed. An AWS managed key is created when you choose to enable server-side encryption of an AWS resource under the AWS managed key for that service for the first time. The AWS managed key is unique to your AWS account and the Region where it’s used. An AWS managed key can only be used to protect resources within the specific AWS service for which it’s created. It does not provide the level of granular control that a customer managed key provides.
 
 Note: AWS KMS is replacing the term customer master key (CMK) with AWS KMS key and KMS key. The concept has not changed. Also, the AWS-managed CMK is now known as the AWS managed key, and the customer-managed CMK is now known as the customer managed key. The following documentation link uses the previous terminology.
 
-To learn more, see: [AWS-managed and Customer-managed CMKs](https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/aws-managed-and-customer-managed-cmks.html)           
-[status: WIP (⏳) ]
+To learn more, see: [AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html)           
+[What is AWS Key Management Service? | Amazon Web Services](https://youtu.be/8Z0wsE2HoSo)
+[reviewed &#9745;]
