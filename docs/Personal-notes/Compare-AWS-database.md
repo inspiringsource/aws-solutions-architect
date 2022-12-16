@@ -120,7 +120,6 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 
 - Amazon Anthena analyzes data in Amazon S3 using standard SQL.
 - Amazon Aurora is a fully managed relational database service (RDS).
-- Amazon DynamoDB is a fully managed NoSQL database service.
 - Amazon ElastiCache is a fully managed in-memory cache service.
 - Amazon Kinesis allows you to collect, process, and analyze real-time, streaming data.
 - Amazon RDS is a fully managed relational database service.
@@ -131,12 +130,12 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 
 > Note that, Amazon Aurora and RDS are fully managed relational database services. RDS is a single-instance database, while Aurora is a multi-instance database. Aurora is one of database engines to choose from when creating an RDS instance.
 
+- Amazon DynamoDB is a fully managed NoSQL database service.
+> Unlike Amazon RDS, DynamoDB is able to automatically scale to millions of concurrent users and requests while ensuring consistently low latency measured in single-digit milliseconds.
 - Amazon Redshift is a fully managed, petabyte-scale data warehouse service.
 
 ## Use cases illustrated
 The following diagram displays the common database types and their use cases:
-
-<p align="center">🚧 WIP 🚧</p>
 
 <div>
 <div align="center"><img src="https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1671188400/EMNMg2o2KnTiDN3O_VyxZg/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/R0HqezCB8zS9lJPh_eeau9cRT_EMP1sas.png" /></div>
