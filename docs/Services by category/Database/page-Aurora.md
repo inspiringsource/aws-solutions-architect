@@ -5,7 +5,7 @@ description: Lorem ipsum dolor sit amet - 2
 ---
 
 
-<div><p align="center">"AWS Aurora is a data warehouse service"</p></div>
+<div><h3 align="center">"AWS Aurora is a data warehouse service"</h3></div>
 
 Amazon Aurora is a fully managed, MySQL- and PostgreSQL-compatible, relational databas
 engine. It combines the speed and reliability of high-end commercial databases with th

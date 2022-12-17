@@ -134,14 +134,6 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 > Unlike Amazon RDS, DynamoDB is able to automatically scale to millions of concurrent users and requests while ensuring consistently low latency measured in single-digit milliseconds.
 - Amazon Redshift is a fully managed, petabyte-scale data warehouse service.
 
-## Use cases illustrated
-The following diagram displays the common database types and their use cases:
-
-<div>
-<div align="center"><img src="https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1671188400/EMNMg2o2KnTiDN3O_VyxZg/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/R0HqezCB8zS9lJPh_eeau9cRT_EMP1sas.png" /></div>
-<div><p align="center">Common database types and use cases | Source: <a href="https://aws.amazon.com/products/databases/">Link</a></p></div>
-</div>
-
 ### Amazon Aurora
 Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
 

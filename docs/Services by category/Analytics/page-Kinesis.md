@@ -18,11 +18,11 @@ Services include:
   </tr>
   <tr>
     <td><img width="700" src={require('@site/static/img/kinesis-data-stream.png').default} /></td>
-    <td>Kinesis Data Streams allows consumers to **READ** streaming data. And it gives you a plenty of options to do so. It is best suitable for use cases that require custom processing, choice of stream processing frameworks, and sub-second processing latency. Data is reliably stored in streams up to 7 days and distributed across 3 Availability Zones.</td>
+    <td>Kinesis Data Streams allows consumers to <b>READ</b> streaming data. And it gives you a plenty of options to do so. It is best suitable for use cases that require custom processing, choice of stream processing frameworks, and sub-second processing latency. Data is reliably stored in streams up to 7 days and distributed across 3 Availability Zones.</td>
   </tr>
     <tr>
     <td><img width="700" src={require('@site/static/img/kinesis-data-firehose.png').default} /></td>
-    <td>Kinesis Firehose is used to <b>LOAD</b> streaming data to a target destination (S3, Elasticsearch, Splunk, etc). You can also transform streaming data (by using Lambda) before loading it to destination. Data from failed attempts will be saved to S3. <a href="https://stackoverflow.com/a/64154811/11464527">source</a></td>
+    <td>Kinesis Firehose is used to <b>LOAD</b> streaming data to a target destination (S3, Elasticsearch, Splunk, etc). You can also transform streaming data (by using Lambda) before loading it to destination. Data from failed attempts will be saved to S3. <a href="https://stackoverflow.com/a/64154811/11464527">Source</a></td>
   </tr>
     <tr>
     <td><img width="700" src={require('@site/static/img/kinesis-data-analytics.png').default} /></td>
