@@ -14,3 +14,8 @@ Amazon S3 Glacier is a storage service for data archiving and long-term backup. 
 - Bulk – Bulk retrievals are the lowest-cost S3 Glacier retrieval option, which you can use to retrieve large amounts, even petabytes, of data inexpensively in a day. Bulk retrievals are typically completed within 5–12 hours.
 
 [Source](https://docs.aws.amazon.com/amazonglacier/latest/dev/downloading-an-archive-two-steps.html#api-downloading-an-archive-two-steps-retrieval-options)
+
+S3 Glacier Vault Lock helps you to easily deploy and enforce compliance controls for individual S3 Glacier vaults with a Vault Lock policy. You can specify controls such as "write once read many" (WORM) in a Vault Lock policy and lock the policy from future edits.
+
+> &#9888 Important After a Vault Lock policy is locked, the policy can no longer be changed or deleted.
+[Read more](https://docs.aws.amazon.com/amazonglacier/latest/dev/vault-lock.html)
