@@ -119,9 +119,9 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 ## Review
 
 - Amazon Anthena analyzes data in Amazon S3 using standard SQL.
-- Amazon Aurora is a fully managed relational database service (RDS).
 - Amazon ElastiCache is a fully managed in-memory cache service.
 - Amazon Kinesis allows you to collect, process, and analyze real-time, streaming data.
+- Amazon Aurora is a fully managed relational database service (RDS).
 - Amazon RDS is a fully managed relational database service.
 <div>
 <div align="center"><img src={require('@site/static/img/create-an-RDS-Instance.png').default} /></div>
@@ -133,9 +133,6 @@ Source: [Overview of Amazon Web Services: Database](https://docs.aws.amazon.com/
 - Amazon DynamoDB is a fully managed NoSQL database service.
 > Unlike Amazon RDS, DynamoDB is able to automatically scale to millions of concurrent users and requests while ensuring consistently low latency measured in single-digit milliseconds.
 - Amazon Redshift is a fully managed, petabyte-scale data warehouse service.
-
-### Amazon Aurora
-Amazon Aurora is a fully managed warehouse featuring high performance, while Athena is a query service to analyze data in Amazon S3 using standard SQL.
 
 ### What is a database?
 What is the difference between storage and database? Storage (e.g. S3) is a place to store data with an [object storage architecture](https://en.wikipedia.org/wiki/Object_storage), file storage and object storage while database uses other storage architectures that include unifying information about how data is arranged and / or related when stored and queried.
