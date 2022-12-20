@@ -22,6 +22,29 @@ Amazon Redshift is a fully managed, petabyte-scale data **warehouse** service in
 
 ![Typical data processing flow for Amazon Redshift](https://docs.aws.amazon.com/images/redshift/latest/gsg/images/architecture.png)
 
+## Good for
+
+- Data warehousing
+- Data lakes
+- Advanced analytics
+- Business intelligence (BI) tools and dashboards
+
+## Not good for
+
+- Data processing
+- Data storage
+- Data streaming
+
+## &#9888 Important
+
+Column-oriented databases are not good for data processing. They are good for data warehousing, data lakes, and advanced analytics.
+> Data is indexed using columnar indexing
+> Queries execute parallel across all nodes
+> You can query Amazon S3 without moving data to Amazon Redshift
+
+Amazon Redshift clusters support only availability zone (Single-AZ).
+
+By default, Amazon Redshift has excellent tools to back up your cluster via snapshot to Amazon S3. However, you can also use AWS Backup to back up your Amazon Redshift cluster. Source: [Building Multi-AZ or Multi-Region Amazon Redshift Clusters](https://aws.amazon.com/blogs/big-data/building-multi-az-or-multi-region-amazon-redshift-clusters/)
 
 ## Further readings / viewing:
 
