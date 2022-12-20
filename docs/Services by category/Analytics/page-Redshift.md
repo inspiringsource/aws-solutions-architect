@@ -38,9 +38,9 @@ Amazon Redshift is a fully managed, petabyte-scale data **warehouse** service in
 ## &#9888 Important
 
 Column-oriented databases are not good for data processing. They are good for data warehousing, data lakes, and advanced analytics.
-> Data is indexed using columnar indexing
-> Queries execute parallel across all nodes
-> You can query Amazon S3 without moving data to Amazon Redshift
+* Data is indexed using columnar indexing        
+* Queries execute parallel across all nodes        
+* You can query Amazon S3 without moving data to Amazon Redshift        
 
 Amazon Redshift clusters support only availability zone (Single-AZ).
 
