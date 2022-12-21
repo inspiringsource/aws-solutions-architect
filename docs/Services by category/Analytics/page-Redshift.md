@@ -42,7 +42,7 @@ Column-oriented databases are not good for data processing. They are good for da
 * Queries execute parallel across all nodes        
 * You can query Amazon S3 without moving data to Amazon Redshift        
 
-Amazon Redshift clusters support only availability zone (Single-AZ).
+Amazon Redshift run only on ONE availability zone (Single-AZ).
 
 By default, Amazon Redshift has excellent tools to back up your cluster via snapshot to Amazon S3. However, you can also use AWS Backup to back up your Amazon Redshift cluster. Source: [Building Multi-AZ or Multi-Region Amazon Redshift Clusters](https://aws.amazon.com/blogs/big-data/building-multi-az-or-multi-region-amazon-redshift-clusters/)
 
