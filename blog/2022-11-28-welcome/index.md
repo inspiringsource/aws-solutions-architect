@@ -17,6 +17,6 @@ To do list:
 
 - [x] Add MIT License and contribution guide
 - [ ] Add more content / review existing content
-- [ ] Reach a Production Ready state
+- [x] Reach a Production Ready state
 - [ ] Add a search bar (apply to the DocSearch program)
 

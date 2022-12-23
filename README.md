@@ -10,12 +10,12 @@ I am working on this website during my preparation for the exam. The goal is to 
 
 - [x] Development stage hosted on Netlify: https://aws-notes-taking.netlify.app/
 - [x] Early production stage hosted on AWS Amplify: TBA
-- [ ] Custom domain: WIP
+- [ ] Custom domain name
 
 
 # AWS Amplify solution
 
-The following is the simplest architecture to support the build stages in production using AWS Amplify everthing is basically managed automatically. From git push to the website deployment.
+The following is the simplest architecture to support the build stages in production using AWS Amplify everything is basically managed automatically. From git push to the website deployment.
 
 ![Architecture](./static/img/website-simple-architecture.png)
 
