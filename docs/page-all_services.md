@@ -80,7 +80,7 @@ Storage
 -	[Amazon Timestream](Services%20by%20category/Database/page-Timestream)
  
 ### Developer Tools: 
--	[AWS X-Ray](Services%20by%20category/Developer%20Tools/page-XRay)
+-	[AWS X-Ray](Services%20by%20category/Developer%20Tools/page-X-Ray)
  
 ### Front-End Web and Mobile: 
 -	[AWS Amplify](Services%20by%20category/Front-End%20Web%20and%20Mobile/page-Amplify)
