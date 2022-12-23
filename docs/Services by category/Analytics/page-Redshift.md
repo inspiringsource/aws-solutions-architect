@@ -6,12 +6,8 @@ description: Fastest, easiest, and most widely used cloud data warehouse
 <div align="center"><img src={require('@site/static/img/shift-away.png').default} /></div>
 </div>
 <br/>
-<div><h3 align="center">"Warehousing service that houses analytical data for use in complex queries, *BI reporting, and *ML."</h3></div>
-
-<p align="right">*Business Intelligence tools<br/> 
-*Redshift Machine Learning
-</p>
-
+<div><h3 align="center">"Warehousing service that houses analytical data for use in complex queries, Business Intelligence tools reporting, and Machine Learning."</h3></div>
+<br/>
 
 Amazon Redshift uses SQL to analyze structured and semi-structured data. It is designed to handle the most demanding workloads, including data warehouses, data lakes, and advanced analytics. 
 ## Cloud data warehouse
@@ -37,7 +33,7 @@ Amazon Redshift is a fully managed, petabyte-scale data **warehouse** service in
 
 ## &#9888 Important
 
-Column-oriented databases are not good for data processing. They are good for data warehousing, data lakes, and advanced analytics.
+Column-oriented databases are not good for data processing. They are good for data warehousing, data lakes, and advanced analytics. Thus, Amazon Redshift is the right choice.
 * Data is indexed using columnar indexing        
 * Queries execute parallel across all nodes        
 * You can query Amazon S3 without moving data to Amazon Redshift        
@@ -53,6 +49,11 @@ Amazon Redshift Spectrum is a feature of Amazon Redshift that enables you to run
 Redshift Spectrum uses the same SQL syntax and tools as Amazon Redshift, so you can use it seamlessly with your existing Redshift workloads. Redshift Spectrum also integrates with other AWS services, such as Amazon Athena, Amazon EMR, and Amazon Glue, so you can easily analyze and transform your data using the full range of AWS analytics and data processing capabilities.
 
 To use Redshift Spectrum, you define external tables that reference data stored in Amazon S3. When you run a query that includes these external tables, Redshift Spectrum automatically retrieves the relevant data from S3 and processes it in parallel with the rest of the query. This allows you to perform complex analytical queries on data that might not fit within the storage limits of your Amazon Redshift cluster, or to offload older, less frequently accessed data from your cluster to S3 to reduce storage costs.
+
+## Amazon Redshift Query Editor
+
+Amazon Redshift Query Editor is a web-based query tool that you can use to run SQL queries against your Amazon Redshift data warehouse. You can use Query Editor to run queries against your data warehouse, view query results, and save your queries for future use. You can also use Query Editor to run queries against Amazon Redshift Spectrum data.
+
 ## Further readings / viewing:
 
 [Amazon Redshift Database Developer Guide](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html)
