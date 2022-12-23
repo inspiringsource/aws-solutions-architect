@@ -5,7 +5,13 @@
 The unofficial documentation for AWS Certified Solutions Architect - Associate.
 I am working on this website during my prepartion for the exam.
 
-# Amazon CloudFront solution
+# AWS Amplify solution
+
+The following is the simplest architecture to support the build stages in production using AWS Amplify everthing is basically managed automatically. From git push to the website deployment.
+
+![Architecture](./static/img/website-simple-architecture.png)
+
+# Amazon S3 + CloudFront solution
 
 The following are the technologies to support the build stages in production.
 
