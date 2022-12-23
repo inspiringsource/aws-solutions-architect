@@ -3,7 +3,15 @@
 <p align="center">🚧 Under Construction 🚧</p>
 
 The unofficial documentation for AWS Certified Solutions Architect - Associate.
-I am working on this website during my prepartion for the exam.
+I am working on this website during my prepartion for the exam. The goal is to have a website that contains all the information in simple and easy to understand terms. I will be adding more content as I go through the exam preparation. As i keep adding more content, I will be updating the website to make it more user friendly. Adding search functionality and imporove the documents structure.       
+[edit]         
+The website has reached an early stage of production. 
+
+# Status:
+
+- [x] Development hosted on Netlify
+- [x] Early production hosted on AWS Amplify
+
 
 # AWS Amplify solution
 
