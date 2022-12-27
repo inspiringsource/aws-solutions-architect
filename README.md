@@ -9,20 +9,21 @@ I am working on this website during my preparation for the exam. The goal is to 
 # Status:
 
 - [x] Development stage hosted on Netlify: https://aws-notes-taking.netlify.app/
-- [x] Early production stage hosted on AWS Amplify: TBA
+- [x] Production stage hosted on AWS: TBA
 - [ ] Custom domain name
-- [ ] Production stage hosted on AWS S3 + CloudFront
 
+# AWS hosting solutions
 
-# AWS Amplify solution
+Reviewing the different hosting solutions for the website. The following are the technologies that can be used to support the final build stages in production.
+## AWS Amplify solution
 
-The following is the simplest architecture for supporting the build stages in production using AWS Amplify. Everything is automatically managed, from the git push to the website deployment.
+The following is the simplest architecture for supporting the build stages in production using AWS Amplify. A complete solution for quickly and easily building full-stack applications on AWS. AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery.
 
 ![Architecture](./static/img/website-simple-architecture.png)
 
-# Amazon S3 + CloudFront solution
+## Amazon S3 + CloudFront solution
 
-The following are the technologies that are used to support the final build stages in production:
+The following are the technologies that can be used to support the build stages in production:
 
 - GitHub
 - AWS CodePipeline
