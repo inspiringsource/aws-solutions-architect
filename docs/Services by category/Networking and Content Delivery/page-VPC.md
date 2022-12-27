@@ -28,6 +28,7 @@ Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide
 - Public Subnets: A subnet that is associated with a route table that has a route to an internet gateway or virtual private gateway.
 - Private Subnets: A subnet that is associated with a route table that doesn't have a route to an internet gateway or virtual private gateway.
 - [Nat Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html): is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
+>A NAT in a public subnet in your VPC enables instances in the private subnet to initiate outbound IPv4 traffic to the Internet, but prevents the instances from receiving inbound traffic initiated by someone on the Internet. 
 - Customer Gateway: A customer gateway is the AWS side of a VPN connection. It is a software appliance that is installed on your on-premises network. It is a virtual device that is managed by AWS. You can create a default customer gateway for your account. You can also create additional customer gateways and attach them to your VPN connections.
 - VPC Endpoints: A VPC endpoint enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 > There are three types of VPC endpoints: **Interface endpoints** uses an Elastic Network Interface (ENI) with Private IP that are powered by AWS PrivateLink (cost $), **Gateway endpoints** are free but only supports S3 and DynamoDB, and [**Gateway Load Balancer endpoints**](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/#:~:text=There%20are%20three%20types%20of,gateway%20endpoints%2C%20and%20interface%20endpoints.) intercept traffic and route it to a network or security service that you’ve configured using a Gateway Load Balancer. .
@@ -40,3 +41,18 @@ Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide
 [Amazon Virtual Private Cloud (VPC) Routing Deep Dive](https://youtu.be/LJNNMTicv1c)
 
 [AWS NAT Gateway and High-Availability NAT Instances with Auto-Scaling](https://www.globaldots.com/resources/blog/aws-nat-gateway-and-high-availability-nat-instances-with-auto-scaling/#:~:text=NAT%20Gateway%3A%20It%20is%20used,each%20subnet%20within%20the%20VPC.)
+
+
+## Logging IP traffic using VPC Flow Logs
+
+VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. Flow log data can be published to the following locations: Amazon CloudWatch Logs, Amazon S3, or Amazon Kinesis Data Firehose. After you create a flow log, you can retrieve and view the flow log records in the log group, bucket, or delivery stream that you configured.
+
+* Flow logs can help you with a number of tasks, such as:
+
+* Diagnosing overly restrictive security group rules
+
+* Monitoring the traffic that is reaching your instance
+
+* Determining the direction of the traffic to and from the network interfaces
+
+[VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
