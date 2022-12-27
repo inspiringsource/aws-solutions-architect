@@ -5,7 +5,7 @@ description: Exam weightings and test domains
 
 > The appendix provides a list of the services that are covered in the exam. At the moment its the easiest way to find and browse quickly through the content.
 
-> Find an error or have a suggestion? Please [open an issue](https://github.com/inspiringsource/aws-solutions-architect/issues/new). You can also edit the page directly on GitHub. Thanks!
+> Find an error or have a suggestion? We’re using Discussions as a place to connect. Join in: [Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions).
 
 
 ## Features
