@@ -25,13 +25,13 @@ This week, you will review relevant concepts and services for Designing High-per
 
 This week, you will get an overview of relevant concepts and services for Designing Secure Applications and Architectures (Domain 3) so you can get a benchmark of your knowledge in this area. For this domain, the question walkthroughs focus on designing secure access to AWS resources, designing secure application tiers, and selecting the appropriate data security options. This week features an optional hands-on exercise for Domain 3, where you compare two AWS database services: Amazon Relational Database Service (Amazon RDS) and Amazon DynamoDB. An accompanying video walkthrough shows one possible solution for addressing the requirements for the exercise.   
 
-[status: WIP (⏳) ]
+[status: reviewed &#9745; ]
 
 ### Week 4: Designing Cost-optimized Architectures (Domain 4)
 
 This week, you will review relevant concepts and services on Designing Cost-optimized Architectures (Domain 4) so you can get a benchmark of your knowledge in this area. The question walkthroughs for this domain cover identifying cost-effective storage solutions, selecting compute and database services, and designing cost-optimized network architectures. In this week’s optional exercise, you will launch a pre-written employee directory application on Amazon EC2. The application must be scalable and highly available. This week also includes a practice assessment that includes questions from all exam domains.    
 
-[status: WIP (⏳) ]
+[status: reviewed &#9745; ]
 
 ## Course link
 https://www.coursera.org/learn/aws-certified-solutions-architect-associate
