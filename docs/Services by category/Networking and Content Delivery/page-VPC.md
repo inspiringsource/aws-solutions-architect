@@ -1,9 +1,11 @@
 ---
 title: Amazon VPC
-description: Lorem ipsum dolor sit amet - 2
+description: Define and launch AWS resources in a logically isolated virtual network
 ---
 
-**What is Amazon VPC?**
+## Reviewing VPC and its components
+
+> This section covers a broad overview of VPC and its components. For more details, please refer to the [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html). 
 
 Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 
@@ -23,7 +25,7 @@ Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide
 - Virtual Private Gateway (VPN Gateway): A gateway that you attach to your VPC to enable communication between resources in your VPC and your on-premises network. You can create a default VPN gateway for your account. You can also create additional VPN gateways and attach them to your VPCs.
 - Routing Tables: A set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table. If you don't explicitly associate a subnet with any route table, the subnet is automatically associated with the main route table. Each route table contains a local route for the VPC CIDR block, which you can't delete. The local route doesn't use a target. For each subnet route table, we recommend that you add a route to the internet gateway or virtual private gateway for outbound traffic.
 - Network Access Control Lists (NACLs) - Stateless: A set of rules that are evaluated on traffic leaving a subnet to determine whether the traffic should be allowed to leave. Each subnet in your VPC must be associated with a network ACL. If you don't explicitly associate a subnet with any network ACL, the subnet is automatically associated with the default network ACL. Each network ACL contains a default rule that allows all outbound traffic. You can't delete this default rule. For each subnet network ACL, we recommend that you add an inbound rule that denies all traffic.
-> NACL is stateless, this means the rules are enforced in both directions. For example, if you have an inbound rule that allows traffic, there must be an outbound rule that allows traffic, or the traffic is blocked. If you have an outbound rule that allows traffic, there must be an inbound rule that allows traffic, or the traffic is blocked.
+> NACL is stateless, this means the rules are enforced in both directions. For example, if you have an inbound rule that allows traffic, there must be an outbound rule that allows traffic, or the traffic is blocked. 
 - Security Groups (SG) Stateful: A set of rules that are evaluated on traffic entering or leaving an instance to determine whether the traffic should be allowed to enter or leave. Each instance is automatically associated with a default security group. You can add rules to the default security group or create your own security groups. Each security group contains a default rule that allows all outbound traffic. You can't delete this default rule. For each security group, we recommend that you add an inbound rule that denies all traffic.
 - Public Subnets: A subnet that is associated with a route table that has a route to an internet gateway or virtual private gateway.
 - Private Subnets: A subnet that is associated with a route table that doesn't have a route to an internet gateway or virtual private gateway.
@@ -34,13 +36,31 @@ Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide
 > There are three types of VPC endpoints: **Interface endpoints** uses an Elastic Network Interface (ENI) with Private IP that are powered by AWS PrivateLink (cost $), **Gateway endpoints** are free but only supports S3 and DynamoDB, and [**Gateway Load Balancer endpoints**](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/#:~:text=There%20are%20three%20types%20of,gateway%20endpoints%2C%20and%20interface%20endpoints.) intercept traffic and route it to a network or security service that you’ve configured using a Gateway Load Balancer. .
 - VPC Peering: A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them privately. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. You cannot peer with a VPC in a different Region.
 
+## AWS NAT vs NACLs vs Security Groups
+
+| NAT | NACLs | Security Groups |
+| --- | --- | --- |
+| NAT is a network address translation service that enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a connection with those instances. | NACLs are stateless, this means the rules are enforced in both directions. For example, if you have an inbound rule that allows traffic, there must be an outbound rule that allows traffic, or the traffic is blocked. | Security groups are stateful, this means that if you allow inbound traffic, the outbound traffic is automatically allowed. |
+
+### Summary
+
+Amazon Web Services (AWS) Network Address Translation (NAT) and Network Access Control Lists (NACLs) are both tools that you can use to control inbound and outbound traffic to your Amazon Virtual Private Cloud (VPC).
+
+NAT is a network service that allows instances in a private subnet to access the internet or other resources in a public subnet, while hiding their private IP addresses. NAT can be used to allow instances to initiate outbound traffic, but not accept inbound traffic.
+
+NACLs are stateless firewalls that operate at the subnet level and allow you to specify inbound and outbound traffic rules for your VPC. NACLs are associated with one or more subnets and operate at the network layer of the OSI model. They allow you to allow or deny traffic to your VPC based on the rules you define.
+
+In summary, NAT is a network service that allows private instances to access the internet or other resources in a public subnet, while NACLs are firewalls that allow you to specify inbound and outbound traffic rules for your VPC.
+
+
 ## Further explanations
 
-[AWS VPC Route Table](https://youtu.be/WfQwl3OmoUE)
-
-[Amazon Virtual Private Cloud (VPC) Routing Deep Dive](https://youtu.be/LJNNMTicv1c)
-
-[AWS NAT Gateway and High-Availability NAT Instances with Auto-Scaling](https://www.globaldots.com/resources/blog/aws-nat-gateway-and-high-availability-nat-instances-with-auto-scaling/#:~:text=NAT%20Gateway%3A%20It%20is%20used,each%20subnet%20within%20the%20VPC.)
+* [Amazon NAT](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat.html)       
+* [Amazon NACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-acl.html)
+* [Egress-only internet gateway basics](https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html#egress-only-internet-gateway-basics)
+* [AWS VPC Route Table](https://youtu.be/WfQwl3OmoUE)
+* [Amazon Virtual Private Cloud (VPC) Routing Deep Dive](https://youtu.be/LJNNMTicv1c)
+* [AWS NAT Gateway and High-Availability NAT Instances with Auto-Scaling](https://www.globaldots.com/resources/blog/aws-nat-gateway-and-high-availability-nat-instances-with-auto-scaling/#:~:text=NAT%20Gateway%3A%20It%20is%20used,each%20subnet%20within%20the%20VPC.)
 
 
 ## Logging IP traffic using VPC Flow Logs
