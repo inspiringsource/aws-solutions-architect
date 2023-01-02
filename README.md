@@ -14,25 +14,43 @@ I am working on this website during my preparation for the exam. The goal is to 
 
 # AWS hosting solutions
 
-Reviewing the different hosting solutions for the website. The following are the technologies that can be used to support the final build stages in production.
+Reviewing AWS hosting solutions for hosting the website. The following are the technologies that can be used to support this build:
 ## AWS Amplify solution
 
-The following is the simplest architecture for supporting the build stages in production using AWS Amplify. A complete solution for quickly and easily building full-stack applications on AWS. AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery.
+AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery.
 
 ![Architecture](./static/img/website-simple-architecture.png)
 
-## Amazon S3 + CloudFront solution
 
-The following are the technologies that can be used to support the build stages in production:
+## Amazon S3 + CloudFront
+
+Using Amazon S3 and CloudFront to host a static website. The following are the technologies that can be used to support this build:
 
 - GitHub
-- AWS CodePipeline
 - AWS CodeStar
-- Amazon S3
+- AWS CodePipeline
+- AWS S3
 - Amazon CloudFront
+
 
 ![Architecture](./static/img/website-expected-architecture.png)
 
+## EC2 solution
+
+Deploying the React.js app on EC2. The following are the technologies that can be used to support this build:
+
+- GitHub
+- AWS CodePipeline
+- AWS CodeBuild
+- Amazon S3
+- AWS CodeDeploy
+- Amazon EC2
+- Amazon CloudFront
+
+
+![Architecture](./static/img/hosting-ec2-architecture.png)
+
+For application hosting you can also choose to use AWS Elastic Beanstalk, AWS OpsWorks, or AWS Elastic Container Service (ECS). For more information, see [AWS Application Hosting](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-hosting.html).
 ### Installation
 
 ```
