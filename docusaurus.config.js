@@ -1,14 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AWS Certified Solutions Architect - Associate',
-    tagline: 'A Practical Handbook',
-  url: 'https://aws-notes-taking.netlify.app/',
+  tagline: 'A Practical Handbook',
+  url: 'https://www.aws-practical-handbook.link/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -69,7 +69,7 @@ const config = {
             position: 'left',
             label: 'Handbook',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/inspiringsource/aws-solutions-architect',
             label: 'GitHub',
@@ -82,12 +82,12 @@ const config = {
 
         copyright: `© ${new Date().getFullYear()} Avi Bobrovsky, Built with Docusaurus.`,
       },
-      
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config

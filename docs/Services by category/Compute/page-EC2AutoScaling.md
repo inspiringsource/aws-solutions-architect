@@ -24,7 +24,7 @@ You can create as many Auto Scaling groups as you need. For example, you can cre
 
 To distribute traffic between the instances in your Auto Scaling groups, you can introduce a load balancer into your architecture. For more information, see Elastic Load Balancing.
 
-<a target="_self" href="https://aws-notes-taking.netlify.app/docs/Personal-notes/ASG">More about Auto Scaling group...</a>      
+<a target="_self" href="https://www.aws-practical-handbook.link/docs/Personal-notes/ASG">More about Auto Scaling group...</a>      
       
 ## Amazon EC2 Auto Scaling is serverless
 

@@ -8,9 +8,9 @@ I am working on this website during my preparation for the exam. The goal is to 
 
 # Status:
 
-- [x] Development stage hosted on Netlify: https://aws-notes-taking.netlify.app/
+- [x] Development stage hosted on Netlify
 - [x] Production stage hosted on AWS
-- [x] Custom domain name: https://www.aws-practical-handbook.link/
+- [x] Custom domain name
 
 # AWS hosting solutions
 

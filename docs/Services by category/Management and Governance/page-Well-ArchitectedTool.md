@@ -15,4 +15,4 @@ You can also use the Well-Architected APIs to extend AWS Well-Architected functi
 
 The AWS Well-Architected Framework is a methodology for assessing and improving the way you architect and operate your workloads on AWS. The AWS Well-Architected Tool helps you to:
 
-More detail about the AWS Well-Architected Framework in the <a target="_self" href="https://aws-notes-taking.netlify.app/docs/Personal-notes/Well-Architected%20Framework">Well-Architected Framework</a> section.
+More detail about the AWS Well-Architected Framework in the <a target="_self" href="https://www.aws-practical-handbook.link/docs/Personal-notes/Well-Architected%20Framework">Well-Architected Framework</a> section.
