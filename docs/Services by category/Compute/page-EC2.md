@@ -42,3 +42,23 @@ Amazon EC2 provides the following purchasing options to enable you to optimize y
 
 * Capacity Reservations – Reserve capacity for your EC2 instances in a specific Availability Zone for any duration.
 Source: [Click here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html)
+
+## Highly available web app using EC2, ELB and ASG
+
+<div>
+<div align="center"><img src={require('@site/static/img/Highly_Available_web-app.png').default} /></div>
+<div><p align="center">Elastic Load Balancing will re-route connections from unhealthy instances, it still needs new instances to route connections to. Thus, auto scaling will initiate these new instances, and your load balancing will attach connections to them</p></div>
+</div>
+
+
+## Further use cases:
+
+
+A Cloud Engineer has created an entirely new VPC to isolate development environments from production. When the new EC2 instance with the development environment was launched within the public subnet, visiting the public IP address does not appear to resolve. The EC2 instance has a public subnet which allows access on port 80. What configuration changes must be made to the VPC so that the EC2 instance is reachable over the internet?
+
+- [x] Add a route to the Internet Gateway
+- [ ] Add a route to the NAT Gateway
+- [ ] Add a route to the VPC Endpoint
+- [x] Update the main route table with route out to 0.0.0.0/0
+
+[Connect to the internet using an internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)

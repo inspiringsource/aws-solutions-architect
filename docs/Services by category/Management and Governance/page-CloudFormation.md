@@ -71,3 +71,20 @@ For example, if you want to map an Amazon Elastic Block Store volume to an Amazo
 }
 ```
 [Resouces](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html)
+
+What section of the document root must be included in an AWS CloudFormation template to include objects specified by the AWS Serverless Application Model (SAM) in addition to Resources?
+
+```json
+"Transform" : {
+    "Name" : "AWS::Serverless-2016-10-31",
+    "Parameters" : {
+      "CodeUri" : "s3://bucket/key",
+      "Function1" : {
+        "CodeUri" : "s3://bucket/key",
+        "Handler" : "index.handler",
+        "Runtime" : "nodejs4.3"
+      }
+    }
+  }
+```
+[Transform](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html)
