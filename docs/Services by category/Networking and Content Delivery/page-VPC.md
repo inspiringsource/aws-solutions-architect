@@ -52,6 +52,11 @@ NACLs are stateless firewalls that operate at the subnet level and allow you to 
 
 In summary, NAT is a network service that allows private instances to access the internet or other resources in a public subnet, while NACLs are firewalls that allow you to specify inbound and outbound traffic rules for your VPC.
 
+## NAT gateways
+
+NAT gateways are a highly available, managed service that makes it easy to connect to the internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). NAT gateways are horizontally scaled, redundant, and highly available VPC components. You can create a NAT gateway in a public subnet and configure your instances in private subnets to use the NAT gateway for internet access. NAT gateways are available in all public AWS Regions where Amazon VPC is available.
+
+Read more about [VPC NAT Gateways](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)
 
 ## Further explanations
 
@@ -76,3 +81,11 @@ VPC Flow Logs is a feature that enables you to capture information about the IP 
 * Determining the direction of the traffic to and from the network interfaces
 
 [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
+
+## Connect VPCs using VPC peering
+
+VPC peering enables you to route traffic between two VPCs using private IP addresses. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. You cannot peer with a VPC in a different Region.
+
+* VPC peering is a networking connection between two VPCs that enables you to route traffic between them privately. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. You cannot peer with a VPC in a different Region.
+
+[VPC Peering](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html)

@@ -1,6 +1,6 @@
 ---
 title: Amazon DynamoDB
-description: Lorem ipsum dolor sit amet - 2
+description: Fast, flexible NoSQL database service for single-digit millisecond performance at any scale
 ---
 
 Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database, so that you don't have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.
@@ -41,3 +41,23 @@ DynamoDB allows you to store JSON data within items.
 DynamoDB is NoSQL and is good at storing millions of records of flat data with simple sorting.
 
 [Managing indexes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.Indexes.html)
+
+### Partition key design and distributing workloads
+
+Using write sharding to distribute workloads evenly
+
+One way to better distribute writes across a partition key space in Amazon DynamoDB is to expand the space. You can do this in several different ways. You can add a random number to the partition key values to distribute the items among partitions. Or you can use a number that is calculated based on something that you're querying on. Regardless of the method you use, the goal is to distribute the writes across the partition key space. Read more about [partition key design](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-uniform-load.html).
+
+### Best practices for partition keys
+
+- Use a partition key that is highly distributed. A highly distributed partition key is one that has a large number of unique values. A highly distributed partition key is more likely to be evenly distributed across partitions than a partition key with a small number of unique values. A highly distributed partition key is also more likely to be evenly distributed across partitions than a partition key that is not distributed at all.
+
+- Use a partition key that is evenly distributed. A partition key is evenly distributed if the number of items with the same partition key value is roughly the same for all partition key values. A partition key that is not evenly distributed is more likely to cause uneven distribution of items across partitions than a partition key that is evenly distributed.
+
+- Use a partition key that is not too large. A partition key that is too large can cause performance issues. For example, a partition key that is too large can cause a partition to become too large. A partition that is too large can cause performance issues. For more information, see Partitioning and performance.
+
+- Use a partition key that is not too small. A partition key that is too small can cause performance issues. For example, a partition key that is too small can cause a partition to become too small. A partition that is too small can cause performance issues. For more information, see Partitioning and performance.
+
+- Use a partition key that is not too skewed. A partition key that is too skewed can cause performance issues. For example, a partition key that is too skewed can cause a partition to become too large. A partition that is too large can cause performance issues. For more information, see Partitioning and performance.
+
+- Use a partition key that is not too random. A partition key that is too random can cause performance issues. For example, a partition key that is too random can cause a partition to become too small. A partition that is too small can cause performance issues. For more information, see Partitioning and performance.
