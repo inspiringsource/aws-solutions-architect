@@ -1,7 +1,5 @@
 # About
 
-<p align="center">🚧 Under Construction 🚧</p>
-
 The unofficial documentation for AWS Certified Solutions Architect - Associate.      
 I am working on this website during my preparation for the exam. The goal is to have a website that contains all the information in simple and easy to understand terms. I will be adding more content as I go through the exam preparation. As I keep adding more content, I will be updating the website to make it more user friendly. Adding search functionality and improving the document’s structure.              
    
@@ -14,7 +12,9 @@ I am working on this website during my preparation for the exam. The goal is to 
 
 # AWS hosting solutions
 
-Reviewing AWS hosting solutions for hosting the website. The following are the technologies that can be used to support this build:
+Reviewing AWS hosting solutions, these are the essential services to host a website on AWS. Some of the services are not mentioned e.g. AWS Route 53, VPC, and IAM... We cover these services in the handbook in more detail.
+
+
 ## AWS Amplify solution
 
 AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery.
