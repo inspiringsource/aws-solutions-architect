@@ -18,7 +18,7 @@ The multi-tier application (three-tier, n-tier, and so forth.) has been a corner
 
 * Data tier (back-end layer): Storage media (for example, databases, object stores, caches and file systems) that hold the data relevant to the application.
 
-![Overview of a three-tier application.](https://en.wikipedia.org/wiki/Multitier_architecture#/media/File:Overview_of_a_three-tier_application_vectorVersion.svg)
+![Overview of a three-tier application.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/1024px-Overview_of_a_three-tier_application_vectorVersion.svg.png)
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Multitier_architecture)
 ## Single-tier architecture
 
