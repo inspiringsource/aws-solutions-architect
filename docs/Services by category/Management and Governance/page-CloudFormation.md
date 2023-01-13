@@ -72,6 +72,14 @@ For example, if you want to map an Amazon Elastic Block Store volume to an Amazo
 ```
 [Resouces](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html)
 
+## Questions examples
+
+As a Solution Architect, you need to build a CloudFormation template that will provision a highly available architecture. After the stack has been created you need to a convenient way to return the DNS hostname of the load balancer. Which template section would provide the DNS hostname after stack creation?        
+
+Answer: [Outputs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+
+
+
 What section of the document root must be included in an AWS CloudFormation template to include objects specified by the AWS Serverless Application Model (SAM) in addition to Resources?
 
 ```json
