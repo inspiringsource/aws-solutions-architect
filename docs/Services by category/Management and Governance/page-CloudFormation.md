@@ -96,3 +96,17 @@ What section of the document root must be included in an AWS CloudFormation temp
   }
 ```
 [Transform](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html)
+
+## Further Resources: 
+
+[AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US/introduction)
+
+[AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
+
+[Learn template basics](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html)
+
+## Youtube videos:
+
+[What is AWS Cloudformation? Pros and Cons?](https://youtu.be/0Sh9OySCyb4)
+
+[AWS CloudFormation Template Tutorial](https://youtu.be/_jqwVpO1w6A)
