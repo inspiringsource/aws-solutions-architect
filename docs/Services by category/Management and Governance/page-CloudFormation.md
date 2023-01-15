@@ -72,38 +72,29 @@ For example, if you want to map an Amazon Elastic Block Store volume to an Amazo
 ```
 [Resouces](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html)
 
-## Questions examples
+## ## CloudFormation top-level sections
 
-As a Solution Architect, you need to build a CloudFormation template that will provision a highly available architecture. After the stack has been created you need to a convenient way to return the DNS hostname of the load balancer. Which template section would provide the DNS hostname after stack creation?        
+* **Resources** section declares the AWS resources that you want to include in the stack. Let's add the EC2 resource to your stack.
 
-Answer: [Outputs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+* **Parameters** section declares the parameters that you want to use in your template. Parameters are values that you can specify when you create or update a stack. You can use parameters to customize your stack. For example, you can use parameters to specify the Amazon EC2 instance type, the Amazon EC2 key pair, or the number of Amazon EC2 instances to launch.
 
+* **Outputs** section declares the values that you want to return when you view the stack in the AWS CloudFormation console. For example, you can return the public IP address of an Amazon EC2 instance so that you can connect to it.
 
+* **Metadata** section declares additional information about the template. For example, you can use the Metadata section to specify the version of the template schema that you want to use.
 
-What section of the document root must be included in an AWS CloudFormation template to include objects specified by the AWS Serverless Application Model (SAM) in addition to Resources?
+* **Conditions** section declares conditions that you can use to customize your template. For example, you can use conditions to specify whether to create an Amazon EC2 instance in a specific Availability Zone.
 
-```json
-"Transform" : {
-    "Name" : "AWS::Serverless-2016-10-31",
-    "Parameters" : {
-      "CodeUri" : "s3://bucket/key",
-      "Function1" : {
-        "CodeUri" : "s3://bucket/key",
-        "Handler" : "index.handler",
-        "Runtime" : "nodejs4.3"
-      }
-    }
-  }
-```
-[Transform](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html)
+* **Mappings** section declares mappings that you can use to customize your template. For example, you can use mappings to specify the Amazon Machine Image (AMI) ID for a specific Amazon EC2 instance type in a specific AWS Region.
+
+* **Transform** section declares macros that you can use to customize your template. For example, you can use macros to specify a set of resources that you want to include in your stack.
+
+[CloudFormation top-level sections](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html#template-anatomy-sections)
 
 ## Further Resources: 
 
 [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US/introduction)
 
-[AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
-
-[Learn template basics](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html)
+[Template Walkthrough](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.Walkthrough.html)
 
 ## Youtube videos:
 
