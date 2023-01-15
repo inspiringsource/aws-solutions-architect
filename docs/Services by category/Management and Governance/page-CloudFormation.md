@@ -58,7 +58,7 @@ The following sample templates are provided for you to use as a starting point f
 
 ## CloudFormation top-level sections
 
-* **Resources** section declares the AWS resources that you want to include in the stack. Let's add the EC2 resource to your stack.
+* **Resources** section declares the AWS resources that you want to include in the stack. For example, you can declare an Amazon EC2 instance, an Amazon RDS DB instance, or an Amazon S3 bucket.
 
 * **Parameters** section declares the parameters that you want to use in your template. Parameters are values that you can specify when you create or update a stack. You can use parameters to customize your stack. For example, you can use parameters to specify the Amazon EC2 instance type, the Amazon EC2 key pair, or the number of Amazon EC2 instances to launch.
 
