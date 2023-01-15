@@ -56,23 +56,7 @@ The following sample templates are provided for you to use as a starting point f
 ```
 [template-anatomy-sections-explained](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html#template-anatomy-sections)
 
-## Further use cases:
-
-For example, if you want to map an Amazon Elastic Block Store volume to an Amazon EC2 instance, you reference the logical IDs to associate the block stores with the instance:
-
- ```json
-"Resources" : {
-  "MyEC2Instance" : {
-    "Type" : "AWS::EC2::Instance",
-    "Properties" : {
-      "ImageId" : "ami-0ff8a91507f77f867"
-    }
-  }
-}
-```
-[Resouces](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html)
-
-## ## CloudFormation top-level sections
+## CloudFormation top-level sections
 
 * **Resources** section declares the AWS resources that you want to include in the stack. Let's add the EC2 resource to your stack.
 
