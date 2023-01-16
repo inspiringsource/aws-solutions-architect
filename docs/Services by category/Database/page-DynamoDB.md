@@ -61,3 +61,7 @@ One way to better distribute writes across a partition key space in Amazon Dynam
 - Use a partition key that is not too skewed. A partition key that is too skewed can cause performance issues. For example, a partition key that is too skewed can cause a partition to become too large. A partition that is too large can cause performance issues. For more information, see Partitioning and performance.
 
 - Use a partition key that is not too random. A partition key that is too random can cause performance issues. For example, a partition key that is too random can cause a partition to become too small. A partition that is too small can cause performance issues. For more information, see Partitioning and performance.
+
+## Good to know:
+
+>DynamoDB Streams allows you to trigger a Lambda function when records are inserted into a table.
