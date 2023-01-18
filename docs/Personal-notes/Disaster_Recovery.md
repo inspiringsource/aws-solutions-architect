@@ -1,6 +1,5 @@
 ---
 title: Disaster Recovery
-
 ---
 
 ## RPO and RTO Explained
