@@ -13,4 +13,8 @@ QuickSight uses SPICE (super-fast, parallel, in-memory, calculation engine) to a
 </p></div>
 </div>
 
-Source:  [Amazon QuickSight](https://aws.amazon.com/quicksight/)
+## Reference
+
+[Amazon QuickSight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html)
+
+Youtube: [Introducing Amazon QuickSight](https://youtu.be/2V1bHRLRG-w)
