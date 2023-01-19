@@ -33,7 +33,9 @@ Amazon Redshift is a fully managed, petabyte-scale data **warehouse** service in
 
 ## &#9888 Important
 
-Column-oriented databases are not good for data processing. They are good for data warehousing, data lakes, and advanced analytics. Thus, Amazon Redshift is the right choice.
+Amazon Redshift is particularly useful for data warehousing, data lakes, and advanced analytics. It is not designed for data processing, data storage, or data streaming.
+
+Redshift is practical for use cases such as:
 * Data is indexed using columnar indexing        
 * Queries execute parallel across all nodes        
 * You can query Amazon S3 without moving data to Amazon Redshift        
