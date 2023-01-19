@@ -33,10 +33,10 @@ Disaster recovery strategies available to you within AWS can be broadly categori
 
 When choosing your strategy, and the AWS resources to implement it, keep in mind that within AWS, we commonly divide services into the data plane and the control plane. The data plane is responsible for delivering real-time service while control planes are used to configure the environment. For maximum resiliency, you should use only data plane operations as part of your failover operation. This is because the data planes typically have higher availability design goals than the control planes.
 
-### Active/Passive
+### Active/Passive configuration
 
 Active/Passive is a strategy where the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails.
-# Active/Active
+### Active/Active configuration
 
 Active/Active is a strategy where both the active and passive sites are active and serving traffic. This strategy is often used for high availability and load balancing. In this strategy, the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails. The secondary site is not used for failover until the primary site fails.
 
