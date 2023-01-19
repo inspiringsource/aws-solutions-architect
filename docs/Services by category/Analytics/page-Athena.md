@@ -18,10 +18,19 @@ Athena is out-of-the-box integrated with AWS Glue Data Catalog, allowing you to 
 <div><p align="center">Athena is out-of-the-box integrated with <a href="page-Glue">AWS Glue</a></p></div>
 </div>
 
-## Amazon Athena is serverless
+## Using workgroups to control query access and costs
 
-Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run
+Use workgroups to separate users, teams, applications, or workloads, to set limits on amount of data each query or the entire workgroup can process, and to track costs. Because workgroups act as resources, you can use resource-level identity-based policies to control access to a specific workgroup. You can also view query-related metrics in Amazon CloudWatch, control costs by configuring limits on the amount of data scanned, create thresholds, and trigger actions, such as Amazon SNS, when these thresholds are breached.
 
-Immediately start querying using the built-in query editor. You can also use AWS Glue to automatically crawl data sources to discover data and populate your Data Catalog. Results are displayed in the console within seconds, and automatically stored in S3.
+Workgroups integrate with IAM, CloudWatch, Amazon Simple Notification Service, and AWS Cost and Usage Reports as follows:
+
+* IAM identity-based policies with resource-level permissions control who can run queries in a workgroup.
+
+* Athena publishes the workgroup query metrics to CloudWatch, if you enable query metrics.
+
+* In Amazon SNS, you can create Amazon SNS topics that issue alarms to specified workgroup users when data usage controls for queries in a workgroup exceed your established thresholds.
+
+* When you tag a workgroup with a tag configured as a cost allocation tag in the Billing and Cost Management console, the costs associated with running queries in that workgroup appear in your Cost and Usage Reports with that cost allocation tag.
 
 
+(AWS service integrations with Athena)[https://docs.aws.amazon.com/athena/latest/ug/athena-aws-service-integrations.html]
