@@ -36,13 +36,18 @@ Source: [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide
 > There are three types of VPC endpoints: **Interface endpoints** uses an Elastic Network Interface (ENI) with Private IP that are powered by AWS PrivateLink (cost $), **Gateway endpoints** are free but only supports S3 and DynamoDB, and [**Gateway Load Balancer endpoints**](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/#:~:text=There%20are%20three%20types%20of,gateway%20endpoints%2C%20and%20interface%20endpoints.) intercept traffic and route it to a network or security service that you’ve configured using a Gateway Load Balancer. .
 - VPC Peering: A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them privately. Instances in either VPC can communicate with each other as if they are within the same network. You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. You cannot peer with a VPC in a different Region.
 
+## NAT gateways
+
+NAT gateways are a highly available, managed service that makes it easy to connect to the internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). NAT gateways are horizontally scaled, redundant, and highly available VPC components. You can create a NAT gateway in a public subnet and configure your instances in private subnets to use the NAT gateway for internet access. NAT gateways are available in all public AWS Regions where Amazon VPC is available.
+
+Read more about [VPC NAT Gateways](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)
+
 ## AWS NAT vs NACLs vs Security Groups
 
 | NAT | NACLs | Security Groups |
 | --- | --- | --- |
 | NAT is a network address translation service that enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a connection with those instances. | NACLs are stateless, this means the rules are enforced in both directions. For example, if you have an inbound rule that allows traffic, there must be an outbound rule that allows traffic, or the traffic is blocked. | Security groups are stateful, this means that if you allow inbound traffic, the outbound traffic is automatically allowed. |
-
-### Summary
+### Overview
 
 Amazon Web Services (AWS) Network Address Translation (NAT) and Network Access Control Lists (NACLs) are both tools that you can use to control inbound and outbound traffic to your Amazon Virtual Private Cloud (VPC).
 
@@ -52,18 +57,13 @@ NACLs are stateless firewalls that operate at the subnet level and allow you to 
 
 In summary, NAT is a network service that allows private instances to access the internet or other resources in a public subnet, while NACLs are firewalls that allow you to specify inbound and outbound traffic rules for your VPC.
 
-## NAT gateways
-
-NAT gateways are a highly available, managed service that makes it easy to connect to the internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). NAT gateways are horizontally scaled, redundant, and highly available VPC components. You can create a NAT gateway in a public subnet and configure your instances in private subnets to use the NAT gateway for internet access. NAT gateways are available in all public AWS Regions where Amazon VPC is available.
-
-Read more about [VPC NAT Gateways](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)
-
 ## Further explanations
 
 * [Amazon NAT](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat.html)       
 * [Amazon NACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-acl.html)
 * [Egress-only internet gateway basics](https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html#egress-only-internet-gateway-basics)
 * [AWS VPC Route Table](https://youtu.be/WfQwl3OmoUE)
+> A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed.
 * [Amazon Virtual Private Cloud (VPC) Routing Deep Dive](https://youtu.be/LJNNMTicv1c)
 * [AWS NAT Gateway and High-Availability NAT Instances with Auto-Scaling](https://www.globaldots.com/resources/blog/aws-nat-gateway-and-high-availability-nat-instances-with-auto-scaling/#:~:text=NAT%20Gateway%3A%20It%20is%20used,each%20subnet%20within%20the%20VPC.)
 
