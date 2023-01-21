@@ -3,9 +3,6 @@ title: Multi-tier Application
 
 ---
 
-<h3 align="center">WIP</h3>
-
-
 ## AWS single tier, two-tier, and three-tier architecture
 
 How AWS can be used to change the way you design multi-tier architectures and implement popular patterns such as microservices, mobile backends, and single-page applications. Architects and developers can use Amazon API Gateway, AWS Lambda, and other services to reduce the development and operations cycles required to create and manage multi-tiered applications.
