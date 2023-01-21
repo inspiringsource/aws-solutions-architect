@@ -17,7 +17,7 @@ Reviewing AWS hosting solutions, these are the essential services to host a webs
 
 ## AWS Amplify solution
 
-AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery. This setup already uses CloudFront by default. No need to configure it manually. Hence, the below architecture diagram does not include CloudFront.
+AWS Amplify provides a complete backend and frontend cloud development platform with powerful tools for app development, including continuous integration and delivery. With Amplify, you can easily create and manage a scalable, secure and high-performing web application. Additionally, Amplify uses CloudFront by default to distribute your content globally and improve the performance of your application. With CloudFront, you can also protect your application against DDoS attacks and reduce the load on your server. This setup eliminates the need to manually configure CloudFront, hence the below architecture diagram does not include CloudFront.
 
 ![Architecture](./static/img/website-simple-architecture.png)
 
