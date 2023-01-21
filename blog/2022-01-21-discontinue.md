@@ -16,5 +16,4 @@ We would like to thank you for your support and interest in our content. We look
 Please note that all future announcements will be made on the [GitHub Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions) forum.
 
 Best regards,
-
 Avi
