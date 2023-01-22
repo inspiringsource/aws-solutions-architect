@@ -3,7 +3,7 @@ title: Domains
 description: Exam weightings and test domains
 ---
 
-> **Note:** This website is a work in progress. We will also be adding more features to the website to make it more user-friendly.
+> **Note:** To get started, navigate to the 'Appendix' page located at the bottom left Side Navbar, where you can find links to all the services, which will redirect you to their appropriate pages. Search feature is being worked on and will be available soon.
 
 We’re using Discussions as a place to connect: [Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions) is a place to ask questions, share ideas, and connect with other members. We encourage you to join the conversation and share your thoughts.
 
