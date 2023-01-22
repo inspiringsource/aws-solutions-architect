@@ -3,9 +3,9 @@ title: Domains
 description: Exam weightings and test domains
 ---
 
-> **Note:** This page is a work in progress. Please check back later for updates.
+> **Note:** This website is a work in progress. We will also be adding more features to the website to make it more user-friendly.
 
-We’re using Discussions as a place to connect: [Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions). Would love to hear your thoughts and feedback.
+We’re using Discussions as a place to connect: [Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions). Discussions is a place to ask questions, share ideas, and connect with other members of the community. We encourage you to join the conversation and share your thoughts. Even in the early stages, we look forward for the first discussions to start.
 
 
 ## Features
