@@ -25,7 +25,7 @@ Skills in:
 *	Designing a security strategy for multiple AWS accounts (for example, AWS Control Tower, service control policies [SCPs]) 
 *	Determining the appropriate use of resource policies for AWS services * 	Determining when to federate a directory service with IAM roles 
  
-### B. Design secure workloads and applications. 
+### Task Statement 1. Design secure workloads and applications. 
  
 Knowledge of: 
 *	Application configuration and credentials security 
@@ -42,7 +42,7 @@ Skills in:
 *	Securing external network connections to and from the AWS Cloud (for example, VPN, AWS Direct Connect) 
  
  	 
-### C. Determine appropriate data security controls. 
+### Task Statement 2. Determine appropriate data security controls. 
  
 Knowledge of: 
 *	Data access and governance 
@@ -58,3 +58,20 @@ Skills in:
 *	Implementing data backups and replications 
 *	Implementing policies for data access, lifecycle, and protection 
 *	Rotating encryption keys and renewing certificates 
+
+### Task Statement 3. Design secure network architectures.
+
+Knowledge of:
+*	Data access and governance
+*	Data recovery
+*	Data retention and classification
+*	Encryption and appropriate key management
+
+Skills in:
+*	Aligning AWS technologies to meet compliance requirements
+*	Encrypting data at rest (for example, AWS Key Management Service [AWS KMS])
+*	Encrypting data in transit (for example, AWS Certificate Manager [ACM] using TLS)
+*	Implementing access policies for encryption keys
+*	Implementing data backups and replications
+*	Implementing policies for data access, lifecycle, and protection
+*	Rotating encryption keys and renewing certificates

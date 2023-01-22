@@ -9,17 +9,19 @@ AWS Certified Solutions Architect - Associate (SAA-C03)
 
 ## Domain 3: Design High-Performance Architectures
 
-### A. Determine high-performing and/or scalable storage solutions. 
+### Task Statement 1. Determine high-performing and/or scalable storage solutions. 
  
 Knowledge of: 
 *   Hybrid storage solutions to meet business requirements  
 *   Storage services with appropriate use cases (for example, Amazon S3, Amazon Elastic File System [Amazon EFS], Amazon Elastic Block Store [Amazon EBS]) 
 *   Storage types with associated characteristics (for example, object, file, block) 
+
 Skills in: 
 *   Determining storage services and configurations that meet performance demands 
 *   Determining storage services that can scale to accommodate future needs 
+
  
-### B. Design high-performing and elastic compute solutions. 
+### Task Statement 2. Design high-performing and elastic compute solutions. 
  
 Knowledge of: 
 *   AWS compute services with appropriate use cases (for example, AWS Batch, Amazon EMR, Fargate)  
@@ -35,7 +37,7 @@ Skills in:
 *   Selecting the appropriate compute options and features (for example, EC2 instance types) to meet business requirements 
 *   Selecting the appropriate resource type and size (for example, the amount of Lambda memory) to meet business requirements 
  
-### C. Determine high-performing database solutions. 
+### Task Statement 3. Determine high-performing database solutions. 
  
 Knowledge of: 
 *   AWS global infrastructure (for example, Availability Zones, AWS Regions) 
@@ -53,7 +55,7 @@ Skills in:
 *   Determining an appropriate database engine (for example, MySQL compared with PostgreSQL) 
 *   Determining an appropriate database type (for example, Amazon Aurora, Amazon DynamoDB) 
 *   Integrating caching to meet business requirements 
-### D. Determine high-performing and/or scalable network architectures. 
+### Task Statement 4. Determine high-performing and/or scalable network architectures. 
  
 Knowledge of: 
 *   Edge networking services with appropriate use cases (for example, Amazon CloudFront, AWS Global Accelerator)  
@@ -67,7 +69,7 @@ Skills in:
 *   Determining the appropriate placement of resources to meet business requirements 
 *   Selecting the appropriate load balancing strategy  
  
-### E. Determine high-performing data ingestion and transformation solutions. 
+### Task Statement 5. Determine high-performing data ingestion and transformation solutions. 
  
 Knowledge of: 
 *   Data analytics and visualization services with appropriate use cases (for example, Amazon Athena, AWS Lake Formation, Amazon QuickSight) 

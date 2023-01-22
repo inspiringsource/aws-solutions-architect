@@ -9,7 +9,7 @@ AWS Certified Solutions Architect - Associate (SAA-C03)
 
 ## Domain 4: Design Cost-Optimized Architectures 
 
-### A. Design cost-optimized storage solutions. 
+### Task Statement 1. Design cost-optimized storage solutions. 
  
 Knowledge of: 
 *   Access options (for example, an S3 bucket with Requester Pays object storage) 
@@ -36,7 +36,7 @@ Skills in:
 *   Selecting the correct data lifecycle for storage 
 *   Selecting the most cost-effective storage service for a workload 
   	 
-### B. Design cost-optimized compute solutions. 
+### Task Statement 2. Design cost-optimized compute solutions. 
  
 Knowledge of: 
 *   AWS cost management service features (for example, cost allocation tags, multi-account billing) 
@@ -57,7 +57,7 @@ Skills in:
 *   Selecting the appropriate instance family for a workload 
 *   Selecting the appropriate instance size for a workload 
  
-### C. Design cost-optimized database solutions. 
+### Task Statement 3. Design cost-optimized database solutions. 
  
 Knowledge of: 
 *   AWS cost management service features (for example, cost allocation tags, multi-account billing) 
@@ -76,7 +76,7 @@ Skills in:
 *   Determining cost-effective AWS database types (for example, time series format, columnar format) 
 *   Migrating database schemas and data to different locations and/or different database engines 
  
-### D. Design cost-optimized network architectures. 
+### Task Statement 4. Design cost-optimized network architectures. 
  
 Knowledge of: 
 *   AWS cost management service features (for example, cost allocation tags, multi-account billing) 
@@ -86,6 +86,7 @@ Knowledge of:
 *   Network connectivity (for example, private lines, dedicated lines, VPNs) 
 *   Network routing, topology, and peering (for example, AWS Transit Gateway, VPC peering) 
 *   Network services with appropriate use cases (for example, DNS) 
+
 Skills in: 
 *   Configuring appropriate NAT gateway types for a network (for example, a single shared NAT gateway compared with NAT gateways for each Availability Zone) 
 *   Configuring appropriate network connections (for example, Direct Connect compared with VPN compared with internet) 

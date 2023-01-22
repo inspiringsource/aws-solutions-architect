@@ -8,7 +8,7 @@ description: Design Resilient Architectures
 AWS Certified Solutions Architect - Associate (SAA-C03)
 
 ## Domain 2: Design Resilient Architectures  
-### A. Design scalable and loosely coupled architectures. 
+### Task Statement 1. Design scalable and loosely coupled architectures. 
  
 Knowledge of: 
 *	API creation and management (for example, Amazon API Gateway, REST API) 
@@ -37,7 +37,7 @@ Skills in:
 *	Recommending appropriate compute, storage, networking, and database technologies based on requirements 
 *	Using purpose-built AWS services for workloads 
  
-### B. Design highly available and/or fault-tolerant architectures. 
+### Task Statement 2. Design highly available and/or fault-tolerant architectures. 
  
 Knowledge of: 
 *	AWS global infrastructure (for example, Availability Zones, AWS Regions, Amazon Route 53) 

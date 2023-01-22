@@ -1,7 +1,5 @@
 # About
 
->Please note that this content was developed during the transition period between the SAA-C02 and SAA-C03 versions of the AWS Certified Solutions Architect - Associate exam. As a result, some of the domains and task statements may have been reordered or renumbered. However, please be assured that the majority of the content remains relevant to the current exam. For more information, see the [AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
-
 Welcome to our unofficial documentation for the AWS Certified Solutions Architect - Associate exam. This website is a work in progress, created to help others prepare for the exam in a simple and easy-to-understand manner. As I work through the material and gain a deeper understanding, I will be continuously adding new content and updating existing content to make it more comprehensive and user-friendly. The website will be updated regularly with new features like search functionality, improved navigation, and a better document structure. Thank you for visiting and please check back for updates.            
 
 
