@@ -23,7 +23,7 @@ There are different requirements for backup and recovery depending on the type o
 * Neptune snapshots
 * DocumentDB
 
-These are are all examples of data that can be backed up using AWS Backup and point-in-time copies of the data can be restored to the original service or to a different service.
+These are all examples of databases or/and storage solutions services that can be backed up using AWS Backup with a point-in-time copy of the data that can be restored to the original service or to a different service.
 
 Regarding the backup strategies, there are two main strategies:
 
