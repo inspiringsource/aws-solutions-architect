@@ -3,7 +3,7 @@ title: Domains
 description: Exam weightings and test domains
 ---
 
-> :information_source: To get started, navigate to the 'Appendix' page located in the left side navigation bar at the bottom, where you can find links to all the services, which will redirect you to their appropriate pages. Search feature is being worked on and will be available soon.
+> :information_source: Search feature is being worked on and will be available soon. Meanwhile, navigate to the 'Appendix' page located in the left side navbar at the bottom, where you can find links to all the services, which will redirect you to their appropriate pages.
 
 We’re using Discussions as a place to connect: [Discussions](https://github.com/inspiringsource/aws-solutions-architect/discussions) is a place to ask questions, share ideas, and connect with other members. We encourage you to join the conversation and share your thoughts.
 
