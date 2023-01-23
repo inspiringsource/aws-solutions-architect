@@ -14,14 +14,255 @@ AWS Backup is a fully managed backup service that makes it easy to centralize an
 AWS Backup is a fully managed service that makes it easy to centralize and automate the backup of data across AWS services. It enables you to define backup policies and schedules for your resources, and recover them when needed.
 
 There are different requirements for backup and recovery depending on the type of data and the specific service you are using. Here are a few examples:
-* EBS snapshots
-* DynamoDB backups
-* RDS snapshots
-* Aurora snapshots
-* EFS backups
-* Amazon Redshift snapshots
-* Neptune snapshots
-* DocumentDB
+
+<div class="table-contents"><table id="w129aab5c11b5"><thead>
+          <tr>
+            <th>AWS Backup supports</th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/cross-region-backup.html">Cross-Region
+                backup</a></th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/create-cross-account-backup.html">Cross-account
+                backup</a></th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-audit-manager.html">AWS Backup Audit
+                Manager</a></th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/about-backup-plans.html">Incremental
+              backup</a></th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/point-in-time-recovery.html">Continuous backup and
+                point-in-time restore (PITR)</a></th>
+            <th><a href="#full-management">Full AWS Backup management</a></th>
+            <th><a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html#plan-options-and-configuration"> Lifecycle to cold storage</a></th>
+            <th>Item-level restore‡</th>
+          </tr>
+        </thead>
+          <tbody><tr>
+            <td>EC2</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>S3</td>
+            <td>✓^</td>
+            <td>✓^</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>EBS</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>RDS</td>
+            <td>✓*</td>
+            <td>✓*</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Aurora</td>
+            <td>✓*</td>
+            <td>✓*</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>EFS</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>FSx for Lustre</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FSx for Windows File Server</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FSx for ONTAP</td>
+            <td></td>
+            <td></td>
+            <td>✓†</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FSx for OpenZFS</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Storage Gateway</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>DocumentDB</td>
+            <td>✓*</td>
+            <td>✓*</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Neptune</td>
+            <td>✓*</td>
+            <td>✓*</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Amazon Redshift</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Amazon Timestream</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Windows VSS</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Virtual machines</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>AWS CloudFormation</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>DynamoDB without <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/advanced-ddb-backup.html">AWS Backup advanced
+                features</a></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>DynamoDB with <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/advanced-ddb-backup.html">AWS Backup advanced
+                features</a></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+          </tr>
+        </tbody></table>
+</div>
+
+> ^ Destination copies from S3 buckets and RDS databases with PITR are not Point-in-Time restorable (PITR).     
+> \* RDS, Aurora, DocumentDB, and Neptune do not support a single copy action that performs both cross-Region AND cross-account backup. You can choose one or the other. You can also use a AWS Lambda script to listen for the completion of your first copy, perform your second copy, then delete the first copy.       
+>† AWS Backup Audit Manager supports this resource across all controls except cross-account copy and cross-Region copy.       
+
+Source: [What is AWS Backup?](https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html)
 
 These are all examples of databases or/and storage solutions services that can be backed up using AWS Backup with a point-in-time copy of the data that can be restored to the original service or to a different service.
 
