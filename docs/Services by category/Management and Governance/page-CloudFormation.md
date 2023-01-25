@@ -73,7 +73,19 @@ Resource properties are additional options that you can specify for a resource. 
 }  
   ```
 
-* **Parameters** *(optional)* section declares the parameters that you want to use in your template. Parameters are values that you can specify when you create or update a stack. You can use parameters to customize your stack. For example, you can use parameters to specify the Amazon EC2 instance type, the Amazon EC2 key pair, or the number of Amazon EC2 instances to launch.
+* **Parameters** *(optional)* section declares the parameters that you want to use in your template. Parameters are values that you can specify when you create or update a stack. You can use parameters to customize your stack. For example, you can use parameters to specify the Amazon EC2 instance type, the Amazon EC2 key pair, or the number of Amazon EC2 instances to launch. Another example is to use parameters to configure the number of connections that an Amazon RDS DB instance can handle.
+
+```json
+"Parameters" : {
+  "InstanceTypeParameter" : {
+    "Type" : "String",
+    "Default" : "t2.micro",
+    "AllowedValues" : ["t2.micro", "m1.small", "m1.large"],
+    "Description" : "Enter t2.micro, m1.small, or m1.large. Default is t2.micro."
+
+  }
+}
+```
 
 * **Outputs** *(optional)* section declares the values that you want to return when you view the stack in the AWS CloudFormation console. For example, you can return the public IP address of an Amazon EC2 instance so that you can connect to it. 
 
@@ -98,6 +110,8 @@ In the following example, the output named BackupLoadBalancerDNSName returns the
 * **Conditions** *(optional)* section declares conditions that you can use to customize your template. For example, you can use conditions to specify whether to create an Amazon EC2 instance in a specific Availability Zone.
 
 * **Mappings** *(optional)* section declares mappings that you can use to customize your template. For example, you can use mappings to specify the Amazon Machine Image (AMI) ID for a specific Amazon EC2 instance type in a specific AWS Region.
+
+* **Transform** *(optional)* for serverless applications (also referred to as Lambda-based applications), specifies the version of the AWS Serverless Application Model **(AWS SAM)** to use. When you specify a transform, you can use AWS SAM syntax to declare resources in your template.
 
 The following example shows a Mappings section with a map RegionMap, which contains five keys that map to name-value pairs containing single string values. The keys are region names. Each name-value pair is the AMI ID for the HVM64 AMI in the region represented by the key.
 
