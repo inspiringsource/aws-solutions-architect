@@ -144,16 +144,6 @@ SQL and NoSQL are two different types of databases. SQL, which stands for Struct
 A graph database is a type of database that uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. This makes it easier to represent and query relationships between data, as compared to more traditional relational databases, which use tables and rows to represent data. Graph databases are often used for applications that require complex queries or highly connected data, such as social networks or recommendation engines. [Source](https://www.ibm.com/cloud/learn/graph-databases)
 AWS solutions for graph databases include **Amazon Neptune** which is a fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets.
 
-## AWS offers several different storage types
-
-*this secition should be included in the storage section*
-Object storage is a type of data storage that is designed for storing and retrieving unstructured data, such as photos, videos, and documents. AWS's object storage service is called Amazon S3 (Simple Storage Service). It allows users to store and retrieve any amount of data, at any time, from anywhere on the web.
-
-Block storage is a type of data storage that is designed for use with traditional, file-based applications. AWS's block storage service is called Amazon Elastic Block Store (EBS). It allows users to create and attach virtual storage volumes to Amazon Elastic Compute Cloud (EC2) instances. These volumes can be used as raw block devices, and can be formatted with a file system of the user's choice.
-
-File storage is a type of data storage that is designed for use with file-based applications, such as network-attached storage (NAS) and distributed file systems. AWS's file storage service is called Amazon Elastic File System (EFS). It allows users to create and mount file systems that can be accessed by multiple Amazon EC2 instances at the same time.
-
-
 ### should be able to answer the following questions:
 
 - What is a database?
