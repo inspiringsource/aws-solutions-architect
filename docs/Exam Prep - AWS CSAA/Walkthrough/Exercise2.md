@@ -8,31 +8,31 @@ This exercise will walk you through the process of creating a VPC, subnets, inte
 1. Log in to the AWS Management Console.
 2. Go to the VPC Dashboard.
 3. Click on "Create VPC" button.
-4. Provide a name for the VPC, in this case "practice-vpc", and provide a CIDR block, in this case ```10.0.0.0/16```.
+4. Provide a name for the VPC, in this case `practice-vpc`, and provide a CIDR block, in this case ```10.0.0.0/16```.
 5. Click on "Create" button.
 ### Task 2: Creating the internet gateway
 
 1. From the VPC Dashboard, click on "Internet Gateways" in the left sidebar.
 2. Click on "Create Internet Gateway" button.
-3. Provide a name for the internet gateway, in this case "practice-igw".
+3. Provide a name for the internet gateway, in this case `practice-igw`.
 4. Click on "Create" button.
 5. Select the internet gateway and click on "Actions" button.
 6. Select "Attach to VPC" option.
-7. Select "practice-vpc" from the list and click on "Attach" button.
+7. Select `practice-vpc` from the list and click on "Attach" button.
 ### Task 3: Creating subnets
 
 1. From the VPC Dashboard, click on "Subnets" in the left sidebar.
 2. Click on "Create Subnet" button.
-3. Provide a name for the subnet, in this case "Public 1" and select the VPC "practice-vpc" and the Availability Zone "AZ-a".
+3. Provide a name for the subnet, in this case `Public 1` and select the VPC `practice-vpc` and the Availability Zone "AZ-a".
 4. Provide a IPv4 CIDR block, in this case ```10.0.1.0/24``` .
 5. Click on "Add new subnet" button.
-5. Repeat steps 2-4 for the remaining three subnets, providing the names "Private 1", "Public 2", "Private 2", and selecting the appropriate IPv4 CIDR block for each. For example the IPv4 CIDR blocks could be ``````10.0.2.0/24```, ```10.0.3.0/24``` and ```10.0.4.0/24``` respectively.
+5. Repeat steps 2-4 for the remaining three subnets, providing the names `Private 1`, `Public 2`, `Private 2`, and selecting the appropriate IPv4 CIDR block for each. For example the IPv4 CIDR blocks could be ``````10.0.2.0/24```, ```10.0.3.0/24``` and ```10.0.4.0/24``` respectively.
 ### Task 4: Configuring the route table
 
 1. From the VPC Dashboard, click on "Route Tables" in the left sidebar.
 2. Click on "Create Route Table" button.
 3. Provide a name for the route table, in this case "practice-rtb".
-4. Select the VPC "practice-vpc" and click on "Create" button.
+4. Select the VPC `practice-vpc` and click on "Create" button.
 5. Select the route table and click on "Actions" button.
 6. Select "Edit Routes" option.
 7. Click on "Add route" button.
@@ -40,7 +40,7 @@ This exercise will walk you through the process of creating a VPC, subnets, inte
 9. Click on "Save" button.
 10. Select the route table and click on "Actions" button.
 11. Select "Associate subnet" option.
-12. Select "Public 1" and "Public 2" subnets and click on "Associate" button.
+12. Select `Public 1` and `Public 2` subnets and click on "Associate" button.
 ### Task 5: Creating the EC2 instance and security group
 
 1. From the EC2 Dashboard, click on "Launch Instance" button.
@@ -51,7 +51,7 @@ This exercise will walk you through the process of creating a VPC, subnets, inte
 6. Click on "Add storage" and adjust as desired, then click on "Add Tag" and provide a name for the instance, in this case "new-instance".
 7. Click on "Configure Security Group" button.
 8. Click on "Create a new security group" button.
-9. Provide a name for the security group, in this case "practice-sg" and add the rule "HTTP/80".
+9. Provide a name for the security group, in this case `practice-sg` and add the rule "HTTP/80".
 10. Scroll donw and add User Data to install Apache and PHP.
 ```bash
 #!/bin/bash
