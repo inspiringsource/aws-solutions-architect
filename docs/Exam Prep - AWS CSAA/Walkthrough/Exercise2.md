@@ -3,14 +3,14 @@ title: "Exercise 2: Creating a Network"
 ---
 Exercise 2: Creating a Network will take you through the process of creating a VPC, subnets, internet gateway, route table, and security group. You will also create an EC2 instance and attach it to the VPC. The EC2 instance will be configured to run Apache and PHP. The exercise was taken from [Week 2 Exercise](https://www.coursera.org/learn/aws-certified-solutions-architect-associate/home/week/2) course.
 
-### Task 1: Creating the VPC
+## Task 1: Creating the VPC
 
 1. Log in to the AWS Management Console.
 2. Go to the VPC Dashboard.
 3. Click on "Create VPC" button.
 4. Provide a name for the VPC, in this case `practice-vpc`, and provide a CIDR block, in this case ```10.0.0.0/16```.
 5. Click on "Create" button.
-### Task 2: Creating the internet gateway
+## Task 2: Creating the internet gateway
 
 1. From the VPC Dashboard, click on "Internet Gateways" in the left sidebar.
 2. Click on "Create Internet Gateway" button.
@@ -19,7 +19,7 @@ Exercise 2: Creating a Network will take you through the process of creating a V
 5. Select the internet gateway and click on "Actions" button.
 6. Select "Attach to VPC" option.
 7. Select `practice-vpc` from the list and click on "Attach" button.
-### Task 3: Creating subnets
+## Task 3: Creating subnets
 
 1. From the VPC Dashboard, click on "Subnets" in the left sidebar.
 2. Click on "Create Subnet" button.
@@ -27,7 +27,7 @@ Exercise 2: Creating a Network will take you through the process of creating a V
 4. Provide a IPv4 CIDR block, in this case ```10.0.1.0/24``` .
 5. Click on "Add new subnet" button.
 5. Repeat steps 2-4 for the remaining three subnets, providing the names `Private 1`, `Public 2`, `Private 2`, and selecting the appropriate IPv4 CIDR block for each. For example the IPv4 CIDR blocks could be ``````10.0.2.0/24```, ```10.0.3.0/24``` and ```10.0.4.0/24``` respectively.
-### Task 4: Configuring the route table
+## Task 4: Configuring the route table
 
 1. From the VPC Dashboard, click on "Route Tables" in the left sidebar.
 2. Click on "Create Route Table" button.
@@ -41,7 +41,7 @@ Exercise 2: Creating a Network will take you through the process of creating a V
 10. Select the route table and click on "Actions" button.
 11. Select "Associate subnet" option.
 12. Select `Public 1` and `Public 2` subnets and click on "Associate" button.
-### Task 5: Creating the EC2 instance and security group
+## Task 5: Creating the EC2 instance and security group
 
 1. From the EC2 Dashboard, click on "Launch Instance" button.
 2. Select "Amazon Linux 2 AMI (HVM), SSD Volume Type, x86" as the AMI.
