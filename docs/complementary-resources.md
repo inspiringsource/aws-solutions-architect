@@ -37,7 +37,7 @@ These links are being provided as a convenience and for informational purposes o
 
 - [DataEng Uncomplicated](https://www.youtube.com/@DataEngUncomplicated/videos)
 
-- [Study with Flashcards](https://app.studysmarter.de/studysets/10764415?ref=De9XSq6p0Sv0feKLejyFXJISMZSQkuw9)
+- [Study with Flashcards](https://app.studysmarter.de/studysets/12509886?ref=De9XSq6p0Sv0feKLejyFXJISMZSQkuw9)
 
 - [Linux Academy - AWS Concepts (2017)](https://www.youtube.com/playlist?list=PLv2a_5pNAko2Jl4Ks7V428ttvy-Fj4NKU)
 
