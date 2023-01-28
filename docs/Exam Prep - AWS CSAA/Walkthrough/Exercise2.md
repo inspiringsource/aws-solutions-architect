@@ -1,7 +1,7 @@
 ---
 title: "Exercise 2: Creating a Network"
 ---
-This exercise will walk you through the process of creating a VPC, subnets, internet gateway, route table, and security group. You will also create an EC2 instance and attach it to the VPC. The EC2 instance will be configured to run Apache and PHP. The exercise was taken from [Week 2 Exercise](https://www.coursera.org/learn/aws-certified-solutions-architect-associate/home/week/2) course.
+Exercise 2: Creating a Network will take you through the process of creating a VPC, subnets, internet gateway, route table, and security group. You will also create an EC2 instance and attach it to the VPC. The EC2 instance will be configured to run Apache and PHP. The exercise was taken from [Week 2 Exercise](https://www.coursera.org/learn/aws-certified-solutions-architect-associate/home/week/2) course.
 
 ### Task 1: Creating the VPC
 
