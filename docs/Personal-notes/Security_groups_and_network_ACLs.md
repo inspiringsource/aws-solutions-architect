@@ -41,5 +41,6 @@ Security groups and network ACLs are stateless. This means that if you allow tra
 | Supports allow rules only                                         	| Supports allow rules and deny rules                                                                                                              	|
 | We evaluate all rules before deciding whether to allow traffic    	| We evaluate rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic                                       	|
 | Stateful: Return traffic is allowed, regardless of the rules      	| Stateless: Return traffic must be explicitly allowed by rules                                                                                    	|
+| Used with the elastic network interfaces of your Amazon EC2 instances or resources       	| Used with subnets and are used for explicit denies and allows                                                                                    	|
 
 Source: [Compare security groups and network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html)
