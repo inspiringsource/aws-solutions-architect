@@ -6,7 +6,7 @@ description: Deploy and scale web applications
 AWS Key Management Service (AWS KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys.
 
 
-## key management features available in AWS KMS?
+## Features available in AWS KMS?
 
 - Create symmetric and asymmetric keys where the key material is only ever used within the service
 - Create symmetric keys where the key material is generated and used within a custom key store under your control*
@@ -22,18 +22,31 @@ AWS Key Management Service (AWS KMS) is a managed service that makes it easy for
 *The use of custom key stores requires CloudHSM resources to be available in your account.
 
 
-### KMS can be used to turn on encryption at rest for:
-* AWS Systems Manager
-* EBS Volumes
-* EFS
-* RDS
-* Redshift
-* S3
+## KMS can be used to turn on encryption at rest for:
+* Amazon S3: For encrypting objects stored in S3 buckets.
+* Amazon EBS: For encrypting Amazon Elastic Block Store (EBS) volumes.
+* Amazon RDS: For encrypting relational database service (RDS) instances.
+* Amazon Redshift: For encrypting Amazon Redshift data warehouse clusters.
+* Amazon DocumentDB: For encrypting Amazon DocumentDB instances.
+* Amazon DynamoDB: For encrypting DynamoDB tables.
+* Amazon Elasticsearch: For encrypting Amazon Elasticsearch domains.
+* Amazon FSx: For encrypting Amazon FSx for Windows File Server and Amazon FSx for Lustre file systems.
 
 
-## Good to know
+## Key topics
 
-Key Management Service (KMS) provides envelope encryption which directly integrates into multiple AWS services so you can easily apply encyption-at-rest to your data. KMS also provides a set of APIs that you can use to encrypt and decrypt data outside of AWS.
+AWS Key Management Service (KMS) is a fully managed service that makes it easy to create and control encryption keys used to encrypt data stored in AWS services and to decrypt data in your applications.
+
+
+* Key Creation: The process of creating encryption keys within the KMS service.
+* Key Management: Managing and controlling access to the encryption keys, including the ability to disable, rotate, or delete keys.
+* Encryption: Using KMS to encrypt data stored in various AWS services, such as S3, EBS, and RDS.
+* Decryption: Decrypting encrypted data in your applications using KMS-encrypted keys.
+* Integration: Integrating KMS with other AWS services, such as CloudTrail, CloudHSM, and CloudWatch.
+* Key Policies: Defining policies for the use of encryption keys, including setting up key usage permissions for specific users and roles.
+* Key Types: Understanding the different types of keys available in KMS, including customer master keys (CMKs) and data keys.
+* Compliance: Meeting compliance requirements by using KMS encryption, including PCI DSS and HIPAA.
+* Cost: Understanding the cost structure of using KMS, including the cost of key management operations and data encryption/decryption.
 
 ## Further reading:
 
