@@ -2,6 +2,7 @@
 title: "Exercise 3: Comparing Databases"
 ---
 
+Exercise 3: Comparing Databases will take you through the process of launching an RDS instance in the specified region, create a read replica for it, create a DynamoDB table, and enable DAX by providing necessary information in the AWS Management Console for each service.
 
 ## Task 1: Launching an RDS instance
 
