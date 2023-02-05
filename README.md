@@ -1,7 +1,6 @@
 # About
 
-Welcome to the AWS Certified Solutions Architect - Associate Handbook! This comprehensive resource serves as your go-to guide for all things related to the AWS Certified Solutions Architect - Associate certification. The site features an appendix detailing the various AWS services, as well as a convenient search function to help you quickly find the information you need. Whether you're a seasoned professional or just starting your journey with AWS, this handbook is a valuable tool that will help you prepare for the certification exam and gain a deeper understanding of the AWS platform. So, dive in and start exploring!           
-
+Welcome to the Open-Source AWS Handbook! This comprehensive resource is your guide to the AWS Certified Solutions Architect - Associate certification (SAA-C03). With an appendix detailing all of the various AWS services and a powerful search function, you'll have everything you need to gain a thorough understanding of the AWS platform. This handbook is a valuable tool that will help you every step of the way. In addition to this handbook, we also provide external resources that are open for contribution. We encourage you to contribute and help us make this handbook and its associated resources even better! So, dive in and start exploring today!       
 
 # Status:
 
