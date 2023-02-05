@@ -16,7 +16,7 @@ Feel free to contribute and join the discussion here. Any feedback is welcome. P
 To do list:
 
 - [x] Add MIT License and contribution guide
-- [ ] Add more content / review existing content
+- [x] Add more content / review existing content
 - [x] Reach a Production Ready state
-- [ ] Add a search bar (apply to the DocSearch program)
+- [x] Add a search bar (apply to the DocSearch program)
 

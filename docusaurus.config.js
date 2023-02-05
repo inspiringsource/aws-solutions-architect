@@ -1,6 +1,35 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// const { SecretsManagerClient, GetSecretValueCommand } = require("@aws-sdk/client-secrets-manager");
+
+
+// const secret_name = "DocSearch";
+
+// async function getSecret() {
+//   const client = new SecretsManagerClient({
+//     region: "us-east-1",
+//   });
+
+//   let response;
+
+//   try {
+//     response = await client.send(
+//       new GetSecretValueCommand({
+//         SecretId: secret_name,
+//         VersionStage: "AWSCURRENT", // VersionStage defaults to AWSCURRENT if unspecified
+//       })
+//     );
+//   } catch (error) {
+//     // For a list of exceptions thrown, see
+//     // https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_GetSecretValue.html
+//     throw error;
+//   }
+
+//   const secret = response.SecretString;
+// }
+// console.log(getSecret());
+
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
@@ -56,6 +85,26 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: process.env.ALGOLIA_APP_ID,
+
+        // Public API key provided by Algolia
+        apiKey: process.env.ALGOLIA_API_KEY,
+  
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/docs/',
+        },
+      },
       navbar: {
         title: 'Exam preps',
         logo: {

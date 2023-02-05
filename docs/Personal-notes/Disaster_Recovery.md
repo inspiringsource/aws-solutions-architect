@@ -36,7 +36,14 @@ When choosing your strategy, and the AWS resources to implement it, keep in mind
 ### Active/Passive configuration
 
 Active/Passive is a strategy where the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails.
+- Backup and restore: This solution has an RPO and an RTO in hours or days. It is the simplest and least expensive solution. It is also the least resilient solution. It is not recommended for production workloads.
+- Pilot light: This solution has an RPO is in minutes and an RTO in hourse. It is a simple solution that is less expensive than active/passive. It is also less resilient than active/passive. It is not recommended for production workloads.
+- Warm standby: This solution has an RPO in seconds and an RTO in minutes. It is a simple solution that is less expensive than active/passive. It is also less resilient than active/passive. It is not recommended for production workloads.
+
+Source: [Plan for Disaster Recovery (DR)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
 ### Active/Active configuration
+
+> RPO and an RTO in real time!
 
 Active/Active is a strategy where both the active and passive sites are active and serving traffic. This strategy is often used for high availability and load balancing. In this strategy, the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails. The secondary site is not used for failover until the primary site fails.
 
