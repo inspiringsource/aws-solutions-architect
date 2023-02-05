@@ -1,6 +1,6 @@
 # About
 
-Welcome to our unofficial documentation for the AWS Certified Solutions Architect - Associate exam. This website is a work in progress, created to help others prepare for the exam in a simple and easy-to-understand manner. As I work through the material and gain a deeper understanding, I will be continuously adding new content and updating existing content to make it more comprehensive and user-friendly. The website will be updated regularly with new features like search functionality, improved navigation, and a better document structure. Thank you for visiting and please check back for updates.            
+Welcome to the AWS Certified Solutions Architect - Associate Handbook! This comprehensive resource serves as your go-to guide for all things related to the AWS Certified Solutions Architect - Associate certification. The site features an appendix detailing the various AWS services, as well as a convenient search function to help you quickly find the information you need. Whether you're a seasoned professional or just starting your journey with AWS, this handbook is a valuable tool that will help you prepare for the certification exam and gain a deeper understanding of the AWS platform. So, dive in and start exploring!           
 
 
 # Status:
