@@ -3,7 +3,7 @@ title: Domains
 description: Exam weightings and test domains
 ---
 
-> :information_source: To access links to all the services, navigate to the "Appendix" page located in the left navigation bar at the bottom. Alternatively, use the search bar, which will direct you to the appropriate page.
+> :information_source: To find links to the services covered, go to the "Appendix" page in the left navigation bar at the bottom. You can also search for what you're looking for using the search bar, which will take you to the right page. Another option is to browse services by category by clicking on the desired category.
 
 
 ## Features
