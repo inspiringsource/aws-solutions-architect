@@ -104,4 +104,4 @@ There are three types of VPC endpoints: Interface endpoints, Gateway endpoints, 
 
 [Virtual Private Cloud Tutorial](https://youtu.be/g2JOHLHh4rI)
 
-Ptactice with hands-on lab [Exercise 2: Creating a Network](../../Exam%20Prep%20-%20AWS%20CSAA/Walkthrough/Exercise2)
+Practice with hands-on lab [Exercise 2: Creating a Network](../../Exam%20Prep%20-%20AWS%20CSAA/Walkthrough/Exercise2)

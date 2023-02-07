@@ -1,6 +1,6 @@
 ---
 title: AWS VPN
-description: Lorem ipsum dolor sit amet - 2
+description: Connect your on-premises networks and remote workers to the cloud
 ---
 
 What is AWS VPN?

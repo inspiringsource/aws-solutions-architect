@@ -1,6 +1,6 @@
 ---
 title: Amazon Route 53
-description: Lorem ipsum dolor sit amet - 2
+description: A reliable and cost-effective way to route end users to Internet applications
 ---
 
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.

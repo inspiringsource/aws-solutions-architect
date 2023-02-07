@@ -1,6 +1,6 @@
 ---
 title: AWS Global Accelerator
-description: Lorem ipsum dolor sit amet - 2
+description: Improve application availability, performance, and security using the AWS global network
 ---
 
 ## What is AWS Global Accelerator?
