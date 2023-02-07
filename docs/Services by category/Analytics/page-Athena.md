@@ -33,4 +33,4 @@ Workgroups integrate with IAM, CloudWatch, Amazon Simple Notification Service, a
 * When you tag a workgroup with a tag configured as a cost allocation tag in the Billing and Cost Management console, the costs associated with running queries in that workgroup appear in your Cost and Usage Reports with that cost allocation tag.
 
 
-(AWS service integrations with Athena)[https://docs.aws.amazon.com/athena/latest/ug/athena-aws-service-integrations.html]
+<a href="https://docs.aws.amazon.com/athena/latest/ug/athena-aws-service-integrations.html">AWS service integrations with Athena</a>
