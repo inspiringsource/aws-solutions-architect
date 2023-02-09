@@ -31,23 +31,29 @@ Disaster recovery strategies available to you within AWS can be broadly categori
 <div><p align="center">Disaster recovery strategies</p></div>
 </div>
 
+(Figure 6 - Disaster recovery strategies)[https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html]
+
 When choosing your strategy, and the AWS resources to implement it, keep in mind that within AWS, we commonly divide services into the data plane and the control plane. The data plane is responsible for delivering real-time service while control planes are used to configure the environment. For maximum resiliency, you should use only data plane operations as part of your failover operation. This is because the data planes typically have higher availability design goals than the control planes.
 
 ### Active/Passive configuration
 
 Active/Passive is a strategy where the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails.
-- Backup and restore: This solution has an RPO and an RTO in hours or days. It is the simplest and least expensive solution. It is also the least resilient solution. It is not recommended for production workloads.
-- Pilot light: This solution has an RPO is in minutes and an RTO in hourse. It is a simple solution that is less expensive than active/passive. It is also less resilient than active/passive. It is not recommended for production workloads.
-- Warm standby: This solution has an RPO in seconds and an RTO in minutes. It is a simple solution that is less expensive than active/passive. It is also less resilient than active/passive. It is not recommended for production workloads.
 
-Source: [Plan for Disaster Recovery (DR)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
+- Backup and Restore: This solution involves regularly backing up data and systems and having the ability to restore them in the event of a disaster. It typically has a Recovery Point Objective (RPO) and a Recovery Time Objective (RTO) measured in hours or days. This solution is the simplest and least expensive option for disaster recovery, but it is also the least resilient. It is not recommended for production workloads due to its lower level of availability.
+
+- Pilot Light: This solution involves having a minimal infrastructure set up in a secondary location that can be quickly scaled up in the event of a disaster. It has a lower RPO than Backup and Restore, typically measured in minutes, and an RTO measured in hours. This solution is less expensive than Warm Standby, but it is also less resilient. 
+
+- Warm Standby: This solution involves having a secondary system running and periodically updated with data from the primary system, but not actively serving workloads. In the event of a disaster, the secondary system can be manually switched over to take over the workloads of the primary system. This solution typically has a lower RPO measured in seconds and an RTO measured in minutes, but it is also less resilient than Active/Active. 
+
+
+Read more: [Plan for Disaster Recovery (DR)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
 ### Active/Active configuration
 
 > RPO and an RTO in real time!
 
-Active/Active is a strategy where both the active and passive sites are active and serving traffic. This strategy is often used for high availability and load balancing. In this strategy, the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. The secondary site is not used for failover until the primary site fails. The secondary site is not used for failover until the primary site fails.
+Active/Active is a strategy where both the active and passive sites are active and serving traffic. This strategy is often used for high availability and load balancing. In this strategy, the active site is the primary site and the passive site is the secondary site. The secondary site is used for failover in the event of a failure at the primary site. 
 
-Understanding key performance indicators (KPIs) for your application is important when choosing a disaster recovery strategy. For example, if your application is a web application, then you should consider the following KPIs:
+Understanding key performance indicators (KPIs) for your application is important when choosing a disaster recovery strategy. For example, if your application is a web application, then you should consider the following KPIs
 
 * Latency
 * Throughput
@@ -59,7 +65,7 @@ Understanding key performance indicators (KPIs) for your application is importan
 [RPO-and-RTO](https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/)
 
 
-[Disaster recovery options in the cloud](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)
+
 
 [RPO and RTO Explained](https://youtu.be/rD3nBaS3OG4)
 
