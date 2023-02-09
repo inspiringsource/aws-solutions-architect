@@ -31,7 +31,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Avi's AWS ${siteConfig.title}`}
+      title={`AWS CSAA {siteConfig.tagline}`}
       description="The unofficial documentation for AWS Solutions Architect - Associate <head />">
       <HomepageHeader />
       <main>
