@@ -55,8 +55,8 @@ Source: [Click here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instanc
 A Cloud Engineer has created an entirely new VPC to isolate development environments from production. When the new EC2 instance with the development environment was launched within the public subnet, visiting the public IP address does not appear to resolve. The EC2 instance has a public subnet which allows access on port 80. What configuration changes must be made to the VPC so that the EC2 instance is reachable over the internet?
 
 - [x] Add a route to the Internet Gateway
-- [ ] Add a route to the NAT Gateway
-- [ ] Add a route to the VPC Endpoint
+- [x] Add a route to the NAT Gateway
+- [x] Add a route to the VPC Endpoint
 - [x] Update the main route table with route out to 0.0.0.0/0
 
 [Connect to the internet using an internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)
