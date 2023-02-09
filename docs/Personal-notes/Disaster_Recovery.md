@@ -6,19 +6,19 @@ title: Disaster Recovery
 
 RPO: Recovery Point Objective
 
-Recovery Point Objective (RPO) is the maximum amount of data loss that a business is willing to tolerate. For example, if an RPO of 24 hours is set, then the business is willing to lose up to 24 hours of data.
+RPO refers to the maximum acceptable data loss, as you explained. It is the point in time to which the data must be recovered in the event of a disaster or failure. The lower the RPO, the more recent the data must be recovered, which means that less data will be lost, but the recovery process may be more complex and time-consuming.
 
 RTO: Recovery Time Objective
 
-Recovery Time Objective (RTO) is the maximum amount of time that a business is willing to tolerate for its systems to be unavailable. For example, if an RTO of 4 hours is set, then the business is willing to tolerate up to 4 hours of downtime.
+RTO, on the other hand, refers to the maximum amount of time that a system or service can be unavailable in the event of a disaster or failure. The RTO is used to plan and implement disaster recovery procedures, and it should be aligned with the overall business goals and objectives. The lower the RTO, the faster the systems must be recovered, which means that the business will experience less downtime, but the recovery process may be more complex and costly.
+
+In summary, RPO and RTO are important concepts in disaster recovery planning and are used to ensure that critical systems and data can be restored in a timely manner in the event of a failure.
 
 <div>
-<div align="center"><img src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/05/31/ClouldOps_913_1.png" /></div>
+<div align="center"><img src="https://docs.aws.amazon.com/images/whitepapers/latest/disaster-recovery-workloads-on-aws/images/disaster-recovery-strategies.png" /></div>
 <div><p align="center">RTO and RPO in disaster recovery 
 </p></div>
 </div>
-
-Source:  [Establishing RPO and RTO ](https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/)
 
 [Disaster recovery options in the cloud](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)
 
@@ -65,8 +65,8 @@ Understanding key performance indicators (KPIs) for your application is importan
 [RPO-and-RTO](https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/)
 
 
-
-
 [RPO and RTO Explained](https://youtu.be/rD3nBaS3OG4)
 
 [Disaster Recovery Demystified](https://youtu.be/wgvq9y8wwNQ)
+
+[Establishing RPO and RTO ](https://aws.amazon.com/blogs/mt/establishing-rpo-and-rto-targets-for-cloud-applications/)

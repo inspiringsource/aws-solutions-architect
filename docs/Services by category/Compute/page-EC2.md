@@ -1,6 +1,6 @@
 ---
 title: Amazon EC2
-description: Lorem ipsum dolor sit amet - 2
+description: Secure and resizable compute capacity for virtually any workload
 ---
 
 Amazon EC2 is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
