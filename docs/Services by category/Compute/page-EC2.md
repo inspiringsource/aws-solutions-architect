@@ -3,11 +3,11 @@ title: Amazon EC2
 description: Secure and resizable compute capacity for virtually any workload
 ---
 
-Amazon EC2 is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Amazon EC2 is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2 is an example of IaaS, which stands for Infrastructure as a Service.
 
 ## Instance types
 
-Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instances are virtual servers that can run applications. They have varying combinations of CPU, memory, storage, and networking capacity, and give you the flexibility to choose the appropriate mix of resources for your applications.
+Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instances are virtual servers that can run applications. They have varying combinations of CPU, memory, storage, and networking capacity, and give you the flexibility to choose the appropriate mix of resources for your applications. IaaS means that users can access and manage virtual servers that are hosted by a cloud provider, such as AWS. Users can choose from different types of instances, processors, storage, networking, operating systems, and purchase models to suit their needs.
 
 - General purpose
 - Compute optimized
