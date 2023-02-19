@@ -47,6 +47,12 @@ Read more about [VPC NAT Gateways](https://docs.aws.amazon.com/vpc/latest/usergu
 | NAT | NACLs | Security Groups |
 | --- | --- | --- |
 | NAT is a network address translation service that enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a connection with those instances. | NACLs are stateless, this means the rules are enforced in both directions. For example, if you have an inbound rule that allows traffic, there must be an outbound rule that allows traffic, or the traffic is blocked. | Security groups are stateful, this means that if you allow inbound traffic, the outbound traffic is automatically allowed. |
+
+> When using NAT Gateways in AWS VPC, you cannot use security groups to control the traffic flow. Instead, you must use network ACLs to control the outbound traffic from the instances in the private subnet.      
+
+> NAT isn't required for IPv6 traffic. IPv6 traffic is automatically routed to the internet gateway.      
+
+> NAT Gateways don't support IPv6 traffic.      
 ### Overview
 
 Amazon Web Services (AWS) Network Address Translation (NAT) and Network Access Control Lists (NACLs) are both tools that you can use to control inbound and outbound traffic to your Amazon Virtual Private Cloud (VPC).
