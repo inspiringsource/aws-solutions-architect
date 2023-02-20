@@ -53,6 +53,7 @@ Read more about [VPC NAT Gateways](https://docs.aws.amazon.com/vpc/latest/usergu
 > NAT isn't required for IPv6 traffic. IPv6 traffic is automatically routed to the internet gateway.      
 
 > NAT Gateways don't support IPv6 traffic.      
+
 ### Overview
 
 Amazon Web Services (AWS) Network Address Translation (NAT) and Network Access Control Lists (NACLs) are both tools that you can use to control inbound and outbound traffic to your Amazon Virtual Private Cloud (VPC).
