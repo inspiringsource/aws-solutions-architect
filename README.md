@@ -1,6 +1,6 @@
 # About
 
-Welcome to the Open-Source AWS Handbook! This comprehensive resource is your guide to the AWS Certified Solutions Architect - Associate certification (SAA-C03). With an appendix detailing all of the various AWS services and a powerful search function, you'll have everything you need to gain a thorough understanding of the AWS platform. This handbook is a valuable tool that will help you every step of the way. In addition to this handbook, we also provide external resources that are open for contribution. We encourage you to contribute and help us make this handbook and its associated resources even better! So, dive in and start exploring today!       
+Explore the open-source AWS Handbook for SAA-C03 certification prep. With a service appendix and search function, gain a thorough understanding of AWS. Feel free to contribute to make the handbook even better!      
 
 # Status:
 
