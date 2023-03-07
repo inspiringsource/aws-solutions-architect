@@ -1,6 +1,6 @@
 # About
 
-Explore the open-source AWS Handbook for SAA-C03 certification prep. With a service appendix and search function, gain a thorough understanding of AWS. Feel free to contribute to make the handbook even better!      
+Welcome to the open-source AWS Handbook for SAA-C03 certification preparation. This handbook provides a comprehensive understanding of AWS with a service appendix and a convenient search function. Some of the content has been generated using GitHub Copilot, but all information has been reviewed to ensure its accuracy and ease of understanding. I hope this handbook will help you to prepare for the AWS Certified Solutions Architect - Associate exam. If you find any errors or have any suggestions, please feel free to open an issue or pull request. Also, if you find this handbook useful, please consider giving it a star ⭐️ and join the Discussions to share your thoughts and ideas.
 
 # Status:
 
@@ -10,7 +10,9 @@ Explore the open-source AWS Handbook for SAA-C03 certification prep. With a serv
 
 # AWS hosting solutions
 
-Reviewing AWS hosting solutions, these are the essential services to host a website on AWS. Some of the services are not mentioned e.g. AWS Route 53, VPC, and IAM... We cover these services in the handbook in more detail.
+Reviewing AWS hosting solutions, these are the essential services to host a website on AWS. Below are desripition of the services and the architecture diagram for each solution.
+
+> I don't cover AWS Route 53, VPC, and IAM... because they are not directly related to hosting solutions. However, you can use Route 53 to manage your domain name and VPC to create a private network for your website. You can also use IAM to manage your users and their permissions.
 
 
 ## AWS Amplify solution
