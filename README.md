@@ -10,7 +10,7 @@ Welcome to the open-source AWS Handbook for SAA-C03 certification preparation. T
 
 # AWS hosting solutions
 
-Reviewing AWS hosting solutions, these are the essential services to host a website on AWS. Below are desripition of the services and the architecture diagram for each solution.
+Reviewing AWS hosting solutions, these are the essential services to host a website on AWS. Below are descriptions of the services and the architecture diagram for each solution.
 
 > I don't cover AWS Route 53, VPC, and IAM... because they are not directly related to hosting solutions. However, you can use Route 53 to manage your domain name and VPC to create a private network for your website. You can also use IAM to manage your users and their permissions.
 
