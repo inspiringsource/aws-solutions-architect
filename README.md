@@ -1,6 +1,6 @@
 # About
 
-Welcome to the open-source AWS Handbook for SAA-C03 certification preparation. This handbook provides a comprehensive understanding of AWS with a service appendix and a convenient search function. Some of the content has been generated using GitHub Copilot, but all information has been reviewed to ensure its accuracy and ease of understanding. I hope this handbook will help you to prepare for the AWS Certified Solutions Architect - Associate exam. If you find any errors or have any suggestions, please feel free to open an issue or pull request. Also, if you find this handbook useful, please consider giving it a star ⭐️ and join the Discussions to share your thoughts and ideas.
+Welcome to the open-source AWS Handbook for SAA-C03 certification. This handbook provides a comprehensive understanding of AWS with a service appendix and a convenient search function. Some of the content has been generated using GitHub Copilot, but all information has been reviewed to ensure its accuracy and ease of understanding. I hope this handbook will help you to prepare for the AWS Certified Solutions Architect - Associate exam. If you find any errors or have any suggestions, please feel free to open an issue or pull request.
 
 # Status:
 
