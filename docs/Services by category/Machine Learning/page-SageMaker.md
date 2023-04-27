@@ -14,3 +14,9 @@ Amazon SageMaker Notebooks is an alternative to Google Colab and Jupyter Noteboo
 <div align="center"><img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2019/12/01/Rhinestone-SageMaker-Studio-Page-2-v2.png" /></div>
 <div><p align="center">Amazon SageMaker Notebooks (currently in preview)</p></div>
 </div>
+
+
+## Further explanations
+
+- [What is Amazon SageMaker?](https://youtu.be/CK_xC4T1blk)
+- [Introduction to Amazon SageMaker](https://youtu.be/Qv_Tr_BCFCQ)
