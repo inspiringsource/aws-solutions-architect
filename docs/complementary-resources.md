@@ -33,6 +33,8 @@ These links are being provided as a convenience and for informational purposes o
 
 ### AWS related or older exam versions:
 
+- [Johnny Chivers](https://www.youtube.com/playlist?list=PL8JO6Q_xfjenBPR9uT_G55UdSd5PYjt1D)
+
 - [Be A Better Dev](https://www.youtube.com/@BeABetterDev)
 
 - [DataEng Uncomplicated](https://www.youtube.com/@DataEngUncomplicated/videos)
