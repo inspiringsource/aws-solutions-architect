@@ -50,4 +50,4 @@ Source: [Click here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instanc
 <div><p align="center">Elastic Load Balancing will re-route connections from unhealthy instances, it still needs new instances to route connections to. Thus, auto scaling will initiate these new instances, and your load balancing will attach connections to them</p></div>
 </div>
 
-Keep reading: [Amazon EC2 Auto Scaling](/page-EC2-auto-scaling)
+Keep reading: [Amazon EC2 Auto Scaling](https://www.aws-practical-handbook.link/docs/Services%20by%20category/Compute/page-EC2AutoScaling)
