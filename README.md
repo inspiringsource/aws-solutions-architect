@@ -4,9 +4,9 @@ Welcome to the open-source AWS Handbook for SAA-C03 certification. This handbook
 
 # Status:
 
-- [x] Development stage hosted on Netlify
-- [x] Production stage hosted on AWS
-- [x] Custom domain name
+- ~~[x] Development stage hosted on Netlify~~
+- ~~[x] Production stage hosted on AWS~~
+- ~~[x] Custom domain name~~
 
 # AWS hosting solutions
 
