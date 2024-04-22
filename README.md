@@ -1,7 +1,7 @@
 # AWS Handbook for SAA-C03 Certification
 
 ## About
-Welcome to the AWS Handbook for SAA-C03 certification, an open-source guide designed to help you prepare for the AWS Certified Solutions Architect - Associate exam. This handbook includes detailed AWS service information with a convenient search feature. While some content is generated using GitHub Copilot, it has been thoroughly reviewed for accuracy and clarity. For corrections or suggestions, please open an issue or submit a pull request.
+Welcome to the AWS Handbook for SAA-C03 certification, an open-source guide aimed at assisting you in preparing for the AWS Certified Solutions Architect - Associate exam. This handbook includes detailed information on AWS services tailored for frontend client-side rendering, where pages are rendered directly in the browser using JavaScript. While some content is generated using GitHub Copilot, everything has been thoroughly reviewed for accuracy and clarity. For corrections or suggestions, please open an issue or submit a pull request.
 
 ## Status
 
@@ -10,34 +10,22 @@ Welcome to the AWS Handbook for SAA-C03 certification, an open-source guide desi
 - ~~[x] Custom domain name~~
 
 ## AWS Hosting Solutions
-This section outlines key AWS services for website hosting, featuring service descriptions and architectural diagrams. Note: Details on AWS Route 53, VPC, and IAM are excluded as they are indirect to hosting but can be used for domain management, network creation, and user permissions, respectively.
+This section provides insights into essential AWS services for hosting solutions focused on frontend client-side rendering. Detailed service descriptions and architectural diagrams are included. Note: AWS Route 53, VPC, and IAM are not covered in depth here as they indirectly relate to hosting but are essential for domain management, network creation, and user permissions management.
 
 ### AWS Amplify
-AWS Amplify offers a full-stack development platform for both backend and frontend, facilitating scalable, secure, and high-performance applications. It integrates CloudFront to distribute content globally, enhancing application performance and security against DDoS attacks without manual CloudFront configuration.
+AWS Amplify offers a complete backend and frontend cloud development platform that is ideal for building scalable, secure web applications that perform client-side rendering. It integrates CloudFront to globally distribute content, enhancing performance and securing applications against DDoS attacks.
 
 ![AWS Amplify Architecture Diagram](./static/img/website-simple-architecture.png)
 
 ### Amazon S3 + CloudFront
-Host a static website using Amazon S3 along with CloudFront, optimized by:
-- GitHub
-- AWS CodeStar
-- AWS CodePipeline
-- Amazon S3
-- Amazon CloudFront
+Host a static website using Amazon S3 along with CloudFront, supporting technologies such as GitHub, AWS CodeStar, and AWS CodePipeline. This setup is particularly effective for websites that utilize client-side rendering.
 
 ![S3 + CloudFront Architecture Diagram](./static/img/website-expected-architecture.png)
 
 ### EC2 Deployment
-Deploy a React.js application on EC2, supported by:
-- GitHub
-- AWS CodePipeline
-- AWS CodeBuild
-- AWS CodeDeploy
-- Amazon EC2
-- Amazon CloudFront
+Deploy a React.js application that performs client-side rendering on EC2. This approach is supported by AWS services including AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy.
 
 ![EC2 Hosting Architecture Diagram](./static/img/hosting-ec2-architecture.png)
-
 
 For application hosting you can also choose to use AWS Elastic Beanstalk, AWS OpsWorks, or AWS Elastic Container Service (ECS). For more information, see [AWS Application Hosting](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-hosting.html).
 ### Installation
