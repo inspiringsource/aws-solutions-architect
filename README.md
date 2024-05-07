@@ -1,7 +1,7 @@
 # AWS Handbook for SAA-C03 Certification
 
 ## About
-Welcome to the AWS Handbook for SAA-C03 certification, an open-source guide aimed at assisting you in preparing for the AWS Certified Solutions Architect - Associate exam. This handbook includes detailed information on AWS services tailored for frontend client-side rendering, where pages are rendered directly in the browser using JavaScript. While some content is generated using GitHub Copilot, everything has been thoroughly reviewed for accuracy and clarity. For corrections or suggestions, please open an issue or submit a pull request.
+Welcome to the AWS Handbook for SAA-C03 certification, an open-source guide to aid you in preparing for the AWS Certified Solutions Architect - Associate exam. This handbook provides detailed information on AWS services. While some content is generated using GitHub Copilot, everything has been thoroughly reviewed. I no longer host the website, but you can clone the repository and run it locally.
 
 ## Status
 
